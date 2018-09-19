@@ -33,4 +33,18 @@ Using NLD patched app 4.1.22 for the tests
  | Test | Distance | BoostMode | ForceFCC | SpecialFrequencyMode | Result | Notes | 
  | --- | --- | --- | --- | --- | --- | --- | 
  | 12 | - | - | - | - | ![](12.jpg) | | 
+ 
+ # Conclusions and comments
+ BoostMode, ForceFCC and SpecialFrequencyMode only affect the video transmission. This is the switch between BoostMode false and true in FCC mode:
+ 
+ ![](signal.gif)
+ 
+ Considering that the noise scale is logaritmic the improvements are:
+  
+  | From | To | Improvement |
+  | --- | --- | --- |
+  | CE | FCC | 1485% |
+  | FCC | Boost+FCC | 401% |
+  
+  The communication mode is set by DJI GO4 while starting up. There is no need to press "Go Fly".
 
