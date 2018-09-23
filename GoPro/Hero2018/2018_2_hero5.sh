@@ -1,3 +1,5 @@
+# Source: https://www.reddit.com/r/goprohack/comments/8wpe49/gopro_hero_1080p_2018_to_hero_5_black_firmware/
+# Run in the SD: wget -q -O - https://raw.githubusercontent.com/eried/Research/master/GoPro/Hero2018/2018_2_hero5.sh | sudo bash
 apt install bsdiff -y
 wget https://device-firmware.gp-static.com/19/HD5.02/camera_fw/02.60.00/UPDATE.zip
 unzip UPDATE.zip -d UPDATE/
