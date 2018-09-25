@@ -1,5 +1,7 @@
 # Step by step UBL
-Tested in Marlin-1.1.9
+_Tested in Marlin-1.1.9_
+
+![](img/calibration.PNG)
 
 ## _Configuration.h_
 1) Make sure that `X_PROBE_OFFSET_FROM_EXTRUDER, ...` are properly configured. Also `MIN_PROBE_EDGE` to prevent the sensor going outside the bed. I prefer `MULTIPLE_PROBING` set to 2. 
@@ -14,24 +16,38 @@ Upload the new firmware. Leave the USB connected and connect to it using a seria
 6) Run `Unified Bed Leveling / Step-By-Step UBL / Build Cold Mesh`
 7) Run `Unified Bed Leveling / Output Mesh / Output for Host`
 
-### Output for Host
-Sends the mesh in an human readable format via serial
+![](img/output.PNG)
 
-### Output for CSV
-Sends the mesh in a csv format (you will need it later)
+> ### Output for Host
+> Sends the mesh in an human readable format via serial
 
-### Off Printer Backup
-Sends the GCODE necesary to recreate the mesh (not needed)
+> ### Output for CSV
+> Sends the mesh in a csv format (you will need it later)
+
+> ### Off Printer Backup
+> Sends the GCODE necesary to recreate the mesh (not needed)
 
 8) Run `Unified Bed Leveling / Step-By-Step UBL / Smart Fill-in` several times checking with `Output for Host` until all the values of the mesh are filled
 9) Run `Unified Bed Leveling / Step-By-Step UBL / Validate Mesh` (select PLA or ABS in the submenu). Feed a filament that has a proper constrast with your bed color. Click the menu button in the printing to start the Validation
+
+![](img/validate.PNG)
 
 ## _In your PC_
 
 10) Open _calibration.xlsx_ in Excel and fill it with your mesh values using the Output for CSV
 11) The idea is to use the adjust matrix to tune the mesh using the printed validation mesh
+
+![](img/excel.PNG)
+
+>### Excel file details
+>
+>Paste your original mesh values in the first sheet `Reference`. If you want to create an alternative bed mesh from scratch, use the sheet `Alternative values` otherwise use `Reference plus correction`. The idea here is to set the differences in the grid in the top right side. 
+>Use **positive values to raise the nozzle** (the print is too squished in that point) or **negative values if you want to lower the nozzle**.
+
 12) Send the new mesh, copy the excel output to putty, and test what you received with `Output for Host` function (try in smaller pieces if it fails)
 13) Repeat the procedure `Validate Mesh` and improve the mesh
+
+![](img/bed.PNG)
 
 ## _In the printer_
 14) Save the mesh in a slot in the EEPROM
