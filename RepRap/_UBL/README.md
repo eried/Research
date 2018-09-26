@@ -32,6 +32,9 @@ Upload the new firmware. Leave the USB connected and connect to it using a seria
 
 ![](img/validate.PNG)
 
+This is going to print a one layer test print for checking the distance.
+![](img/bed.PNG)
+
 ## _In your PC_
 
 10) Open _calibration.xlsx_ in Excel and fill it with your mesh values using the Output for CSV
@@ -47,10 +50,14 @@ Upload the new firmware. Leave the USB connected and connect to it using a seria
 12) Send the new mesh, copy the excel output to putty, and test what you received with `Output for Host` function (try in smaller pieces if it fails)
 13) Repeat the procedure `Validate Mesh` and improve the mesh
 
-![](img/bed.PNG)
+>What I did is to print the table with the adjustments from `Reference plus correction` sheet (right side) and carefully follow the Validation print. In the first stages I just wrote + or - depending if I wanted +0.1 or -0.1 near the field
+>
+>![](img/excel2.PNG)
+>In the later stages (after the second validation, I just adjusted the values by 0.05). After 3 loops, everything was acceptable enough
 
 ## _In the printer_
 14) Save the mesh in a slot in the EEPROM
+![](img/save.PNG)
 
 ## _In your slicer_
 
