@@ -40,6 +40,8 @@ This is going to print a one layer test print for checking the distance.
 10) Open _calibration.xlsx_ in Excel and fill it with your mesh values using the Output for CSV
 11) The idea is to use the adjust matrix to tune the mesh using the printed validation mesh
 
+You can use the validation mesh for doing pranks too: https://www.thingiverse.com/thing:3121156
+
 ![](img/excel.PNG)
 
 >### Excel file details
