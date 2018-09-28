@@ -51,15 +51,15 @@ This is going to print a one layer test print for checking the distance.
 
 12) Send the new mesh, copy the excel G-CODE output to putty (while connected to the printer), and test what you received with `Output for Host` function (try in smaller pieces if it fails). The first code you send invalidates all the mesh positions, and then you are going to get `ok` as a response per coordinate you send. The G-CODE you need to send is the one that looks like:
 
-    G29 I999 ; This invalidates the previous mesh values
-    M421 I0 J0 Z<+/-ADJUSTMENT> ; This is the Z adjustment for the cell 0,0 (lower left in the Excel matrix)
-    M421 I0 J1 Z<+/-ADJUSTMENT>
-    ...
-    M421 I14 J0 Z<+/-ADJUSTMENT>
-    M421 I14 J1 Z<+/-ADJUSTMENT>
-    ...
-    M421 I14 J13 Z<+/-ADJUSTMENT>
-    M421 I14 J14 Z<+/-ADJUSTMENT>
+        G29 I999 ; This invalidates the previous mesh values
+        M421 I0 J0 Z<+/-ADJUSTMENT> ; This is the Z adjustment for the cell 0,0 (lower left in the Excel matrix)
+        M421 I0 J1 Z<+/-ADJUSTMENT>
+        ...
+        M421 I14 J0 Z<+/-ADJUSTMENT>
+        M421 I14 J1 Z<+/-ADJUSTMENT>
+        ...
+        M421 I14 J13 Z<+/-ADJUSTMENT>
+        M421 I14 J14 Z<+/-ADJUSTMENT>
 
 13) Execute `Validate Mesh` again and improve the mesh even further
 
