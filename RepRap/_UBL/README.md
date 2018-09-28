@@ -63,10 +63,11 @@ This is going to print a one layer test print for checking the distance.
 
 13) Execute `Validate Mesh` again and improve the mesh even further
 
->What I did is to print the table with the adjustments from `Reference plus correction` sheet (right side) and carefully follow the Validation print. In the first stages I just wrote + or - depending if I wanted +0.1 or -0.1 near the field
+>What I did is to print the table with the adjustments from `Reference plus correction` sheet (right side) and carefully follow the Validation print. In the first stages I just wrote _+ or -_ depending if I wanted _+0.1_ or _-0.1_ near the field
 >
 >![](img/excel2.PNG)
->In the later stages (after the second validation, I just adjusted the values by 0.05). After 3 loops, everything was acceptable enough
+>
+>Multiple _+ or -_ in the photo just represent multiple increments (i.e. _++_ means _+0.2_, and so). In the later stages (after the second validation, I just adjusted the values by _+/-0.05_). After 3 loops, everything was acceptable enough
 
 ## _In the printer_
 14) Save the mesh in a slot in the EEPROM
