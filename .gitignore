@@ -17,3 +17,10 @@ Backup of *.doc*
 
 # Visio autosave temporary files
 *.~vsd*
+
+# Python env
+env/
+pypyenv/
+
+# Other
+.vscode/
