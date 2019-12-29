@@ -1,0 +1,306 @@
+0000.wav,Welcome to deviation
+0001.wav,Goodbye
+0002.wav,Volume
+0003.wav,Timer 1 alarm
+0004.wav,Timer 2 alarm
+0005.wav,Timer 3 alarm
+0006.wav,Timer 4 alarm
+0007.wav,low transmitter battery voltage
+0008.wav,Finished binding
+0009.wav,Time remaining
+0010.wav,
+0011.wav,Saving
+0012.wav,
+0013.wav,Telemetry alarm 1
+0014.wav,Telemetry alarm 2
+0015.wav,Telemetry alarm 3
+0016.wav,Telemetry alarm 4
+0017.wav,Telemetry alarm 5
+0018.wav,Telemetry alarm 6
+0019.wav,Inactivity alarm
+0020.wav,0
+0021.wav,1
+0022.wav,2
+0023.wav,3
+0024.wav,4
+0025.wav,5
+0026.wav,6
+0027.wav,7
+0028.wav,8
+0029.wav,9
+0030.wav,10
+0031.wav,11
+0032.wav,12
+0033.wav,13
+0034.wav,14
+0035.wav,15
+0036.wav,16
+0037.wav,17
+0038.wav,18
+0039.wav,19
+0040.wav,20
+0041.wav,21
+0042.wav,22
+0043.wav,23
+0044.wav,24
+0045.wav,25
+0046.wav,26
+0047.wav,27
+0048.wav,28
+0049.wav,29
+0050.wav,30
+0051.wav,31
+0052.wav,32
+0053.wav,33
+0054.wav,34
+0055.wav,35
+0056.wav,36
+0057.wav,37
+0058.wav,38
+0059.wav,39
+0060.wav,40
+0061.wav,41
+0062.wav,42
+0063.wav,43
+0064.wav,44
+0065.wav,45
+0066.wav,46
+0067.wav,47
+0068.wav,48
+0069.wav,49
+0070.wav,50
+0071.wav,51
+0072.wav,52
+0073.wav,53
+0074.wav,54
+0075.wav,55
+0076.wav,56
+0077.wav,57
+0078.wav,58
+0079.wav,59
+0080.wav,60
+0081.wav,61
+0082.wav,62
+0083.wav,63
+0084.wav,64
+0085.wav,65
+0086.wav,66
+0087.wav,67
+0088.wav,68
+0089.wav,69
+0090.wav,70
+0091.wav,71
+0092.wav,72
+0093.wav,73
+0094.wav,74
+0095.wav,75
+0096.wav,76
+0097.wav,77
+0098.wav,78
+0099.wav,79
+0100.wav,80
+0101.wav,81
+0102.wav,82
+0103.wav,83
+0104.wav,84
+0105.wav,85
+0106.wav,86
+0107.wav,87
+0108.wav,88
+0109.wav,89
+0110.wav,90
+0111.wav,91
+0112.wav,92
+0113.wav,93
+0114.wav,94
+0115.wav,95
+0116.wav,96
+0117.wav,97
+0118.wav,98
+0119.wav,99
+0120.wav,100
+0121.wav,200
+0122.wav,300
+0123.wav,400
+0124.wav,500
+0125.wav,600
+0126.wav,700
+0127.wav,800
+0128.wav,900
+0129.wav,thousand
+0130.wav,point
+0131.wav,minus
+0132.wav,degrees
+0133.wav,volt
+0134.wav,rounds per minute
+0135.wav,amperes
+0136.wav,meters
+0137.wav,g
+0138.wav,kilometers per hour
+0139.wav,meters per second
+0140.wav,miles per hour
+0141.wav,knots
+0142.wav,meters
+0143.wav,celsius
+0144.wav,fahrenheit
+0145.wav,percent
+0146.wav,watts
+0147.wav,decibel
+0148.wav,seconds
+0149.wav,minutes
+0150.wav,hours
+0200.wav,3D aerobatics
+0201.wav,3D ailerons
+0202.wav,3D elevator
+0203.wav,3D rates active
+0204.wav,3D rates off
+0205.wav,3D rates on
+0206.wav,3D rudder
+0207.wav,aerobatics
+0208.wav,aileron
+0209.wav,aileron high
+0210.wav,aileron low
+0211.wav,aileron medium
+0212.wav,ailerons
+0213.wav,air brakes closed
+0214.wav,air brakes open
+0215.wav,airbrake
+0216.wav,airbrake off
+0217.wav,brakes off
+0218.wav,brakes on
+0219.wav,butterfly off
+0220.wav,butterfly on
+0221.wav,crow off
+0222.wav,crow on
+0223.wav,elevator
+0224.wav,elevator high
+0225.wav,elevator low
+0226.wav,elevator medium
+0227.wav,engine off
+0228.wav,engine on
+0229.wav,engines armed
+0230.wav,engines disabled
+0231.wav,engines disarmed
+0232.wav,expo off
+0233.wav,expo on
+0234.wav,flaps
+0235.wav,flaps deployed
+0236.wav,flaps down
+0237.wav,flaps full
+0238.wav,flaps half
+0239.wav,flaps one
+0240.wav,flaps synced with ailerons
+0241.wav,flaps two
+0242.wav,flaps up
+0243.wav,Governor speed 1
+0244.wav,Governor speed 2
+0245.wav,Governor speed 3
+0246.wav,high rates
+0247.wav,idle down
+0248.wav,idle up
+0249.wav,idle up 1
+0250.wav,idle up 2
+0251.wav,ignition active
+0252.wav,ignition off
+0253.wav,ignition on
+0254.wav,low rates
+0255.wav,medium rates
+0256.wav,precision aerobatics
+0257.wav,reflex
+0258.wav,rudder
+0259.wav,rudder high
+0260.wav,rudder low
+0261.wav,rudder medium
+0262.wav,spoiler closed
+0263.wav,spoiler open
+0264.wav,throttle
+0265.wav,throttle active
+0266.wav,throttle disabled
+0267.wav,throttle hold
+0268.wav,throttle release
+0269.wav,3d pitch active
+0270.wav,3d pitch off
+0271.wav,acro mode
+0272.wav,angle mode
+0273.wav,attitude hold
+0274.wav,attitude mode
+0275.wav,auto mode
+0276.wav,auto rotation mode
+0277.wav,auto tune mode
+0278.wav,circle mode
+0279.wav,climbing mode
+0280.wav,Co-pilot off
+0281.wav,Co-pilot on
+0282.wav,course lock mode
+0283.wav,cruise mode
+0284.wav,drift mode
+0285.wav,flight mode 0
+0286.wav,flight mode 1
+0287.wav,flight mode 2
+0288.wav,flight mode 3
+0289.wav,flight mode 4
+0290.wav,flight mode 5
+0291.wav,flight mode 6
+0292.wav,flight mode 8
+0293.wav,fly by wire A
+0294.wav,fly by wire B
+0295.wav,fly by wire C
+0296.wav,follow me mode
+0297.wav,GPS mode
+0298.wav,guided mode
+0299.wav,gyro heading hold
+0300.wav,gyro rate mode
+0301.wav,heading hold active
+0302.wav,home lock mode
+0303.wav,horizon mode
+0304.wav,hover mode
+0305.wav,hybrid mode
+0306.wav,landing mode
+0307.wav,launch mode
+0308.wav,loiter mode
+0309.wav,normal mode
+0310.wav,position hold
+0311.wav,Race mode
+0312.wav,rate mode active
+0313.wav,recovery
+0314.wav,seek mode
+0315.wav,self level mixing mode
+0316.wav,self level mode
+0317.wav,speed mode
+0318.wav,sport mode
+0319.wav,stabilization off
+0320.wav,stabilization on
+0321.wav,stabilize mode
+0322.wav,stunt mode
+0323.wav,thermal mode
+0324.wav,trainer
+0325.wav,training mode
+0326.wav,waypoint
+0327.wav,zoom mode
+0328.wav,barometer off
+0329.wav,barometer on
+0330.wav,battery consumption
+0331.wav,bombs away
+0332.wav,bombs released
+0333.wav,camera centered
+0334.wav,camera fixed
+0335.wav,camera manual
+0336.wav,camera off
+0337.wav,camera on
+0338.wav,compass off
+0339.wav,compass on
+0340.wav,current draw
+0341.wav,gear down
+0342.wav,gear up
+0343.wav,gimbal active
+0344.wav,gimbal off
+0345.wav,gimbal on
+0346.wav,lowest cell
+0347.wav,magnetometer off
+0348.wav,magnetometer on
+0349.wav,pack voltage
+0350.wav,parachute deployed
+0351.wav,power reading
+0352.wav,smoke off
+0353.wav,smoke on
+0354.wav,timer reset

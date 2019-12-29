@@ -1,0 +1,5 @@
+Select:End="0.075" Mode="Set" Start="0"
+Delete:
+Select:End="0" Mode="Set" RelativeTo="ProjectEnd" Start="0.85"
+Delete:
+ExportMp3:
