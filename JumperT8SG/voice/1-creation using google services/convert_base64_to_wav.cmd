@@ -1,0 +1,3 @@
+certutil -decode base64_output_from_google1.txt base64_output_from_google1.wav
+certutil -decode base64_output_from_google2-91.txt base64_output_from_google2-91.wav
+certutil -decode base64_output_from_google3-reflex.txt base64_output_from_google3-reflex.wav
