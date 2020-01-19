@@ -10,8 +10,8 @@
       #gallery > img { position: absolute; left: 0; top: 0; display: none; width:70%;}
       #gallery > img:first-child { display: block; }
       #details { position: relative;}
-      #details > img { position: absolute; right: 0; top: -100%; display: none; width:30%;}
-      #details > img:first-child { display: block; top:0;}
+      #details > img { position: fixed; right: 2%; top: 10%; display: none; width:25%;}
+      #details > img:first-child { display: block; }
       
       
     </style>
@@ -23,19 +23,19 @@
         var
           gallery = "#gallery > img" // image selector
         , details = "#details > img" // image selector
-        , interval = 5000           // milliseconds between transitions
+        , interval = 10000           // milliseconds between transitions
         , index = 0                 // starting index
         , count = $(gallery).length  // image count
           // the transition loop
         , handle = setInterval(function() {
             // fade out the current image
             $(gallery + ":eq(" + index + ")").fadeOut(1000);
-            $(details + ":eq(" + index + ")").fadeOut(1000);
+            $(details + ":eq(" + index + ")").fadeOut(2000);
             // get the next index, or cycle back to 0
             if (++index === count) index = 0;
             // fade in the next image
             $(gallery + ":eq(" + index + ")").fadeIn(1000);
-            $(details + ":eq(" + index + ")").fadeIn(1000);
+            $(details + ":eq(" + index + ")").fadeIn(2000);
           }
           , interval
         )
