@@ -4,9 +4,13 @@
     <title>Simple JS Image Gallery</title>
     
     <style type="text/css">
+      body{background-color: black;}
       #gallery { position: relative; }
-      #gallery > img { position: absolute; left: 0; top: 0; display: none; }
+      #gallery > img { position: absolute; left: 0; top: 0; display: none; width:70%;}
       #gallery > img:first-child { display: block; }
+      #details { position: relative;}
+      #details > img { position: absolute; right: 0; top: -100%; display: none; width:30%;}
+      #details > img:first-child { display: block; top:0;}
     </style>
     
     <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
@@ -14,44 +18,66 @@
     <script type="text/javascript">
       $(document).ready(function(){
         var
-          images = "#gallery > img" // image selector
-        , interval = 4000           // milliseconds between transitions
-        , index = 0                 // starting index
-        , count = $(images).length  // image count
+          images1 = "#gallery > img" // image selector
+        , interval1 = 10000           // milliseconds between transitions
+        , index1 = 0                 // starting index
+        , count1 = $(images1).length  // image count
           // the transition loop
-        , handle = setInterval(function() {
+        , handle1 = setInterval(function() {
             // fade out the current image
-            $(images + ":eq(" + index + ")").fadeOut('slow');
+            $(images1 + ":eq(" + index1 + ")").fadeOut(500);
             // get the next index, or cycle back to 0
-            if (++index === count) index = 0;
+            if (++index1 === count1) index1 = 0;
             // fade in the next image
-            $(images + ":eq(" + index + ")").fadeIn('slow');
+            $(images1 + ":eq(" + index1 + ")").fadeIn('slow');
           }
-          , interval
+          , interval1
         )
         , stop = function(){
-            clearInterval(handle);
+            clearInterval(handle1);
+        };
+
+        var
+          images2 = "#details > img" // image selector
+        , interval2 = 20000           // milliseconds between transitions
+        , index2 = 0                 // starting index
+        , count2 = $(images2).length  // image count
+          // the transition loop
+        , handle2 = setInterval(function() {
+            // fade out the current image
+            $(images2 + ":eq(" + index2 + ")").slideUp('slow');
+            // get the next index, or cycle back to 0
+            if (++index2 === count2) index2 = 0;
+            // fade in the next image
+            $(images2 + ":eq(" + index2 + ")").slideDown('slow');
+          }
+          , interval2
+        )
+        , stop = function(){
+            clearInterval(handle2);
         };
       });
     </script>
   
   </head>
   <body>
-    
-    <div id="gallery">
-      
-      <img src="https://spaceweather.uit.no/noswe/Aurora/Nowcast/tromso.jpg?v=5"/>
-      <img src="https://spaceweather.uit.no/noswe/Aurora/Forecast1h/tromso.jpg?v=5"/>
-      <img src="https://spaceweather.uit.no/noswe/Aurora/Forecast4h/tromso.jpg?v=5"/>
-      
-    </div>
-    
-        <div id="details">
-      
-      <img src="https://spaceweather.uit.no/noswe/Aurora/Nowcast/tromsoasc.jpg?v=5"/>
-      <img src="https://spaceweather.uit.no/noswe/Aurora/Forecast1h/tromsoasc.jpg?v=5"/>
-      <img src="https://spaceweather.uit.no/noswe/Aurora/Forecast4h/tromsoasc.jpg?v=5"/>
-      
+  
+    <div class="container">
+	    <div id="gallery">
+	      
+	      <img src="https://spaceweather.uit.no/noswe/Aurora/Nowcast/tromso.jpg?v=5"/>
+	      <img src="https://spaceweather.uit.no/noswe/Aurora/Forecast1h/tromso.jpg?v=5"/>
+	      <img src="https://spaceweather.uit.no/noswe/Aurora/Forecast4h/tromso.jpg?v=5"/>
+	      
+	    </div>
+	    
+	        <div id="details">
+	      
+	      <img src="https://spaceweather.uit.no/noswe/Aurora/Nowcast/tromsoasc.jpg?v=5"/>
+	      <img src="https://spaceweather.uit.no/noswe/Aurora/Forecast1h/tromsoasc.jpg?v=5"/>
+	      <img src="https://spaceweather.uit.no/noswe/Aurora/Forecast4h/tromsoasc.jpg?v=5"/>
+	      
+	    </div>
     </div>
     
   </body>
