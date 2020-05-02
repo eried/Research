@@ -1,0 +1,10 @@
+c:\users\erwin\documents\visual studio 2017\Projects\PortapackMapTest\PortapackMapTest\bin\Debug\PortapackMapTest.exe.config
+c:\users\erwin\documents\visual studio 2017\Projects\PortapackMapTest\PortapackMapTest\bin\Debug\PortapackMapTest.exe
+c:\users\erwin\documents\visual studio 2017\Projects\PortapackMapTest\PortapackMapTest\bin\Debug\PortapackMapTest.pdb
+c:\users\erwin\documents\visual studio 2017\Projects\PortapackMapTest\PortapackMapTest\obj\Debug\PortapackMapTest.csprojResolveAssemblyReference.cache
+c:\users\erwin\documents\visual studio 2017\Projects\PortapackMapTest\PortapackMapTest\obj\Debug\PortapackMapTest.Form1.resources
+c:\users\erwin\documents\visual studio 2017\Projects\PortapackMapTest\PortapackMapTest\obj\Debug\PortapackMapTest.Properties.Resources.resources
+c:\users\erwin\documents\visual studio 2017\Projects\PortapackMapTest\PortapackMapTest\obj\Debug\PortapackMapTest.csproj.GenerateResource.Cache
+c:\users\erwin\documents\visual studio 2017\Projects\PortapackMapTest\PortapackMapTest\obj\Debug\PortapackMapTest.csproj.CoreCompileInputs.cache
+c:\users\erwin\documents\visual studio 2017\Projects\PortapackMapTest\PortapackMapTest\obj\Debug\PortapackMapTest.exe
+c:\users\erwin\documents\visual studio 2017\Projects\PortapackMapTest\PortapackMapTest\obj\Debug\PortapackMapTest.pdb
