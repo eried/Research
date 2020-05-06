@@ -8,3 +8,13 @@ c:\users\erwin\documents\visual studio 2017\Projects\PortapackMapTest\PortapackM
 c:\users\erwin\documents\visual studio 2017\Projects\PortapackMapTest\PortapackMapTest\obj\Debug\PortapackMapTest.csproj.CoreCompileInputs.cache
 c:\users\erwin\documents\visual studio 2017\Projects\PortapackMapTest\PortapackMapTest\obj\Debug\PortapackMapTest.exe
 c:\users\erwin\documents\visual studio 2017\Projects\PortapackMapTest\PortapackMapTest\obj\Debug\PortapackMapTest.pdb
+D:\GitHub\Research\HackRF\PortaPack\world_map\PortapackMapTest\PortapackMapTest\bin\Debug\PortapackMapTest.exe.config
+D:\GitHub\Research\HackRF\PortaPack\world_map\PortapackMapTest\PortapackMapTest\bin\Debug\PortapackMapTest.exe
+D:\GitHub\Research\HackRF\PortaPack\world_map\PortapackMapTest\PortapackMapTest\bin\Debug\PortapackMapTest.pdb
+D:\GitHub\Research\HackRF\PortaPack\world_map\PortapackMapTest\PortapackMapTest\obj\Debug\PortapackMapTest.csprojAssemblyReference.cache
+D:\GitHub\Research\HackRF\PortaPack\world_map\PortapackMapTest\PortapackMapTest\obj\Debug\PortapackMapTest.Form1.resources
+D:\GitHub\Research\HackRF\PortaPack\world_map\PortapackMapTest\PortapackMapTest\obj\Debug\PortapackMapTest.Properties.Resources.resources
+D:\GitHub\Research\HackRF\PortaPack\world_map\PortapackMapTest\PortapackMapTest\obj\Debug\PortapackMapTest.csproj.GenerateResource.cache
+D:\GitHub\Research\HackRF\PortaPack\world_map\PortapackMapTest\PortapackMapTest\obj\Debug\PortapackMapTest.csproj.CoreCompileInputs.cache
+D:\GitHub\Research\HackRF\PortaPack\world_map\PortapackMapTest\PortapackMapTest\obj\Debug\PortapackMapTest.exe
+D:\GitHub\Research\HackRF\PortaPack\world_map\PortapackMapTest\PortapackMapTest\obj\Debug\PortapackMapTest.pdb
