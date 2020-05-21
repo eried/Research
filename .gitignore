@@ -25,3 +25,4 @@ pypyenv/
 # Other
 .vscode/
 datalogger.ini
+bin/
