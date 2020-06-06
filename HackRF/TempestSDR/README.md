@@ -4,7 +4,7 @@
 
 > **Note:** Some antivirus can report a [false positive](https://www.virustotal.com/gui/file/d983534737266fb46c84bb3a9e61e99b7122beacd0677e7edf4e74e0552165bf/detection) as seen in the link. However, this is due the usage of [launch4j](http://launch4j.sourceforge.net/) for wrapping the jar and WinRAR.SFX module for launching everything.
 
-## For using with HackRF:
+## HackRF as source in TempestSDR:
 1. Set the HackRF in HackRF mode (if the PortaPack is connected) and connect it via USB. The device must be recognized properly (i.e. for doing firmware upgrades or using it in SDRSharp), if you are having problems please follow: https://www.youtube.com/watch?v=_zx4ZvurgOs
 2. Open TempestSDR. The provided package does not has any requirement and includes everything. It uses temporal files for OpenJDK, and other required files.
 3. Select `File / Load ExtIO source` and select the adequate options in the modal dialog
