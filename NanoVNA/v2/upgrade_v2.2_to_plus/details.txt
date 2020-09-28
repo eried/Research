@@ -1,0 +1,1 @@
+ST-LINK to flash to address 0x08000000 (there is a patch needed for the stlink software to support GD32F303: https://github.com/stlink-org/stlink/issues/1041 )
