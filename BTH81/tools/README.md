@@ -5,6 +5,14 @@ https://s.click.aliexpress.com/e/_dX7vkjl
 
 The device creates a simple PDF as a report. 
 
+## Versions ##
+
+It seems there are two versions with the same shell but different color (black and blue). The black uses a newer configuration tool written in .Net, which is not compatible with the old software. The black one also provides more settings:
+
+* Calibration for humidity and temperature
+* Control for timing start
+* More alarm details
+
 ## Capture length ##
 The internal memory holds 16384 values. So since each measurement consist on two values (temperature and humidity), with the following intervals, the length of the capture is:
 
