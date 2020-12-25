@@ -12,14 +12,13 @@
 3. Select `File / Load ExtIO source` and select the adequate options in the modal dialog
 4. Press Start in TempestSDR to begin
 
-## Modding the self-executable with other EXTIO DLLs
-
-Check this video https://www.youtube.com/watch?v=QjqpKtGNbQo
-
-## Basic instructions
+### Usage instructions
 
 1. Get near the target screen, place the HackRF next to it
 2. Play `tempest_test_elize_song.mp4` or the program inside `tempest_test_elize_song.zip` to generate a pattern you can detect in the target screen
 3. Work in SDRSharp or a similar software solution to find the frequency of the residual RF that the screen generates. As a starting seed, try from 100 Mhz to 500 Mhz listening in AM mode. It should look/sound like [in this video](find.mp4).
 4. Open TempestSDR following the upper instructions and use the frequency you found in the previous step
 5. Play with the options until you get a working image. It should look like [in this video](demo.mp4).
+
+## Modding the self-executable with other EXTIO DLLs
+Check this video https://www.youtube.com/watch?v=QjqpKtGNbQo
