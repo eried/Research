@@ -12,6 +12,10 @@
 3. Select `File / Load ExtIO source` and select the adequate options in the modal dialog
 4. Press Start in TempestSDR to begin
 
+## Modding the self-executable with other EXTIO DLLs
+
+Check this video https://www.youtube.com/watch?v=QjqpKtGNbQo
+
 ## Basic instructions
 
 1. Get near the target screen, place the HackRF next to it
