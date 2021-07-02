@@ -1,6 +1,10 @@
-# Upgrade your NanoVNA v2 to v2 Plus
+# Modify your NanoVNA v2 for faster sweep
 
-If you have a NanoVNA v2.2 (check CONFIG/VERSION), you can upgrade it to v2 plus (v2.3) to get 2x faster sweep (200 points/s). Noise improvements.
+**Update: the bootloader update described below is not needed anymore as the sweep timing can be adjusted in the firmware source.**
+
+If you have a NanoVNA v2.2 (check CONFIG/VERSION), you can upgrade the sweep rate to 200 points/s.
+
+**The changes described will unlock faster sweep timing but does not upgrade your hardware to Plus and can increase noise floor on non-Plus hardware.**
 
 All credits to スメグマ from NanoVNA v2 [discord channel](https://discord.gg/jzNamxW). He created the bootloader for me and provided all other details.
 
