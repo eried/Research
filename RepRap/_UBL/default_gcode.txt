@@ -1,0 +1,40 @@
+  G21    ; Units in mm (mm)
+  M149 C ; Units in Celsius
+
+; Filament settings: Disabled
+  M200 D1.75
+  M200 D0
+; Steps per unit:
+ M92 X80.00 Y80.00 Z400.00 E98.60
+; Maximum feedrates (units/s):
+  M203 X300.00 Y300.00 Z5.00 E25.00
+; Maximum Acceleration (units/s2):
+  M201 X1500.00 Y1500.00 Z50.00 E10000.00
+; Acceleration (units/s2): P<print_accel> R<retract_accel> T<travel_accel>
+  M204 P1500.00 R3000.00 T1500.00
+; Advanced: B<min_segment_time_us> S<min_feedrate> T<min_travel_feedrate> J<junc_dev>
+  M205 B20000.00 S0.00 T0.00 J0.01
+; Home offset:
+  M206 X0.00 Y0.00 Z0.00
+; Unified Bed Leveling:
+  M420 S1 Z0.00
+
+Unified Bed Leveling System v1.01 active
+
+; Active Mesh Slot: 1
+; EEPROM can hold 3 meshes.
+
+; Material heatup parameters:
+  M145 S0 H220 B60 F0
+  M145 S1 H240 B90 F0
+; PID settings:
+  M301 P22.20 I1.08 D114.00
+; Power-Loss Recovery:
+  M413 S1
+; Z-Probe Offset (mm):
+  M851 X9.00 Y55.00 Z-3.26
+; Filament load/unload lengths:
+  M603 L0.00 U0.00
+; Filament runout sensor:
+  M412 S1 D0.00
+  

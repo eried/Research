@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "scan", "scan\scan.csproj", "{0FD212AD-2F29-42C5-9217-1EFD42EF802A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "control", "..\control\control.csproj", "{10270CD7-2427-4D07-8021-EECC94A2C9BA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "control", "control\control.csproj", "{10270CD7-2427-4D07-8021-EECC94A2C9BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

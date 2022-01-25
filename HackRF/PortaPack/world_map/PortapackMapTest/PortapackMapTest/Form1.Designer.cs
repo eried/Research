@@ -49,6 +49,7 @@
             this.button8 = new System.Windows.Forms.Button();
             this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
+            this.button9 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
@@ -62,7 +63,7 @@
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox1.Location = new System.Drawing.Point(239, 17);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(132, 142);
             this.pictureBox1.TabIndex = 0;
@@ -71,7 +72,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(90, 101);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(56, 20);
             this.textBox1.TabIndex = 1;
@@ -79,7 +80,7 @@
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(90, 132);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(56, 20);
             this.textBox2.TabIndex = 2;
@@ -87,7 +88,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(111, 180);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(92, 49);
             this.button1.TabIndex = 3;
@@ -118,7 +119,7 @@
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(111, 246);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(92, 49);
             this.button2.TabIndex = 6;
@@ -149,7 +150,7 @@
             // button3
             // 
             this.button3.Location = new System.Drawing.Point(29, 25);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(41, 25);
             this.button3.TabIndex = 9;
@@ -160,7 +161,7 @@
             // button5
             // 
             this.button5.Location = new System.Drawing.Point(82, 25);
-            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button5.Margin = new System.Windows.Forms.Padding(2);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(49, 25);
             this.button5.TabIndex = 9;
@@ -171,7 +172,7 @@
             // button6
             // 
             this.button6.Location = new System.Drawing.Point(148, 25);
-            this.button6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button6.Margin = new System.Windows.Forms.Padding(2);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(55, 25);
             this.button6.TabIndex = 9;
@@ -183,7 +184,7 @@
             // 
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox2.Location = new System.Drawing.Point(384, 17);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(433, 499);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -192,7 +193,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(48, 56);
+            this.button4.Location = new System.Drawing.Point(57, 56);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 11;
@@ -233,6 +234,11 @@
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(120, 20);
             this.numericUpDown1.TabIndex = 13;
+            this.numericUpDown1.Value = new decimal(new int[] {
+            5,
+            0,
+            0,
+            131072});
             // 
             // numericUpDown2
             // 
@@ -282,12 +288,15 @@
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(265, 410);
+            this.button8.BackColor = System.Drawing.Color.Red;
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.Location = new System.Drawing.Point(265, 423);
+            this.button8.Margin = new System.Windows.Forms.Padding(0);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(21, 23);
+            this.button8.Size = new System.Drawing.Size(8, 8);
             this.button8.TabIndex = 14;
-            this.button8.Text = "x";
-            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Text = ".";
+            this.button8.UseVisualStyleBackColor = false;
             this.button8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button8_MouseDown);
             this.button8.MouseMove += new System.Windows.Forms.MouseEventHandler(this.button8_MouseMove);
             this.button8.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button8_MouseUp);
@@ -332,6 +341,22 @@
             this.numericUpDown5.Name = "numericUpDown5";
             this.numericUpDown5.Size = new System.Drawing.Size(120, 20);
             this.numericUpDown5.TabIndex = 13;
+            this.numericUpDown5.Value = new decimal(new int[] {
+            128,
+            0,
+            0,
+            0});
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(11, 54);
+            this.button9.Margin = new System.Windows.Forms.Padding(2);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(41, 25);
+            this.button9.TabIndex = 9;
+            this.button9.Text = "home";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // Form1
             // 
@@ -349,6 +374,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
+            this.Controls.Add(this.button9);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -359,7 +385,7 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -397,6 +423,7 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.NumericUpDown numericUpDown4;
         private System.Windows.Forms.NumericUpDown numericUpDown5;
+        private System.Windows.Forms.Button button9;
     }
 }
 

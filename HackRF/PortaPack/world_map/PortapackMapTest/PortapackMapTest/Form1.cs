@@ -64,7 +64,7 @@ namespace PortapackMapTest
 
         private void button3_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "69.6492";
+            textBox1.Text = "69.6492"; 
             textBox2.Text = "18.9553";
         }
 
@@ -95,8 +95,8 @@ namespace PortapackMapTest
             double map_bottom = Math.Sin((-85+(double)numericUpDown1.Value )* Math.PI / 180);
 
                 double lat_rad = Math.Sin(lat* Math.PI / 180 );
-                double map_world_lon = (im.map_center_x * (2.0 + (double)numericUpDown2.Value)) / (2 * Math.PI);
-                double mapOffsetY = (map_world_lon / 2 * Math.Log((1 + map_bottom) / (1 - map_bottom)));
+                double map_world_lon = ((im.map_center_x * (2.0 + (double)numericUpDown2.Value)) / (2 * Math.PI)) + (double)numericUpDown3.Value;
+            double mapOffsetY = (map_world_lon / 2 * Math.Log((1 + map_bottom) / (1 - map_bottom))) + (double)numericUpDown4.Value;
 
             double y_pos = map_height - ((map_world_lon / 2 * Math.Log((1 + lat_rad) / (1 - lat_rad))) - mapOffsetY) - (double)numericUpDown5.Value;
 
@@ -132,6 +132,13 @@ namespace PortapackMapTest
         {
             if (_drag)
                 button8.Location = this.PointToClient(Cursor.Position);
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            //69.64472,1
+            textBox1.Text = "69.64472";
+            textBox2.Text = "18.95583";
         }
 
         private void button7_Click(object sender, EventArgs e)
