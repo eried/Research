@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Part_Summary_Data>
+    <Units>meter</Units>
+    <This_Parts_Data id="1">
+        <Part_Volume>5.23712e-06</Part_Volume>
+        <Part_TAvg>0</Part_TAvg>
+        <Part_TMin>273.15</Part_TMin>
+        <Part_TMax>273.15</Part_TMax>
+    </This_Parts_Data>
+    <This_Parts_Data id="2">
+        <Part_Volume>3.86377e-06</Part_Volume>
+        <Part_TAvg>0</Part_TAvg>
+        <Part_TMin>273.15</Part_TMin>
+        <Part_TMax>273.15</Part_TMax>
+    </This_Parts_Data>
+    <This_Parts_Data id="3">
+        <Part_Volume>3.86388e-06</Part_Volume>
+        <Part_TAvg>0</Part_TAvg>
+        <Part_TMin>273.15</Part_TMin>
+        <Part_TMax>273.15</Part_TMax>
+    </This_Parts_Data>
+</Part_Summary_Data>

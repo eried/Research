@@ -1,0 +1,526 @@
+[22:56:15] Loading qm files
+[22:56:15] System language is Spanish
+[22:56:15] Completed pre-event loop tasks in 0.26 sec
+[22:56:15] System info:6
+[22:56:22] Created main window in 6.572 sec
+[22:56:22] License type is STANDALONE
+[22:56:22] adlm resource pathC:\Program Files\Autodesk\Simulation CFD 2015\en-US
+[22:56:22] adlmInitialize
+[22:56:22] adlmHandleOpen
+[22:56:22] adlmHandleSetSilentMode
+[22:56:22] Using Adlm licensing
+[22:56:22] Licensing startup success
+[22:56:22] License path is C:\Program Files\Autodesk\Simulation CFD 2015\licpath.lic
+[22:56:22] Initializing license manager...
+[22:56:22] Checkout - Feature:CFD UI Version:2015.0.0.F Product Key:812G1 Product Code:SCDSE
+[22:56:22] Checkout - adlmLicenseCheckout:start
+[22:56:30] Checkout - ret:0
+[22:56:30] Checkout - Feature:CFD UI Success
+[22:56:30] Checkout done
+[22:56:30] Initialized licensing in 8.571 sec
+[22:56:30] Loaded layout in 0 sec
+[22:56:31] Completed post-event loop tasks in 15.605 sec
+[22:56:31] ExecutePythonScript
+[22:56:55] CadPackage:CP_ASM_STEP_IMPORT CadInterface:17
+[23:02:13] Analysis::writeGBIFile = 0.001 sec
+[23:02:13] Analysis::exportJobFiles = 0.02 sec
+[23:02:14] flow analysis/Design 1/Scenario 1 job started at dom. 7. Feb. 23:02:14 2016 on DIJKSTRA
+[23:02:14] flow analysis/Design 1/Scenario 1 mesher started at dom. 7. Feb. 23:02:14 2016 on DIJKSTRA
+[23:02:36] flow analysis/Design 1/Scenario 1 mesher finished at dom. 7. Feb. 23:02:36 2016 on DIJKSTRA with code = 0
+[23:02:36] Analysis::importMesherFiles = 0.014 sec
+[23:02:36] CADModel::loadGeometryDatabase = 0.668 sec
+[23:02:36] Mesher finished copying files
+[23:02:36] flow analysis/Design 1/Scenario 1 solver started at dom. 7. Feb. 23:02:36 2016 on DIJKSTRA
+[23:02:41] getJobUpdate start
+[23:02:41] VizDataInterface::getBoundaryFEData = 0.1 sec
+[23:02:41] VizDataInterface::setupWallOutlineData = 0.012 sec
+[23:02:41] getJobUpdate finished
+[23:02:47] getJobUpdate start
+[23:02:47] getJobUpdate finished
+[23:02:50] getJobUpdate start
+[23:02:50] getJobUpdate finished
+[23:02:51] getJobUpdate start
+[23:02:51] getJobUpdate finished
+[23:02:54] flow analysis/Design 1/Scenario 1 solver finished at dom. 7. Feb. 23:02:54 2016 on DIJKSTRA with code = 0
+[23:02:54] Analysis::importSolverFiles = 0.073 sec
+[23:02:55] flow analysis/Design 1/Scenario 1 job finished at dom. 7. Feb. 23:02:54 2016 on DIJKSTRA
+[23:04:51] Analysis::writeGBIFile = 0.001 sec
+[23:04:51] Analysis::exportJobFiles = 0.071 sec
+[23:04:52] flow analysis/Design 1/Scenario 1 job started at dom. 7. Feb. 23:04:52 2016 on DIJKSTRA
+[23:04:52] flow analysis/Design 1/Scenario 1 mesher started at dom. 7. Feb. 23:04:52 2016 on DIJKSTRA
+[23:05:13] flow analysis/Design 1/Scenario 1 mesher finished at dom. 7. Feb. 23:05:13 2016 on DIJKSTRA with code = 0
+[23:05:13] Analysis::importMesherFiles = 0.011 sec
+[23:05:14] CADModel::loadGeometryDatabase = 0.652 sec
+[23:05:14] Mesher finished copying files
+[23:05:14] flow analysis/Design 1/Scenario 1 solver started at dom. 7. Feb. 23:05:13 2016 on DIJKSTRA
+[23:05:20] getJobUpdate start
+[23:05:20] VizDataInterface::getBoundaryFEData = 0.114 sec
+[23:05:20] VizDataInterface::setupWallOutlineData = 0.012 sec
+[23:05:21] getJobUpdate finished
+[23:05:28] getJobUpdate start
+[23:05:28] getJobUpdate finished
+[23:05:32] getJobUpdate start
+[23:05:32] getJobUpdate finished
+[23:05:35] getJobUpdate start
+[23:05:35] getJobUpdate finished
+[23:05:38] getJobUpdate start
+[23:05:38] getJobUpdate finished
+[23:05:40] getJobUpdate start
+[23:05:40] getJobUpdate finished
+[23:05:42] getJobUpdate start
+[23:05:42] getJobUpdate finished
+[23:05:44] getJobUpdate start
+[23:05:44] getJobUpdate finished
+[23:05:46] getJobUpdate start
+[23:05:46] getJobUpdate finished
+[23:05:48] getJobUpdate start
+[23:05:48] getJobUpdate finished
+[23:05:50] getJobUpdate start
+[23:05:50] getJobUpdate finished
+[23:05:52] getJobUpdate start
+[23:05:53] getJobUpdate finished
+[23:05:55] getJobUpdate start
+[23:05:55] getJobUpdate finished
+[23:05:58] getJobUpdate start
+[23:05:58] getJobUpdate finished
+[23:06:00] getJobUpdate start
+[23:06:00] getJobUpdate finished
+[23:06:03] getJobUpdate start
+[23:06:03] getJobUpdate finished
+[23:06:05] getJobUpdate start
+[23:06:05] getJobUpdate finished
+[23:06:07] getJobUpdate start
+[23:06:08] getJobUpdate finished
+[23:06:10] getJobUpdate start
+[23:06:10] getJobUpdate finished
+[23:06:12] getJobUpdate start
+[23:06:12] getJobUpdate finished
+[23:06:14] getJobUpdate start
+[23:06:14] getJobUpdate finished
+[23:06:17] getJobUpdate start
+[23:06:17] getJobUpdate finished
+[23:06:19] getJobUpdate start
+[23:06:19] getJobUpdate finished
+[23:06:22] getJobUpdate start
+[23:06:22] getJobUpdate finished
+[23:06:24] getJobUpdate start
+[23:06:24] getJobUpdate finished
+[23:06:26] getJobUpdate start
+[23:06:26] getJobUpdate finished
+[23:06:29] getJobUpdate start
+[23:06:29] getJobUpdate finished
+[23:06:32] getJobUpdate start
+[23:06:32] getJobUpdate finished
+[23:06:34] getJobUpdate start
+[23:06:34] getJobUpdate finished
+[23:06:36] getJobUpdate start
+[23:06:36] getJobUpdate finished
+[23:06:39] getJobUpdate start
+[23:06:39] getJobUpdate finished
+[23:06:42] getJobUpdate start
+[23:06:42] getJobUpdate finished
+[23:06:44] getJobUpdate start
+[23:06:44] getJobUpdate finished
+[23:06:46] getJobUpdate start
+[23:06:46] getJobUpdate finished
+[23:06:48] getJobUpdate start
+[23:06:49] getJobUpdate finished
+[23:06:51] getJobUpdate start
+[23:06:51] getJobUpdate finished
+[23:06:53] getJobUpdate start
+[23:06:53] getJobUpdate finished
+[23:06:55] getJobUpdate start
+[23:06:56] getJobUpdate finished
+[23:06:58] getJobUpdate start
+[23:06:58] getJobUpdate finished
+[23:07:00] getJobUpdate start
+[23:07:00] getJobUpdate finished
+[23:07:03] getJobUpdate start
+[23:07:03] getJobUpdate finished
+[23:07:05] getJobUpdate start
+[23:07:05] getJobUpdate finished
+[23:07:07] getJobUpdate start
+[23:07:07] getJobUpdate finished
+[23:07:09] getJobUpdate start
+[23:07:09] getJobUpdate finished
+[23:07:12] getJobUpdate start
+[23:07:12] getJobUpdate finished
+[23:07:15] getJobUpdate start
+[23:07:15] getJobUpdate finished
+[23:07:17] getJobUpdate start
+[23:07:17] getJobUpdate finished
+[23:07:19] getJobUpdate start
+[23:07:20] getJobUpdate finished
+[23:07:22] getJobUpdate start
+[23:07:22] getJobUpdate finished
+[23:07:25] getJobUpdate start
+[23:07:25] getJobUpdate finished
+[23:07:27] getJobUpdate start
+[23:07:27] getJobUpdate finished
+[23:07:30] getJobUpdate start
+[23:07:30] getJobUpdate finished
+[23:07:32] getJobUpdate start
+[23:07:32] getJobUpdate finished
+[23:07:34] getJobUpdate start
+[23:07:35] getJobUpdate finished
+[23:07:37] getJobUpdate start
+[23:07:37] getJobUpdate finished
+[23:07:39] getJobUpdate start
+[23:07:39] getJobUpdate finished
+[23:07:41] getJobUpdate start
+[23:07:41] getJobUpdate finished
+[23:07:43] getJobUpdate start
+[23:07:44] getJobUpdate finished
+[23:07:46] getJobUpdate start
+[23:07:46] getJobUpdate finished
+[23:07:48] getJobUpdate start
+[23:07:48] getJobUpdate finished
+[23:07:50] getJobUpdate start
+[23:07:50] getJobUpdate finished
+[23:07:52] getJobUpdate start
+[23:07:52] getJobUpdate finished
+[23:07:55] getJobUpdate start
+[23:07:55] getJobUpdate finished
+[23:07:57] getJobUpdate start
+[23:07:57] getJobUpdate finished
+[23:08:00] getJobUpdate start
+[23:08:00] getJobUpdate finished
+[23:08:02] getJobUpdate start
+[23:08:02] getJobUpdate finished
+[23:08:05] getJobUpdate start
+[23:08:05] getJobUpdate finished
+[23:08:08] getJobUpdate start
+[23:08:08] getJobUpdate finished
+[23:08:10] getJobUpdate start
+[23:08:10] getJobUpdate finished
+[23:08:12] getJobUpdate start
+[23:08:12] getJobUpdate finished
+[23:08:15] getJobUpdate start
+[23:08:15] getJobUpdate finished
+[23:08:17] getJobUpdate start
+[23:08:18] getJobUpdate finished
+[23:08:20] getJobUpdate start
+[23:08:20] getJobUpdate finished
+[23:08:22] getJobUpdate start
+[23:08:22] getJobUpdate finished
+[23:08:25] getJobUpdate start
+[23:08:25] getJobUpdate finished
+[23:08:27] getJobUpdate start
+[23:08:28] getJobUpdate finished
+[23:08:30] getJobUpdate start
+[23:08:30] getJobUpdate finished
+[23:08:32] getJobUpdate start
+[23:08:32] getJobUpdate finished
+[23:08:34] getJobUpdate start
+[23:08:34] getJobUpdate finished
+[23:08:37] getJobUpdate start
+[23:08:37] getJobUpdate finished
+[23:08:39] getJobUpdate start
+[23:08:40] getJobUpdate finished
+[23:08:42] getJobUpdate start
+[23:08:42] getJobUpdate finished
+[23:08:45] getJobUpdate start
+[23:08:45] getJobUpdate finished
+[23:08:48] getJobUpdate start
+[23:08:48] getJobUpdate finished
+[23:08:50] getJobUpdate start
+[23:08:50] getJobUpdate finished
+[23:08:53] getJobUpdate start
+[23:08:53] getJobUpdate finished
+[23:08:56] getJobUpdate start
+[23:08:56] getJobUpdate finished
+[23:08:59] getJobUpdate start
+[23:08:59] getJobUpdate finished
+[23:09:02] getJobUpdate start
+[23:09:02] getJobUpdate finished
+[23:09:05] getJobUpdate start
+[23:09:05] getJobUpdate finished
+[23:09:08] getJobUpdate start
+[23:09:08] getJobUpdate finished
+[23:09:10] getJobUpdate start
+[23:09:10] getJobUpdate finished
+[23:09:13] getJobUpdate start
+[23:09:13] getJobUpdate finished
+[23:09:15] getJobUpdate start
+[23:09:15] getJobUpdate finished
+[23:09:18] getJobUpdate start
+[23:09:18] getJobUpdate finished
+[23:09:20] getJobUpdate start
+[23:09:21] getJobUpdate finished
+[23:09:23] getJobUpdate start
+[23:09:23] getJobUpdate finished
+[23:09:26] getJobUpdate start
+[23:09:26] getJobUpdate finished
+[23:09:29] getJobUpdate start
+[23:09:29] getJobUpdate finished
+[23:09:32] getJobUpdate start
+[23:09:32] getJobUpdate finished
+[23:09:34] getJobUpdate start
+[23:09:35] getJobUpdate finished
+[23:09:37] flow analysis/Design 1/Scenario 1 solver finished at dom. 7. Feb. 23:09:37 2016 on DIJKSTRA with code = 0
+[23:09:37] Analysis::importSolverFiles = 0.062 sec
+[23:09:38] flow analysis/Design 1/Scenario 1 job finished at dom. 7. Feb. 23:09:37 2016 on DIJKSTRA
+[23:14:06] Analysis::writeGBIFile = 0.001 sec
+[23:14:06] Analysis::exportJobFiles = 0.079 sec
+[23:14:07] flow analysis/Design 1/Scenario 1 job started at dom. 7. Feb. 23:14:07 2016 on DIJKSTRA
+[23:14:07] flow analysis/Design 1/Scenario 1 mesher started at dom. 7. Feb. 23:14:07 2016 on DIJKSTRA
+[23:14:15] flow analysis/Design 1/Scenario 1 mesher finished at dom. 7. Feb. 23:14:15 2016 on DIJKSTRA with code = 0
+[23:14:15] Analysis::importMesherFiles = 0.007 sec
+[23:14:15] CADModel::loadGeometryDatabase = 0.257 sec
+[23:14:15] Mesher finished copying files
+[23:14:15] flow analysis/Design 1/Scenario 1 solver started at dom. 7. Feb. 23:14:15 2016 on DIJKSTRA
+[23:15:11] getJobUpdate start
+[23:15:11] VizDataInterface::getBoundaryFEData = 0.049 sec
+[23:15:11] VizDataInterface::setupWallOutlineData = 0.01 sec
+[23:15:12] getJobUpdate finished
+[23:15:27] getJobUpdate start
+[23:15:27] getJobUpdate finished
+[23:15:34] getJobUpdate start
+[23:15:34] getJobUpdate finished
+[23:15:41] getJobUpdate start
+[23:15:41] getJobUpdate finished
+[23:15:50] getJobUpdate start
+[23:15:50] getJobUpdate finished
+[23:15:58] flow analysis/Design 1/Scenario 1 solver finished at dom. 7. Feb. 23:15:58 2016 on DIJKSTRA with code = 0
+[23:15:58] Analysis::importSolverFiles = 0.034 sec
+[23:15:58] flow analysis/Design 1/Scenario 1 job finished at dom. 7. Feb. 23:15:58 2016 on DIJKSTRA
+[23:17:39] Analysis::writeGBIFile = 0.001 sec
+[23:17:39] Analysis::exportJobFiles = 0.05 sec
+[23:17:39] flow analysis/Design 1/Scenario 1 job started at dom. 7. Feb. 23:17:39 2016 on DIJKSTRA
+[23:17:39] flow analysis/Design 1/Scenario 1 mesher started at dom. 7. Feb. 23:17:39 2016 on DIJKSTRA
+[23:17:48] flow analysis/Design 1/Scenario 1 mesher finished at dom. 7. Feb. 23:17:48 2016 on DIJKSTRA with code = 0
+[23:17:48] Analysis::importMesherFiles = 0.006 sec
+[23:17:48] CADModel::loadGeometryDatabase = 0.281 sec
+[23:17:48] Mesher finished copying files
+[23:17:48] flow analysis/Design 1/Scenario 1 solver started at dom. 7. Feb. 23:17:48 2016 on DIJKSTRA
+[23:17:52] getJobUpdate start
+[23:17:52] VizDataInterface::getBoundaryFEData = 0.034 sec
+[23:17:52] VizDataInterface::setupWallOutlineData = 0.005 sec
+[23:17:53] getJobUpdate finished
+[23:17:56] getJobUpdate start
+[23:17:57] getJobUpdate finished
+[23:17:58] getJobUpdate start
+[23:17:59] getJobUpdate finished
+[23:18:01] getJobUpdate start
+[23:18:01] getJobUpdate finished
+[23:18:04] getJobUpdate start
+[23:18:04] getJobUpdate finished
+[23:18:06] getJobUpdate start
+[23:18:06] getJobUpdate finished
+[23:18:09] getJobUpdate start
+[23:18:09] getJobUpdate finished
+[23:18:14] flow analysis/Design 1/Scenario 1 solver finished at dom. 7. Feb. 23:18:14 2016 on DIJKSTRA with code = 0
+[23:18:14] Analysis::importSolverFiles = 0.035 sec
+[23:18:14] flow analysis/Design 1/Scenario 1 job finished at dom. 7. Feb. 23:18:14 2016 on DIJKSTRA
+[23:22:00] Analysis::writeGBIFile = 0.613 sec
+[23:22:00] Analysis::exportJobFiles = 0.061 sec
+[23:22:00] flow analysis/Design 1/Scenario 1 job started at dom. 7. Feb. 23:22:00 2016 on DIJKSTRA
+[23:22:00] flow analysis/Design 1/Scenario 1 solver started at dom. 7. Feb. 23:22:00 2016 on DIJKSTRA
+[23:22:03] getJobUpdate start
+[23:22:03] CADModel::loadGeometryDatabase = 0.264 sec
+[23:22:03] VizDataInterface::getBoundaryFEData = 0.041 sec
+[23:22:03] VizDataInterface::setupWallOutlineData = 0.005 sec
+[23:22:04] getJobUpdate finished
+[23:22:09] getJobUpdate start
+[23:22:09] getJobUpdate finished
+[23:22:14] getJobUpdate start
+[23:22:15] getJobUpdate finished
+[23:22:23] flow analysis/Design 1/Scenario 1 solver finished at dom. 7. Feb. 23:22:22 2016 on DIJKSTRA with code = 0
+[23:22:23] Analysis::importSolverFiles = 0.029 sec
+[23:22:23] flow analysis/Design 1/Scenario 1 job finished at dom. 7. Feb. 23:22:23 2016 on DIJKSTRA
+[23:23:30] Analysis::writeGBIFile = 0.001 sec
+[23:23:31] Analysis::exportJobFiles = 0.04 sec
+[23:23:31] flow analysis/Design 1/Scenario 1 job started at dom. 7. Feb. 23:23:31 2016 on DIJKSTRA
+[23:23:31] flow analysis/Design 1/Scenario 1 mesher started at dom. 7. Feb. 23:23:31 2016 on DIJKSTRA
+[23:23:39] flow analysis/Design 1/Scenario 1 mesher finished at dom. 7. Feb. 23:23:39 2016 on DIJKSTRA with code = 0
+[23:23:39] Analysis::importMesherFiles = 0.006 sec
+[23:23:39] CADModel::loadGeometryDatabase = 0.244 sec
+[23:23:39] Mesher finished copying files
+[23:23:40] flow analysis/Design 1/Scenario 1 solver started at dom. 7. Feb. 23:23:40 2016 on DIJKSTRA
+[23:23:43] getJobUpdate start
+[23:23:43] VizDataInterface::getBoundaryFEData = 0.033 sec
+[23:23:43] VizDataInterface::setupWallOutlineData = 0.005 sec
+[23:23:43] getJobUpdate finished
+[23:23:49] getJobUpdate start
+[23:23:50] getJobUpdate finished
+[23:24:07] getJobUpdate start
+[23:24:07] getJobUpdate finished
+[23:24:18] getJobUpdate start
+[23:24:18] getJobUpdate finished
+[23:24:27] getJobUpdate start
+[23:24:27] getJobUpdate finished
+[23:25:43] ### Critical: source\cfd_analyzec.c 6524
+The analysis stopped due to divergence
+
+[23:25:43] flow analysis/Design 1/Scenario 1 solver finished at dom. 7. Feb. 23:25:43 2016 on DIJKSTRA with code = 0
+[23:25:43] Analysis::importSolverFiles = 0.035 sec
+[23:25:43] flow analysis/Design 1/Scenario 1 job finished at dom. 7. Feb. 23:25:43 2016 on DIJKSTRA
+[23:26:38] Analysis::writeGBIFile = 0 sec
+[23:26:38] Analysis::exportJobFiles = 0.041 sec
+[23:26:38] flow analysis/Design 1/Scenario 1 job started at dom. 7. Feb. 23:26:38 2016 on DIJKSTRA
+[23:26:38] flow analysis/Design 1/Scenario 1 mesher started at dom. 7. Feb. 23:26:38 2016 on DIJKSTRA
+[23:26:47] flow analysis/Design 1/Scenario 1 mesher finished at dom. 7. Feb. 23:26:47 2016 on DIJKSTRA with code = 0
+[23:26:47] Analysis::importMesherFiles = 0.007 sec
+[23:26:47] CADModel::loadGeometryDatabase = 0.24 sec
+[23:26:47] Mesher finished copying files
+[23:26:47] flow analysis/Design 1/Scenario 1 solver started at dom. 7. Feb. 23:26:47 2016 on DIJKSTRA
+[23:26:50] getJobUpdate start
+[23:26:51] VizDataInterface::getBoundaryFEData = 0.035 sec
+[23:26:51] VizDataInterface::setupWallOutlineData = 0.004 sec
+[23:26:51] getJobUpdate finished
+[23:27:09] flow analysis/Design 1/Scenario 1 solver finished at dom. 7. Feb. 23:27:09 2016 on DIJKSTRA with code = 0
+[23:27:09] Analysis::importSolverFiles = 0.029 sec
+[23:27:10] flow analysis/Design 1/Scenario 1 job finished at dom. 7. Feb. 23:27:09 2016 on DIJKSTRA
+[23:29:15] Analysis::writeGBIFile = 0 sec
+[23:29:15] Analysis::exportJobFiles = 0.042 sec
+[23:29:15] flow analysis/Design 1/Scenario 1 job started at dom. 7. Feb. 23:29:15 2016 on DIJKSTRA
+[23:29:15] flow analysis/Design 1/Scenario 1 mesher started at dom. 7. Feb. 23:29:15 2016 on DIJKSTRA
+[23:29:24] flow analysis/Design 1/Scenario 1 mesher finished at dom. 7. Feb. 23:29:24 2016 on DIJKSTRA with code = 0
+[23:29:24] Analysis::importMesherFiles = 0.006 sec
+[23:29:24] CADModel::loadGeometryDatabase = 0.247 sec
+[23:29:24] Mesher finished copying files
+[23:29:24] flow analysis/Design 1/Scenario 1 solver started at dom. 7. Feb. 23:29:24 2016 on DIJKSTRA
+[23:29:27] getJobUpdate start
+[23:29:27] VizDataInterface::getBoundaryFEData = 0.034 sec
+[23:29:27] VizDataInterface::setupWallOutlineData = 0.005 sec
+[23:29:28] getJobUpdate finished
+[23:29:38] getJobUpdate start
+[23:29:38] getJobUpdate finished
+[23:29:42] ### Critical: source\cfd_analyzec.c 6524
+The analysis stopped due to divergence
+
+[23:29:42] flow analysis/Design 1/Scenario 1 solver finished at dom. 7. Feb. 23:29:42 2016 on DIJKSTRA with code = 0
+[23:29:42] Analysis::importSolverFiles = 0.027 sec
+[23:29:42] flow analysis/Design 1/Scenario 1 job finished at dom. 7. Feb. 23:29:42 2016 on DIJKSTRA
+[23:30:24] Analysis::writeGBIFile = 0.562 sec
+[23:30:24] Analysis::exportJobFiles = 0.005 sec
+[23:30:24] flow analysis/Design 1/Scenario 1 job started at dom. 7. Feb. 23:30:24 2016 on DIJKSTRA
+[23:30:24] flow analysis/Design 1/Scenario 1 solver started at dom. 7. Feb. 23:30:24 2016 on DIJKSTRA
+[23:30:26] getJobUpdate start
+[23:30:26] CADModel::loadGeometryDatabase = 0.22 sec
+[23:30:27] VizDataInterface::getBoundaryFEData = 0.033 sec
+[23:30:27] VizDataInterface::setupWallOutlineData = 0.005 sec
+[23:30:27] getJobUpdate finished
+[23:30:28] Could not find message key: (solver, AnalyzeC, Turbulent Compressible Flow is ON)
+[23:30:30] getJobUpdate start
+[23:30:30] getJobUpdate finished
+[23:30:32] getJobUpdate start
+[23:30:32] getJobUpdate finished
+[23:30:34] getJobUpdate start
+[23:30:34] getJobUpdate finished
+[23:30:35] getJobUpdate start
+[23:30:36] getJobUpdate finished
+[23:30:37] getJobUpdate start
+[23:30:37] getJobUpdate finished
+[23:30:39] getJobUpdate start
+[23:30:39] getJobUpdate finished
+[23:30:42] getJobUpdate start
+[23:30:42] getJobUpdate finished
+[23:30:46] getJobUpdate start
+[23:30:46] getJobUpdate finished
+[23:30:48] getJobUpdate start
+[23:30:48] getJobUpdate finished
+[23:30:50] getJobUpdate start
+[23:30:50] getJobUpdate finished
+[23:30:53] getJobUpdate start
+[23:30:53] getJobUpdate finished
+[23:30:56] getJobUpdate start
+[23:30:56] getJobUpdate finished
+[23:30:58] getJobUpdate start
+[23:30:59] getJobUpdate finished
+[23:31:01] getJobUpdate start
+[23:31:01] getJobUpdate finished
+[23:31:04] getJobUpdate start
+[23:31:04] getJobUpdate finished
+[23:31:06] getJobUpdate start
+[23:31:06] getJobUpdate finished
+[23:31:09] getJobUpdate start
+[23:31:09] getJobUpdate finished
+[23:31:11] getJobUpdate start
+[23:31:12] getJobUpdate finished
+[23:31:14] getJobUpdate start
+[23:31:14] getJobUpdate finished
+[23:31:16] getJobUpdate start
+[23:31:17] getJobUpdate finished
+[23:31:20] getJobUpdate start
+[23:31:20] getJobUpdate finished
+[23:31:21] getJobUpdate start
+[23:31:22] getJobUpdate finished
+[23:31:24] getJobUpdate start
+[23:31:24] getJobUpdate finished
+[23:31:26] getJobUpdate start
+[23:31:26] getJobUpdate finished
+[23:31:29] getJobUpdate start
+[23:31:29] getJobUpdate finished
+[23:31:31] getJobUpdate start
+[23:31:31] getJobUpdate finished
+[23:31:33] getJobUpdate start
+[23:31:33] getJobUpdate finished
+[23:31:35] getJobUpdate start
+[23:31:35] getJobUpdate finished
+[23:31:38] getJobUpdate start
+[23:31:38] getJobUpdate finished
+[23:31:41] getJobUpdate start
+[23:31:41] getJobUpdate finished
+[23:31:44] getJobUpdate start
+[23:31:44] getJobUpdate finished
+[23:31:46] getJobUpdate start
+[23:31:47] getJobUpdate finished
+[23:31:49] getJobUpdate start
+[23:31:49] getJobUpdate finished
+[23:31:52] getJobUpdate start
+[23:31:52] getJobUpdate finished
+[23:31:54] getJobUpdate start
+[23:31:54] getJobUpdate finished
+[23:31:56] getJobUpdate start
+[23:31:56] getJobUpdate finished
+[23:31:58] getJobUpdate start
+[23:31:58] getJobUpdate finished
+[23:32:04] getJobUpdate start
+[23:32:04] getJobUpdate finished
+[23:32:12] getJobUpdate start
+[23:32:12] getJobUpdate finished
+[23:32:18] getJobUpdate start
+[23:32:18] getJobUpdate finished
+[23:32:25] getJobUpdate start
+[23:32:25] getJobUpdate finished
+[23:32:28] getJobUpdate start
+[23:32:28] getJobUpdate finished
+[23:32:37] getJobUpdate start
+[23:32:37] getJobUpdate finished
+[23:32:45] getJobUpdate start
+[23:32:45] getJobUpdate finished
+[23:32:55] getJobUpdate start
+[23:32:55] getJobUpdate finished
+[23:33:02] getJobUpdate start
+[23:33:02] getJobUpdate finished
+[23:33:09] getJobUpdate start
+[23:33:09] getJobUpdate finished
+[23:33:17] getJobUpdate start
+[23:33:18] getJobUpdate finished
+[23:33:25] getJobUpdate start
+[23:33:25] getJobUpdate finished
+[23:33:32] getJobUpdate start
+[23:33:32] getJobUpdate finished
+[23:33:40] getJobUpdate start
+[23:33:40] getJobUpdate finished
+[23:33:48] getJobUpdate start
+[23:33:48] getJobUpdate finished
+[23:33:55] getJobUpdate start
+[23:33:55] getJobUpdate finished
+[23:34:03] getJobUpdate start
+[23:34:03] getJobUpdate finished
+[23:34:09] getJobUpdate start
+[23:34:09] getJobUpdate finished
+[23:34:16] getJobUpdate start
+[23:34:16] getJobUpdate finished
+[23:34:24] getJobUpdate start
+[23:34:24] getJobUpdate finished
+[23:34:30] getJobUpdate start
+[23:34:30] getJobUpdate finished
+[23:34:37] getJobUpdate start
+[23:34:37] getJobUpdate finished
+[23:34:46] getJobUpdate start
+[23:34:46] getJobUpdate finished
+[23:34:54] flow analysis/Design 1/Scenario 1 solver finished at dom. 7. Feb. 23:34:54 2016 on DIJKSTRA with code = 0
+[23:34:54] Analysis::importSolverFiles = 0.031 sec

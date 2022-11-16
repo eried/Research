@@ -1,0 +1,19 @@
+<CFD_JobInformation version="15.1">
+ <analysisPath>D:\Erwin\OneDrive\RepRap\Parts\New\new wind\output analysis\Design 1\Scenario 1</analysisPath>
+ <meshFlag>Y</meshFlag>
+ <jobType>LOCAL</jobType>
+ <isClusterJob>false</isClusterJob>
+ <cores>0</cores>
+ <jobArgs></jobArgs>
+ <profile>MyComputer</profile>
+ <owner>Erwin</owner>
+ <UIHost>DIJKSTRA</UIHost>
+ <solveHost>DIJKSTRA</solveHost>
+ <portalId></portalId>
+ <portalPwd></portalPwd>
+ <recipients></recipients>
+ <notifyStart>false</notifyStart>
+ <notifyMesh>false</notifyMesh>
+ <notifyDone>false</notifyDone>
+ <useLocalSmpd>false</useLocalSmpd>
+</CFD_JobInformation>

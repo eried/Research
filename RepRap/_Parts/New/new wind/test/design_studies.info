@@ -1,0 +1,7 @@
+<cfd_design_studies version="15.1.20140515" user_name="Erwin">
+ <design_study instance_id="id_not_defined" name="test" folder="D:/Erwin/OneDrive/RepRap/Parts/New/new wind/test" study_id="ab8807a3-93c1-4bf1-b54d-16c2e8b82ab3">
+  <design launcher_type="CP_ASM_STEP_IMPORT" name="Design 1" model_id="guide_borrar.sat" lock_status="false">
+   <analysis name="Scenario 1"/>
+  </design>
+ </design_study>
+</cfd_design_studies>

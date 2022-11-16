@@ -1,0 +1,7 @@
+<cfd_design_studies version="15.1.20140515" user_name="Erwin">
+ <design_study instance_id="9eaa1153-8a26-46d5-afb6-5ae5850807f7" name="flow analysis" folder="D:/Erwin/OneDrive/RepRap/Parts/New/new wind/flow analysis" study_id="e5590ccd-3ffa-4237-9170-d941842a8da3">
+  <design launcher_type="CP_ASM_STEP_IMPORT" name="Design 1" model_id="only output guide.sat" lock_status="true">
+   <analysis name="Scenario 1"/>
+  </design>
+ </design_study>
+</cfd_design_studies>

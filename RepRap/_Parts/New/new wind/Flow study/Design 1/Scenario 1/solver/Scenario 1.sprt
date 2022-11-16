@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Part_Summary_Data>
+    <Units>meter</Units>
+    <This_Parts_Data id="1">
+        <Part_Volume>9.20413e-06</Part_Volume>
+        <Part_TAvg>0</Part_TAvg>
+        <Part_TMin>273.15</Part_TMin>
+        <Part_TMax>273.15</Part_TMax>
+    </This_Parts_Data>
+</Part_Summary_Data>

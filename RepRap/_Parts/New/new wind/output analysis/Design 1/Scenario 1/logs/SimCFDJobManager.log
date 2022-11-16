@@ -1,0 +1,1595 @@
+[23:58:37] Reading CPU information from SystemInfo.xml
+[23:58:37] Processors: 1, Cores per processor: 4
+[23:58:37] Requested cores 0
+[23:58:37] Using 5 ranks
+[23:58:37] analysis path:D:\Erwin\OneDrive\RepRap\Parts\New\new wind\output analysis\Design 1\Scenario 1
+[23:58:37] Listen on port 22085
+[23:58:37] startJob
+[23:58:37] Creating C:\ProgramData\Autodesk\Simulation CFD 2015\Analyze\job12/job.bat
+[23:58:37] Command: cmd.exe /c job.bat
+[23:58:37]  output:C:\ProgramData\Autodesk\Simulation CFD 2015\Analyze\job12>CD C:\Program Files\Autodesk\Simulation CFD 2015
+[23:58:37]  output:C:\Program Files\Autodesk\Simulation CFD 2015>"C:\Program Files\Autodesk\Simulation CFD 2015\SimCFDMesher.exe" "D:\Erwin\OneDrive\RepRap\Parts\New\new wind\output analysis\Design 1\Scenario 1\mesher\
+[23:58:37]  output:Scenario 1" -jobId=12 -cloudJobId=  -gui  -useJobFile  -port=22085
+[23:59:00] Processing mesher exited
+[23:59:00]  output:C:\Program Files\Autodesk\Simulation CFD 2015>set E=0
+[23:59:00]  output:C:\Program Files\Autodesk\Simulation CFD 2015>IF 0 NEQ 0 goto EOF
+[23:59:00]  output:C:\Program Files\Autodesk\Simulation CFD 2015>"C:\Program Files\Autodesk\Simulation CFD 2015\mpiexec.exe" -n 5 "C:\Program Files\Autodesk\Simulation CFD 2015\SimCFDSolver.exe" "D:\Erwin\OneDrive\RepR
+[23:59:00]  output:ap\Parts\New\new wind\output analysis\Design 1\Scenario 1\solver\Scenario 1" -jobId=12 -cloudJobId=  -gui  -useJobFile  -port=22085 -mpi
+[23:59:00]  output:Server = 127.0.0.1
+[23:59:00]  output:Program Dir = C:/Program Files/Autodesk/Simulation CFD 2015
+[23:59:00]  output:Analysis Path = D:\Erwin\OneDrive\RepRap\Parts\New\new wind\output analysis\Design 1\Scenario 1/solver
+[23:59:00]  output:Analysis Name = Scenario 1
+[23:59:00]  output:Master Node is:DIJKSTRA
+[23:59:00]  output:Number of ranks: 5
+[23:59:00]  output:Number of Nodes: 1
+[23:59:00]  output:Node Names:
+[23:59:00]  output:DIJKSTRA
+[23:59:00]  output:*** Simulation CFD Screen File Output ***
+[23:59:00]  output:Simulation CFD 2015 (Bowfin SP1) [20140515]
+[23:59:00]  output:Job Name = Scenario 1   Date created: Sun Feb 07 23:59:00 2016
+[23:59:05] Processing results ready
+[23:59:05]  output:1 file(s) copied.
+[23:59:06]  output:Final 4-way CUT:   1255 	Balance: 1.002   avg: 1.002
+[23:59:07]  output:Final 4-way CUT:   1313 	Balance: 1.000   avg: 1.000
+[23:59:07]  output:Broadcast element topology
+[23:59:07]  output:Distributing element data
+[23:59:08]  output:Processor 0 element parsing boundaries 18411 35565
+[23:59:08]  output:Processor 1 element parsing boundaries 18366 35521
+[23:59:08]  output:Processor 2 element parsing boundaries 18344 35499
+[23:59:08]  output:Processor 3 element parsing boundaries 18341 35495
+[23:59:08]  output:Distributing nodes
+[23:59:08]  output:Processor 0 node parsing boundaries 5098 6312 9847 9847
+[23:59:08]  output:Processor 1 node parsing boundaries 6715 8999 11448 11697
+[23:59:08]  output:Processor 2 node parsing boundaries 6495 8854 11523 11765
+[23:59:08]  output:Processor 3 node parsing boundaries 5549 8022 11435 11567
+[23:59:08]  output:local to global mapping
+[23:59:08]  output:Distributing field arrays
+[23:59:08]  output:Field Vector updates
+[23:59:08]  output:Distributing wall elements
+[23:59:08]  output:Distributing wall node data
+[23:59:08]  output:Distributing transient field arrays
+[23:59:08]  output:Distributing element BC data
+[23:59:09]  output:Set up flow matrix
+[23:59:09]  output:Building fluid ghost node communications
+[23:59:09]  output:Building fluid wall ghost node communications
+[23:59:09]  output:Building fluid assembly communications
+[23:59:09]  output:Set up thermal matrix
+[23:59:09]  output:Building thermal ghost node communications
+[23:59:09]  output:Building thermal assembly communications
+[23:59:09]  output:Building off-processor buffers
+[23:59:09]  output:Building optimal comm partners
+[23:59:09]  output:Checking parallel mapping pointers...
+[23:59:09]  output:Slaves report no flow mapping errors
+[23:59:09]  output:Master reports no flow mapping errors
+[23:59:09]  output:Slaves report no thermal mapping errors
+[23:59:09]  output:Master reports no thermal mapping errors
+[23:59:09]  output:Setting affinity
+[23:59:09]  output:Setting affinity
+[23:59:09]  output:Setting affinity
+[23:59:09]  output:Setting affinity
+[23:59:09]  output:Ave Values = 1.576678 0.000000 0.000000 0.000000 273.150000 0.136875 6.776611 0.000000
+[23:59:09]  output:solving kPhi 4
+[23:59:11]  output:Incomplete factorization time: CPU time = 0.061000 Density1 = 1.308138 Density2 = 1.073157
+[23:59:11]  output:Iteration Solve time: CPU time = 0.380000 Iterations = 41 Residual = 5.092135e-012
+[23:59:12] Processing results ready
+[23:59:13]  output:Ave Values = 8.079924 5.088499 0.001015 18212.422814 0.000000 0.136875 6.776611 0.000000
+[23:59:13]  output:Iter   V     V     V     P     T     T
+[23:59:13]  output:1 0.00e+000 0.00e+000 0.00e+000 8.38e-004 0.00e+000 0.00e+000
+[23:59:13]  output:solving kPhi 1
+[23:59:13]  output:Iteration Solve time: CPU time = 0.136000 Iterations = 12 Residual = 4.424910e-007
+[23:59:13]  output:solving kPhi 2
+[23:59:13]  output:Iteration Solve time: CPU time = 0.186000 Iterations = 13 Residual = 2.319195e-007
+[23:59:13]  output:solving kPhi 3
+[23:59:13]  output:Iteration Solve time: CPU time = 0.147000 Iterations = 12 Residual = 2.384319e-008
+[23:59:13]  output:solving kPhi 4
+[23:59:14]  output:Incomplete factorization time: CPU time = 0.096000 Density1 = 1.695218 Density2 = 1.247464
+[23:59:14]  output:Iteration Solve time: CPU time = 0.293000 Iterations = 30 Residual = 1.165435e-011
+[23:59:15] Processing results ready
+[23:59:16]  output:Ave Values = 12.171596 6.028007 -0.033548 29200.752064 0.000000 0.136875 6.776611 0.000000
+[23:59:16]  output:2 5.10e-002 4.38e-002 3.78e-003 1.73e-003 0.00e+000 0.00e+000
+[23:59:16]  output:solving kPhi 1
+[23:59:16]  output:Iteration Solve time: CPU time = 0.065000 Iterations = 15 Residual = 6.119444e-007
+[23:59:16]  output:solving kPhi 2
+[23:59:16]  output:Iteration Solve time: CPU time = 0.036000 Iterations = 15 Residual = 2.678447e-007
+[23:59:16]  output:solving kPhi 3
+[23:59:16]  output:Iteration Solve time: CPU time = 0.051000 Iterations = 13 Residual = 3.950034e-008
+[23:59:16]  output:solving kPhi 4
+[23:59:16]  output:Incomplete factorization time: CPU time = 0.102000 Density1 = 2.178963 Density2 = 1.414153
+[23:59:16]  output:Iteration Solve time: CPU time = 0.202000 Iterations = 23 Residual = 7.715959e-012
+[23:59:18] Processing results ready
+[23:59:18]  output:Ave Values = 15.568997 8.823187 -0.016685 41607.675138 0.000000 0.136875 6.776611 0.000000
+[23:59:18]  output:3 7.77e-002 5.77e-002 4.99e-003 1.13e-003 0.00e+000 0.00e+000
+[23:59:18]  output:solving kPhi 1
+[23:59:18]  output:Iteration Solve time: CPU time = 0.049000 Iterations = 15 Residual = 5.836105e-007
+[23:59:18]  output:solving kPhi 2
+[23:59:18]  output:Iteration Solve time: CPU time = 0.037000 Iterations = 15 Residual = 3.418529e-007
+[23:59:18]  output:solving kPhi 3
+[23:59:18]  output:Iteration Solve time: CPU time = 0.039000 Iterations = 13 Residual = 6.652275e-008
+[23:59:18]  output:solving kPhi 4
+[23:59:19]  output:Incomplete factorization time: CPU time = 0.182000 Density1 = 1.337440 Density2 = 1.578094
+[23:59:19]  output:Iteration Solve time: CPU time = 0.311000 Iterations = 37 Residual = 1.102038e-011
+[23:59:20] Processing results ready
+[23:59:21]  output:Ave Values = 18.088449 11.272920 -0.001472 52413.030705 0.000000 0.136875 6.776611 0.000000
+[23:59:21]  output:4 8.74e-002 7.61e-002 6.77e-003 1.28e-003 0.00e+000 0.00e+000
+[23:59:21]  output:solving kPhi 1
+[23:59:21]  output:Iteration Solve time: CPU time = 0.051000 Iterations = 15 Residual = 4.923138e-007
+[23:59:21]  output:solving kPhi 2
+[23:59:21]  output:Iteration Solve time: CPU time = 0.086000 Iterations = 14 Residual = 8.689640e-007
+[23:59:21]  output:solving kPhi 3
+[23:59:21]  output:Iteration Solve time: CPU time = 0.104000 Iterations = 14 Residual = 3.599883e-008
+[23:59:21]  output:solving kPhi 4
+[23:59:22]  output:Incomplete factorization time: CPU time = 0.110000 Density1 = 1.735267 Density2 = 1.834871
+[23:59:22]  output:Iteration Solve time: CPU time = 0.197000 Iterations = 26 Residual = 8.083260e-012
+[23:59:23] Processing results ready
+[23:59:23]  output:Ave Values = 20.050210 13.458499 0.005782 61995.748114 0.000000 0.136875 6.776611 0.000000
+[23:59:23]  output:5 8.21e-002 9.01e-002 7.91e-003 1.34e-003 0.00e+000 0.00e+000
+[23:59:23]  output:solving kPhi 1
+[23:59:23]  output:Iteration Solve time: CPU time = 0.132000 Iterations = 15 Residual = 3.922294e-007
+[23:59:23]  output:solving kPhi 2
+[23:59:23]  output:Iteration Solve time: CPU time = 0.110000 Iterations = 14 Residual = 9.230200e-007
+[23:59:23]  output:solving kPhi 3
+[23:59:23]  output:Iteration Solve time: CPU time = 0.092000 Iterations = 14 Residual = 3.613839e-008
+[23:59:24]  output:solving kPhi 4
+[23:59:24]  output:Incomplete factorization time: CPU time = 0.157000 Density1 = 2.206770 Density2 = 2.051464
+[23:59:24]  output:Iteration Solve time: CPU time = 0.292000 Iterations = 21 Residual = 6.039379e-012
+[23:59:25] Processing results ready
+[23:59:26]  output:Ave Values = 21.664830 15.406245 0.006222 70763.746588 0.000000 0.136875 6.776611 0.000000
+[23:59:26]  output:6 7.55e-002 1.01e-001 8.37e-003 1.36e-003 0.00e+000 0.00e+000
+[23:59:26]  output:solving kPhi 1
+[23:59:26]  output:Iteration Solve time: CPU time = 0.080000 Iterations = 14 Residual = 7.201468e-007
+[23:59:26]  output:solving kPhi 2
+[23:59:26]  output:Iteration Solve time: CPU time = 0.083000 Iterations = 14 Residual = 9.537516e-007
+[23:59:26]  output:solving kPhi 3
+[23:59:26]  output:Iteration Solve time: CPU time = 0.039000 Iterations = 13 Residual = 7.723360e-008
+[23:59:26]  output:solving kPhi 4
+[23:59:26]  output:Incomplete factorization time: CPU time = 0.095000 Density1 = 1.940867 Density2 = 1.699679
+[23:59:26]  output:Iteration Solve time: CPU time = 0.193000 Iterations = 24 Residual = 3.281412e-012
+[23:59:27] Processing results ready
+[23:59:28]  output:Ave Values = 23.099627 17.161991 0.005559 78839.286335 0.000000 0.136875 6.776611 0.000000
+[23:59:28]  output:7 7.37e-002 1.09e-001 8.59e-003 1.38e-003 0.00e+000 0.00e+000
+[23:59:28]  output:solving kPhi 1
+[23:59:28]  output:Iteration Solve time: CPU time = 0.060000 Iterations = 14 Residual = 6.580753e-007
+[23:59:28]  output:solving kPhi 2
+[23:59:28]  output:Iteration Solve time: CPU time = 0.038000 Iterations = 14 Residual = 9.705976e-007
+[23:59:28]  output:solving kPhi 3
+[23:59:28]  output:Iteration Solve time: CPU time = 0.046000 Iterations = 13 Residual = 6.846309e-008
+[23:59:28]  output:solving kPhi 4
+[23:59:29]  output:Incomplete factorization time: CPU time = 0.180000 Density1 = 1.941749 Density2 = 1.700143
+[23:59:29]  output:Iteration Solve time: CPU time = 0.595000 Iterations = 23 Residual = 1.311749e-011
+[23:59:30] Processing results ready
+[23:59:31]  output:Ave Values = 24.428595 18.759210 0.003952 86206.461742 0.000000 0.136875 6.776611 0.000000
+[23:59:31]  output:8 7.57e-002 1.17e-001 8.77e-003 1.40e-003 0.00e+000 0.00e+000
+[23:59:31]  output:solving kPhi 1
+[23:59:31]  output:Iteration Solve time: CPU time = 0.078000 Iterations = 14 Residual = 6.567011e-007
+[23:59:31]  output:solving kPhi 2
+[23:59:31]  output:Iteration Solve time: CPU time = 0.055000 Iterations = 14 Residual = 9.722069e-007
+[23:59:31]  output:solving kPhi 3
+[23:59:31]  output:Iteration Solve time: CPU time = 0.062000 Iterations = 13 Residual = 6.129781e-008
+[23:59:31]  output:solving kPhi 4
+[23:59:32]  output:Incomplete factorization time: CPU time = 0.140000 Density1 = 3.143599 Density2 = 0.538844
+[23:59:32]  output:Iteration Solve time: CPU time = 0.274000 Iterations = 21 Residual = 5.714821e-012
+[23:59:33] Processing results ready
+[23:59:33]  output:Ave Values = 25.702015 20.231149 0.002441 92774.456296 0.000000 0.136875 6.776611 0.000000
+[23:59:33]  output:9 7.89e-002 1.24e-001 8.98e-003 1.40e-003 0.00e+000 0.00e+000
+[23:59:33]  output:solving kPhi 1
+[23:59:33]  output:Iteration Solve time: CPU time = 0.103000 Iterations = 14 Residual = 6.806707e-007
+[23:59:33]  output:solving kPhi 2
+[23:59:33]  output:Iteration Solve time: CPU time = 0.074000 Iterations = 14 Residual = 9.558765e-007
+[23:59:33]  output:solving kPhi 3
+[23:59:33]  output:Iteration Solve time: CPU time = 0.063000 Iterations = 13 Residual = 5.709829e-008
+[23:59:34]  output:solving kPhi 4
+[23:59:34]  output:Incomplete factorization time: CPU time = 0.098000 Density1 = 1.944047 Density2 = 1.701025
+[23:59:34]  output:Iteration Solve time: CPU time = 0.192000 Iterations = 24 Residual = 3.476942e-012
+[23:59:35] Processing results ready
+[23:59:36]  output:Ave Values = 26.914503 21.589024 0.000701 98503.345711 0.000000 0.136875 6.776611 0.000000
+[23:59:36]  output:10 8.21e-002 1.29e-001 9.22e-003 1.40e-003 0.00e+000 0.00e+000
+[23:59:36]  output:solving kPhi 1
+[23:59:36]  output:Iteration Solve time: CPU time = 0.157000 Iterations = 14 Residual = 6.971770e-007
+[23:59:36]  output:solving kPhi 2
+[23:59:36]  output:Iteration Solve time: CPU time = 0.152000 Iterations = 14 Residual = 9.311334e-007
+[23:59:36]  output:solving kPhi 3
+[23:59:36]  output:Iteration Solve time: CPU time = 0.135000 Iterations = 13 Residual = 5.418339e-008
+[23:59:36]  output:solving kPhi 4
+[23:59:37]  output:Incomplete factorization time: CPU time = 0.121000 Density1 = 1.945152 Density2 = 1.701513
+[23:59:37]  output:Iteration Solve time: CPU time = 0.245000 Iterations = 23 Residual = 9.053064e-012
+[23:59:37]  output:solving kPhi 6
+[23:59:37]  output:Iteration Solve time: CPU time = 0.104000 Iterations = 11 Residual = 1.022087e-005
+[23:59:37]  output:solving kPhi 7
+[23:59:37]  output:Iteration Solve time: CPU time = 0.043000 Iterations = 11 Residual = 1.418869e-001
+[23:59:38] Processing results ready
+[23:59:39]  output:Ave Values = 28.045524 22.843891 -0.001253 103396.232037 0.000000 37.251311 971425.384216 0.000000
+[23:59:39]  output:11 8.48e-002 1.33e-001 9.46e-003 1.40e-003 1.73e+000 2.97e+004
+[23:59:39]  output:solving kPhi 1
+[23:59:39]  output:Iteration Solve time: CPU time = 0.098000 Iterations = 14 Residual = 6.911220e-007
+[23:59:39]  output:solving kPhi 2
+[23:59:39]  output:Iteration Solve time: CPU time = 0.038000 Iterations = 14 Residual = 8.955099e-007
+[23:59:39]  output:solving kPhi 3
+[23:59:39]  output:Iteration Solve time: CPU time = 0.162000 Iterations = 13 Residual = 5.216401e-008
+[23:59:39]  output:solving kPhi 4
+[23:59:40]  output:Incomplete factorization time: CPU time = 0.108000 Density1 = 1.945802 Density2 = 1.702149
+[23:59:40]  output:Iteration Solve time: CPU time = 0.195000 Iterations = 23 Residual = 3.688460e-012
+[23:59:40]  output:solving kPhi 6
+[23:59:40]  output:Iteration Solve time: CPU time = 0.041000 Iterations = 11 Residual = 7.702142e-006
+[23:59:40]  output:solving kPhi 7
+[23:59:40]  output:Iteration Solve time: CPU time = 0.037000 Iterations = 11 Residual = 1.913608e-001
+[23:59:41] Processing results ready
+[23:59:42]  output:Ave Values = 29.090514 23.999765 -0.004990 107485.062202 0.000000 67.279457 2223596.015552 0.000000
+[23:59:42]  output:12 8.64e-002 1.36e-001 9.68e-003 1.40e-003 1.70e+000 5.44e+004
+[23:59:42]  output:solving kPhi 1
+[23:59:42]  output:Iteration Solve time: CPU time = 0.052000 Iterations = 14 Residual = 6.634336e-007
+[23:59:42]  output:solving kPhi 2
+[23:59:42]  output:Iteration Solve time: CPU time = 0.056000 Iterations = 14 Residual = 8.528420e-007
+[23:59:42]  output:solving kPhi 3
+[23:59:42]  output:Iteration Solve time: CPU time = 0.055000 Iterations = 13 Residual = 5.054387e-008
+[23:59:42]  output:solving kPhi 4
+[23:59:43]  output:Incomplete factorization time: CPU time = 0.106000 Density1 = 1.946897 Density2 = 1.702952
+[23:59:43]  output:Iteration Solve time: CPU time = 0.690000 Iterations = 22 Residual = 1.194365e-011
+[23:59:44]  output:solving kPhi 6
+[23:59:44]  output:Iteration Solve time: CPU time = 0.098000 Iterations = 11 Residual = 5.468523e-006
+[23:59:44]  output:solving kPhi 7
+[23:59:44]  output:Iteration Solve time: CPU time = 0.040000 Iterations = 10 Residual = 6.154689e-001
+[23:59:45] Processing results ready
+[23:59:45]  output:Ave Values = 30.006276 25.057448 -0.008126 110868.542373 0.000000 94.793829 3710075.237829 0.000000
+[23:59:45]  output:13 8.73e-002 1.38e-001 9.87e-003 1.40e-003 1.63e+000 7.42e+004
+[23:59:45]  output:solving kPhi 1
+[23:59:45]  output:Iteration Solve time: CPU time = 0.066000 Iterations = 14 Residual = 6.199427e-007
+[23:59:45]  output:solving kPhi 2
+[23:59:45]  output:Iteration Solve time: CPU time = 0.040000 Iterations = 14 Residual = 8.023982e-007
+[23:59:45]  output:solving kPhi 3
+[23:59:45]  output:Iteration Solve time: CPU time = 0.034000 Iterations = 13 Residual = 4.866378e-008
+[23:59:45]  output:solving kPhi 4
+[23:59:46]  output:Incomplete factorization time: CPU time = 0.102000 Density1 = 1.947366 Density2 = 1.703783
+[23:59:46]  output:Iteration Solve time: CPU time = 0.234000 Iterations = 23 Residual = 3.499269e-012
+[23:59:46]  output:solving kPhi 6
+[23:59:46]  output:Iteration Solve time: CPU time = 0.043000 Iterations = 10 Residual = 1.195672e-005
+[23:59:47]  output:solving kPhi 7
+[23:59:47]  output:Iteration Solve time: CPU time = 0.101000 Iterations = 10 Residual = 5.387897e-001
+[23:59:47] Processing results ready
+[23:59:48]  output:Ave Values = 30.850832 26.027281 -0.012225 113597.315121 0.000000 119.943305 5364747.612652 0.000000
+[23:59:48]  output:14 8.72e-002 1.39e-001 9.99e-003 1.39e-003 1.55e+000 8.90e+004
+[23:59:48]  output:solving kPhi 1
+[23:59:48]  output:Iteration Solve time: CPU time = 0.057000 Iterations = 14 Residual = 5.459604e-007
+[23:59:48]  output:solving kPhi 2
+[23:59:48]  output:Iteration Solve time: CPU time = 0.079000 Iterations = 14 Residual = 7.157048e-007
+[23:59:48]  output:solving kPhi 3
+[23:59:48]  output:Iteration Solve time: CPU time = 0.029000 Iterations = 13 Residual = 4.446090e-008
+[23:59:48]  output:solving kPhi 4
+[23:59:49]  output:Incomplete factorization time: CPU time = 0.097000 Density1 = 1.948114 Density2 = 1.704656
+[23:59:49]  output:Iteration Solve time: CPU time = 0.230000 Iterations = 21 Residual = 1.104795e-011
+[23:59:49]  output:solving kPhi 6
+[23:59:49]  output:Iteration Solve time: CPU time = 0.168000 Iterations = 10 Residual = 7.838602e-006
+[23:59:50]  output:solving kPhi 7
+[23:59:50]  output:Iteration Solve time: CPU time = 0.092000 Iterations = 10 Residual = 4.060739e-001
+[23:59:51] Processing results ready
+[23:59:51]  output:Ave Values = 31.578672 26.902354 -0.016108 115741.874862 0.000000 142.350218 7085601.048813 0.000000
+[23:59:51]  output:15 8.66e-002 1.39e-001 1.01e-002 1.37e-003 1.46e+000 9.85e+004
+[23:59:51]  output:solving kPhi 1
+[23:59:51]  output:Iteration Solve time: CPU time = 0.172000 Iterations = 14 Residual = 4.971128e-007
+[23:59:51]  output:solving kPhi 2
+[23:59:51]  output:Iteration Solve time: CPU time = 0.133000 Iterations = 14 Residual = 6.590969e-007
+[23:59:51]  output:solving kPhi 3
+[23:59:51]  output:Iteration Solve time: CPU time = 0.081000 Iterations = 12 Residual = 9.982978e-008
+[23:59:52]  output:solving kPhi 4
+[23:59:53]  output:Incomplete factorization time: CPU time = 0.147000 Density1 = 1.948736 Density2 = 1.705106
+[23:59:53]  output:Iteration Solve time: CPU time = 0.598000 Iterations = 21 Residual = 8.146187e-012
+[23:59:54]  output:solving kPhi 6
+[23:59:54]  output:Iteration Solve time: CPU time = 0.102000 Iterations = 10 Residual = 5.371273e-006
+[23:59:54]  output:solving kPhi 7
+[23:59:54]  output:Iteration Solve time: CPU time = 0.079000 Iterations = 10 Residual = 3.079459e-001
+[23:59:55] Processing results ready
+[23:59:56]  output:Ave Values = 32.244110 27.696141 -0.020615 117396.468367 0.000000 162.586454 8837047.034267 0.000000
+[23:59:56]  output:16 8.55e-002 1.38e-001 1.01e-002 1.35e-003 1.37e+000 1.05e+005
+[23:59:56]  output:solving kPhi 1
+[23:59:56]  output:Iteration Solve time: CPU time = 0.160000 Iterations = 14 Residual = 4.296997e-007
+[23:59:56]  output:solving kPhi 2
+[23:59:56]  output:Iteration Solve time: CPU time = 0.209000 Iterations = 14 Residual = 5.731992e-007
+[23:59:56]  output:solving kPhi 3
+[23:59:56]  output:Iteration Solve time: CPU time = 0.128000 Iterations = 12 Residual = 8.908920e-008
+[23:59:57]  output:solving kPhi 4
+[23:59:57]  output:Incomplete factorization time: CPU time = 0.123000 Density1 = 2.457698 Density2 = 1.885787
+[23:59:57]  output:Iteration Solve time: CPU time = 0.148000 Iterations = 18 Residual = 7.459534e-012
+[23:59:57]  output:solving kPhi 6
+[23:59:57]  output:Iteration Solve time: CPU time = 0.101000 Iterations = 9 Residual = 1.208660e-005
+[23:59:57]  output:solving kPhi 7
+[23:59:57]  output:Iteration Solve time: CPU time = 0.034000 Iterations = 9 Residual = 7.863544e-001
+[23:59:58] Processing results ready
+[23:59:59]  output:Ave Values = 32.816737 28.407183 -0.024363 118625.185198 0.000000 180.497808 10549081.447107 0.000000
+[23:59:59]  output:17 8.47e-002 1.36e-001 1.01e-002 1.32e-003 1.27e+000 1.08e+005
+[23:59:59]  output:solving kPhi 1
+[23:59:59]  output:Iteration Solve time: CPU time = 0.162000 Iterations = 14 Residual = 3.897818e-007
+[23:59:59]  output:solving kPhi 2
+[23:59:59]  output:Iteration Solve time: CPU time = 0.081000 Iterations = 13 Residual = 1.282269e-006
+[23:59:59]  output:solving kPhi 3
+[23:59:59]  output:Iteration Solve time: CPU time = 0.034000 Iterations = 12 Residual = 8.236464e-008
+[23:59:59]  output:solving kPhi 4
+[00:00:00]  output:Incomplete factorization time: CPU time = 0.225000 Density1 = 2.458199 Density2 = 1.886260
+[00:00:00]  output:Iteration Solve time: CPU time = 0.257000 Iterations = 18 Residual = 3.546293e-012
+[00:00:01]  output:solving kPhi 6
+[00:00:01]  output:Iteration Solve time: CPU time = 0.214000 Iterations = 9 Residual = 8.461073e-006
+[00:00:01]  output:solving kPhi 7
+[00:00:01]  output:Iteration Solve time: CPU time = 0.035000 Iterations = 9 Residual = 5.861570e-001
+[00:00:02] Processing results ready
+[00:00:02]  output:Ave Values = 33.364075 29.052978 -0.027742 119474.681025 0.000000 196.791629 12229665.388097 0.000000
+[00:00:02]  output:18 8.31e-002 1.34e-001 9.98e-003 1.30e-003 1.22e+000 1.10e+005
+[00:00:02]  output:solving kPhi 1
+[00:00:03]  output:Iteration Solve time: CPU time = 0.123000 Iterations = 14 Residual = 3.562374e-007
+[00:00:03]  output:solving kPhi 2
+[00:00:03]  output:Iteration Solve time: CPU time = 0.111000 Iterations = 13 Residual = 1.173149e-006
+[00:00:03]  output:solving kPhi 3
+[00:00:03]  output:Iteration Solve time: CPU time = 0.098000 Iterations = 12 Residual = 7.621823e-008
+[00:00:03]  output:solving kPhi 4
+[00:00:04]  output:Incomplete factorization time: CPU time = 0.230000 Density1 = 2.459466 Density2 = 1.887323
+[00:00:04]  output:Iteration Solve time: CPU time = 0.527000 Iterations = 18 Residual = 3.391174e-012
+[00:00:04]  output:solving kPhi 6
+[00:00:04]  output:Iteration Solve time: CPU time = 0.036000 Iterations = 9 Residual = 5.983390e-006
+[00:00:04]  output:solving kPhi 7
+[00:00:04]  output:Iteration Solve time: CPU time = 0.041000 Iterations = 9 Residual = 4.362256e-001
+[00:00:05] Processing results ready
+[00:00:06]  output:Ave Values = 33.806402 29.635812 -0.029307 120032.391286 0.000000 211.183748 13832122.396727 0.000000
+[00:00:06]  output:19 8.12e-002 1.32e-001 9.90e-003 1.27e-003 1.11e+000 1.09e+005
+[00:00:06]  output:solving kPhi 1
+[00:00:06]  output:Iteration Solve time: CPU time = 0.065000 Iterations = 13 Residual = 7.699712e-007
+[00:00:06]  output:solving kPhi 2
+[00:00:06]  output:Iteration Solve time: CPU time = 0.035000 Iterations = 13 Residual = 1.065470e-006
+[00:00:06]  output:solving kPhi 3
+[00:00:06]  output:Iteration Solve time: CPU time = 0.046000 Iterations = 12 Residual = 7.052497e-008
+[00:00:06]  output:solving kPhi 4
+[00:00:06]  output:Incomplete factorization time: CPU time = 0.137000 Density1 = 2.460274 Density2 = 1.887374
+[00:00:06]  output:Iteration Solve time: CPU time = 0.161000 Iterations = 18 Residual = 4.213988e-012
+[00:00:07]  output:solving kPhi 6
+[00:00:07]  output:Iteration Solve time: CPU time = 0.051000 Iterations = 9 Residual = 4.221545e-006
+[00:00:07]  output:solving kPhi 7
+[00:00:07]  output:Iteration Solve time: CPU time = 0.083000 Iterations = 9 Residual = 3.219589e-001
+[00:00:08] Processing results ready
+[00:00:08]  output:Ave Values = 34.228262 30.161094 -0.029665 120320.630379 0.000000 224.141713 15363319.157159 0.000000
+[00:00:08]  output:20 7.98e-002 1.29e-001 9.75e-003 1.23e-003 1.03e+000 1.08e+005
+[00:00:08]  output:solving kPhi 1
+[00:00:08]  output:Iteration Solve time: CPU time = 0.085000 Iterations = 13 Residual = 7.035387e-007
+[00:00:08]  output:solving kPhi 2
+[00:00:08]  output:Iteration Solve time: CPU time = 0.038000 Iterations = 13 Residual = 9.650956e-007
+[00:00:08]  output:solving kPhi 3
+[00:00:08]  output:Iteration Solve time: CPU time = 0.037000 Iterations = 12 Residual = 6.499763e-008
+[00:00:08]  output:solving kPhi 4
+[00:00:09]  output:Incomplete factorization time: CPU time = 0.184000 Density1 = 2.460710 Density2 = 1.887676
+[00:00:09]  output:Iteration Solve time: CPU time = 0.239000 Iterations = 18 Residual = 1.160591e-011
+[00:00:09]  output:solving kPhi 6
+[00:00:09]  output:Iteration Solve time: CPU time = 0.035000 Iterations = 9 Residual = 2.994389e-006
+[00:00:10]  output:solving kPhi 7
+[00:00:10]  output:Iteration Solve time: CPU time = 0.029000 Iterations = 8 Residual = 1.002837e+000
+[00:00:11] Processing results ready
+[00:00:11]  output:Ave Values = 34.622185 30.633838 -0.028655 120357.715511 0.000000 235.947341 16825972.996212 0.000000
+[00:00:11]  output:21 7.81e-002 1.25e-001 9.58e-003 1.20e-003 9.85e-001 1.07e+005
+[00:00:11]  output:solving kPhi 1
+[00:00:11]  output:Iteration Solve time: CPU time = 0.040000 Iterations = 13 Residual = 6.446839e-007
+[00:00:11]  output:solving kPhi 2
+[00:00:11]  output:Iteration Solve time: CPU time = 0.013000 Iterations = 13 Residual = 8.785643e-007
+[00:00:11]  output:solving kPhi 3
+[00:00:11]  output:Iteration Solve time: CPU time = 0.013000 Iterations = 12 Residual = 5.998082e-008
+[00:00:11]  output:solving kPhi 4
+[00:00:12]  output:Incomplete factorization time: CPU time = 0.175000 Density1 = 2.469883 Density2 = 1.901603
+[00:00:12]  output:Iteration Solve time: CPU time = 0.275000 Iterations = 19 Residual = 1.816351e-012
+[00:00:12]  output:solving kPhi 6
+[00:00:12]  output:Iteration Solve time: CPU time = 0.042000 Iterations = 8 Residual = 8.524253e-006
+[00:00:12]  output:solving kPhi 7
+[00:00:12]  output:Iteration Solve time: CPU time = 0.030000 Iterations = 8 Residual = 7.616990e-001
+[00:00:13] Processing results ready
+[00:00:14]  output:Ave Values = 35.006327 31.108355 -0.030000 120179.125732 0.000000 246.742799 18246511.804995 0.000000
+[00:00:14]  output:22 7.52e-002 1.22e-001 9.41e-003 1.17e-003 9.08e-001 1.05e+005
+[00:00:14]  output:solving kPhi 1
+[00:00:14]  output:Iteration Solve time: CPU time = 0.064000 Iterations = 13 Residual = 5.866719e-007
+[00:00:14]  output:solving kPhi 2
+[00:00:14]  output:Iteration Solve time: CPU time = 0.048000 Iterations = 13 Residual = 7.957414e-007
+[00:00:14]  output:solving kPhi 3
+[00:00:14]  output:Iteration Solve time: CPU time = 0.040000 Iterations = 12 Residual = 5.536486e-008
+[00:00:14]  output:solving kPhi 4
+[00:00:14]  output:Incomplete factorization time: CPU time = 0.146000 Density1 = 2.477631 Density2 = 1.914416
+[00:00:14]  output:Iteration Solve time: CPU time = 0.179000 Iterations = 18 Residual = 3.938336e-012
+[00:00:15]  output:solving kPhi 6
+[00:00:15]  output:Iteration Solve time: CPU time = 0.039000 Iterations = 8 Residual = 5.998705e-006
+[00:00:15]  output:solving kPhi 7
+[00:00:15]  output:Iteration Solve time: CPU time = 0.032000 Iterations = 8 Residual = 5.636043e-001
+[00:00:16] Processing results ready
+[00:00:16]  output:Ave Values = 35.415637 31.588151 -0.030939 119796.965258 0.000000 256.761630 19633449.542547 0.000000
+[00:00:16]  output:23 7.30e-002 1.18e-001 9.21e-003 1.15e-003 8.69e-001 1.06e+005
+[00:00:16]  output:solving kPhi 1
+[00:00:16]  output:Iteration Solve time: CPU time = 0.193000 Iterations = 13 Residual = 5.324826e-007
+[00:00:16]  output:solving kPhi 2
+[00:00:17]  output:Iteration Solve time: CPU time = 0.157000 Iterations = 13 Residual = 7.165239e-007
+[00:00:17]  output:solving kPhi 3
+[00:00:17]  output:Iteration Solve time: CPU time = 0.143000 Iterations = 12 Residual = 5.115213e-008
+[00:00:17]  output:solving kPhi 4
+[00:00:18]  output:Incomplete factorization time: CPU time = 0.237000 Density1 = 2.485096 Density2 = 1.926588
+[00:00:18]  output:Iteration Solve time: CPU time = 0.595000 Iterations = 19 Residual = 2.256847e-012
+[00:00:19]  output:solving kPhi 6
+[00:00:19]  output:Iteration Solve time: CPU time = 0.142000 Iterations = 8 Residual = 4.185028e-006
+[00:00:19]  output:solving kPhi 7
+[00:00:19]  output:Iteration Solve time: CPU time = 0.047000 Iterations = 8 Residual = 4.123260e-001
+[00:00:20] Processing results ready
+[00:00:21]  output:Ave Values = 35.791494 32.058962 -0.031662 119264.096275 0.000000 265.772649 20952312.779446 0.000000
+[00:00:21]  output:24 7.04e-002 1.14e-001 9.04e-003 1.11e-003 7.90e-001 1.01e+005
+[00:00:21]  output:solving kPhi 1
+[00:00:21]  output:Iteration Solve time: CPU time = 0.268000 Iterations = 13 Residual = 4.795231e-007
+[00:00:21]  output:solving kPhi 2
+[00:00:22]  output:Iteration Solve time: CPU time = 0.436000 Iterations = 13 Residual = 6.421593e-007
+[00:00:22]  output:solving kPhi 3
+[00:00:22]  output:Iteration Solve time: CPU time = 0.260000 Iterations = 12 Residual = 4.686048e-008
+[00:00:22]  output:solving kPhi 4
+[00:00:23]  output:Incomplete factorization time: CPU time = 0.201000 Density1 = 2.492408 Density2 = 1.937218
+[00:00:23]  output:Iteration Solve time: CPU time = 0.353000 Iterations = 18 Residual = 7.327871e-012
+[00:00:23]  output:solving kPhi 6
+[00:00:23]  output:Iteration Solve time: CPU time = 0.027000 Iterations = 8 Residual = 2.903599e-006
+[00:00:23]  output:solving kPhi 7
+[00:00:23]  output:Iteration Solve time: CPU time = 0.032000 Iterations = 8 Residual = 3.009024e-001
+[00:00:24] Processing results ready
+[00:00:25]  output:Ave Values = 36.198819 32.527744 -0.030888 118572.615093 0.000000 274.108211 22223247.396111 0.000000
+[00:00:25]  output:25 6.81e-002 1.10e-001 8.77e-003 1.07e-003 7.52e-001 9.69e+004
+[00:00:25]  output:solving kPhi 1
+[00:00:25]  output:Iteration Solve time: CPU time = 0.069000 Iterations = 13 Residual = 4.305728e-007
+[00:00:25]  output:solving kPhi 2
+[00:00:25]  output:Iteration Solve time: CPU time = 0.049000 Iterations = 13 Residual = 5.758128e-007
+[00:00:25]  output:solving kPhi 3
+[00:00:25]  output:Iteration Solve time: CPU time = 0.033000 Iterations = 12 Residual = 4.269604e-008
+[00:00:25]  output:solving kPhi 4
+[00:00:25]  output:Incomplete factorization time: CPU time = 0.130000 Density1 = 2.499663 Density2 = 1.947162
+[00:00:25]  output:Iteration Solve time: CPU time = 0.168000 Iterations = 19 Residual = 1.688386e-012
+[00:00:26]  output:solving kPhi 6
+[00:00:26]  output:Iteration Solve time: CPU time = 0.031000 Iterations = 8 Residual = 2.010785e-006
+[00:00:26]  output:solving kPhi 7
+[00:00:26]  output:Iteration Solve time: CPU time = 0.034000 Iterations = 8 Residual = 2.194793e-001
+[00:00:27] Processing results ready
+[00:00:28]  output:Ave Values = 36.582367 32.989711 -0.033401 117751.266161 0.000000 281.591830 23422784.794913 0.000000
+[00:00:28]  output:26 6.56e-002 1.06e-001 8.56e-003 1.03e-003 6.75e-001 9.03e+004
+[00:00:28]  output:solving kPhi 1
+[00:00:28]  output:Iteration Solve time: CPU time = 0.216000 Iterations = 13 Residual = 3.856833e-007
+[00:00:28]  output:solving kPhi 2
+[00:00:28]  output:Iteration Solve time: CPU time = 0.112000 Iterations = 13 Residual = 5.126977e-007
+[00:00:28]  output:solving kPhi 3
+[00:00:28]  output:Iteration Solve time: CPU time = 0.043000 Iterations = 12 Residual = 3.886225e-008
+[00:00:28]  output:solving kPhi 4
+[00:00:29]  output:Incomplete factorization time: CPU time = 0.342000 Density1 = 3.093490 Density2 = 2.059235
+[00:00:29]  output:Iteration Solve time: CPU time = 0.457000 Iterations = 17 Residual = 2.223713e-012
+[00:00:30]  output:solving kPhi 6
+[00:00:30]  output:Iteration Solve time: CPU time = 0.107000 Iterations = 7 Residual = 6.407442e-006
+[00:00:30]  output:solving kPhi 7
+[00:00:30]  output:Iteration Solve time: CPU time = 0.118000 Iterations = 7 Residual = 7.838011e-001
+[00:00:32] Processing results ready
+[00:00:33]  output:Ave Values = 36.985632 33.451157 -0.035247 116812.072387 0.000000 288.459616 24566777.383898 0.000000
+[00:00:33]  output:27 6.39e-002 1.02e-001 8.33e-003 9.93e-004 6.42e-001 8.75e+004
+[00:00:33]  output:solving kPhi 1
+[00:00:33]  output:Iteration Solve time: CPU time = 0.220000 Iterations = 13 Residual = 3.450035e-007
+[00:00:33]  output:solving kPhi 2
+[00:00:33]  output:Iteration Solve time: CPU time = 0.336000 Iterations = 13 Residual = 4.572203e-007
+[00:00:33]  output:solving kPhi 3
+[00:00:33]  output:Iteration Solve time: CPU time = 0.151000 Iterations = 12 Residual = 3.511957e-008
+[00:00:34]  output:solving kPhi 4
+[00:00:34]  output:Incomplete factorization time: CPU time = 0.273000 Density1 = 3.101846 Density2 = 2.068636
+[00:00:34]  output:Iteration Solve time: CPU time = 0.254000 Iterations = 17 Residual = 2.488707e-012
+[00:00:35]  output:solving kPhi 6
+[00:00:35]  output:Iteration Solve time: CPU time = 0.186000 Iterations = 7 Residual = 4.379884e-006
+[00:00:35]  output:solving kPhi 7
+[00:00:35]  output:Iteration Solve time: CPU time = 0.134000 Iterations = 7 Residual = 5.648967e-001
+[00:00:37] Processing results ready
+[00:00:37]  output:Ave Values = 37.353898 33.906955 -0.036725 115795.689732 0.000000 294.540957 25633018.035810 0.000000
+[00:00:37]  output:28 6.08e-002 9.83e-002 8.11e-003 9.50e-004 5.65e-001 7.94e+004
+[00:00:37]  output:solving kPhi 1
+[00:00:38]  output:Iteration Solve time: CPU time = 0.202000 Iterations = 13 Residual = 3.073873e-007
+[00:00:38]  output:solving kPhi 2
+[00:00:38]  output:Iteration Solve time: CPU time = 0.044000 Iterations = 13 Residual = 4.058572e-007
+[00:00:38]  output:solving kPhi 3
+[00:00:38]  output:Iteration Solve time: CPU time = 0.036000 Iterations = 12 Residual = 3.154721e-008
+[00:00:38]  output:solving kPhi 4
+[00:00:38]  output:Incomplete factorization time: CPU time = 0.203000 Density1 = 3.109353 Density2 = 2.077442
+[00:00:38]  output:Iteration Solve time: CPU time = 0.334000 Iterations = 17 Residual = 2.511330e-012
+[00:00:39]  output:solving kPhi 6
+[00:00:39]  output:Iteration Solve time: CPU time = 0.046000 Iterations = 7 Residual = 2.929782e-006
+[00:00:39]  output:solving kPhi 7
+[00:00:39]  output:Iteration Solve time: CPU time = 0.038000 Iterations = 7 Residual = 4.006286e-001
+[00:00:40] Processing results ready
+[00:00:40]  output:Ave Values = 37.753987 34.361569 -0.036444 114685.813954 0.000000 300.101535 26641334.770366 0.000000
+[00:00:40]  output:29 5.86e-002 9.36e-002 7.82e-003 9.13e-004 5.37e-001 7.54e+004
+[00:00:40]  output:solving kPhi 1
+[00:00:41]  output:Iteration Solve time: CPU time = 0.232000 Iterations = 13 Residual = 2.745614e-007
+[00:00:41]  output:solving kPhi 2
+[00:00:41]  output:Iteration Solve time: CPU time = 0.078000 Iterations = 13 Residual = 3.622936e-007
+[00:00:41]  output:solving kPhi 3
+[00:00:41]  output:Iteration Solve time: CPU time = 0.036000 Iterations = 11 Residual = 7.380444e-008
+[00:00:41]  output:solving kPhi 4
+[00:00:41]  output:Incomplete factorization time: CPU time = 0.177000 Density1 = 3.117156 Density2 = 2.085468
+[00:00:41]  output:Iteration Solve time: CPU time = 0.182000 Iterations = 17 Residual = 2.684306e-012
+[00:00:42]  output:solving kPhi 6
+[00:00:42]  output:Iteration Solve time: CPU time = 0.030000 Iterations = 7 Residual = 1.893107e-006
+[00:00:42]  output:solving kPhi 7
+[00:00:42]  output:Iteration Solve time: CPU time = 0.225000 Iterations = 7 Residual = 2.750487e-001
+[00:00:43] Processing results ready
+[00:00:44]  output:Ave Values = 38.118474 34.809887 -0.036165 113518.630022 0.000000 304.942405 27567641.301814 0.000000
+[00:00:44]  output:30 5.65e-002 9.05e-002 7.60e-003 8.71e-004 4.62e-001 6.65e+004
+[00:00:44]  output:solving kPhi 1
+[00:00:44]  output:Iteration Solve time: CPU time = 0.118000 Iterations = 13 Residual = 2.452403e-007
+[00:00:44]  output:solving kPhi 2
+[00:00:44]  output:Iteration Solve time: CPU time = 0.074000 Iterations = 12 Residual = 8.428133e-007
+[00:00:44]  output:solving kPhi 3
+[00:00:44]  output:Iteration Solve time: CPU time = 0.043000 Iterations = 11 Residual = 6.679694e-008
+[00:00:44]  output:solving kPhi 4
+[00:00:45]  output:Incomplete factorization time: CPU time = 0.161000 Density1 = 3.123108 Density2 = 2.093031
+[00:00:45]  output:Iteration Solve time: CPU time = 0.178000 Iterations = 18 Residual = 1.251841e-012
+[00:00:45]  output:solving kPhi 6
+[00:00:45]  output:Iteration Solve time: CPU time = 0.045000 Iterations = 7 Residual = 1.220346e-006
+[00:00:45]  output:solving kPhi 7
+[00:00:45]  output:Iteration Solve time: CPU time = 0.028000 Iterations = 7 Residual = 1.851223e-001
+[00:00:46] Processing results ready
+[00:00:46]  output:Ave Values = 38.528351 35.256764 -0.037674 112263.136493 0.000000 309.351123 28438288.246106 0.000000
+[00:00:46]  output:31 5.41e-002 8.56e-002 7.29e-003 8.35e-004 4.60e-001 8.01e+004
+[00:00:46]  output:solving kPhi 1
+[00:00:46]  output:Iteration Solve time: CPU time = 0.052000 Iterations = 13 Residual = 2.198638e-007
+[00:00:46]  output:solving kPhi 2
+[00:00:46]  output:Iteration Solve time: CPU time = 0.031000 Iterations = 12 Residual = 7.549674e-007
+[00:00:47]  output:solving kPhi 3
+[00:00:47]  output:Iteration Solve time: CPU time = 0.036000 Iterations = 11 Residual = 6.081209e-008
+[00:00:47]  output:solving kPhi 4
+[00:00:47]  output:Incomplete factorization time: CPU time = 0.186000 Density1 = 3.130702 Density2 = 2.099669
+[00:00:47]  output:Iteration Solve time: CPU time = 0.154000 Iterations = 17 Residual = 5.946499e-012
+[00:00:47]  output:solving kPhi 6
+[00:00:47]  output:Iteration Solve time: CPU time = 0.030000 Iterations = 7 Residual = 7.256927e-007
+[00:00:48]  output:solving kPhi 7
+[00:00:48]  output:Iteration Solve time: CPU time = 0.026000 Iterations = 6 Residual = 6.774038e-001
+[00:00:48] Processing results ready
+[00:00:49]  output:Ave Values = 38.887875 35.698082 -0.039856 110977.595485 0.000000 313.077094 29223644.272435 0.000000
+[00:00:49]  output:32 5.32e-002 8.35e-002 7.12e-003 7.90e-004 4.04e-001 8.76e+004
+[00:00:49]  output:solving kPhi 1
+[00:00:49]  output:Iteration Solve time: CPU time = 0.129000 Iterations = 12 Residual = 4.917791e-007
+[00:00:49]  output:solving kPhi 2
+[00:00:49]  output:Iteration Solve time: CPU time = 0.128000 Iterations = 12 Residual = 6.716461e-007
+[00:00:49]  output:solving kPhi 3
+[00:00:49]  output:Iteration Solve time: CPU time = 0.148000 Iterations = 11 Residual = 5.510728e-008
+[00:00:49]  output:solving kPhi 4
+[00:00:50]  output:Incomplete factorization time: CPU time = 0.165000 Density1 = 3.136027 Density2 = 2.105741
+[00:00:50]  output:Iteration Solve time: CPU time = 0.154000 Iterations = 17 Residual = 4.007160e-012
+[00:00:50]  output:solving kPhi 6
+[00:00:50]  output:Iteration Solve time: CPU time = 0.036000 Iterations = 6 Residual = 3.189695e-006
+[00:00:50]  output:solving kPhi 7
+[00:00:50]  output:Iteration Solve time: CPU time = 0.039000 Iterations = 6 Residual = 4.303442e-001
+[00:00:51] Processing results ready
+[00:00:51]  output:Ave Values = 39.282599 36.142432 -0.040506 109642.094926 0.000000 316.363633 29946912.036151 0.000000
+[00:00:51]  output:33 5.00e-002 7.81e-002 6.82e-003 7.56e-004 3.85e-001 7.56e+004
+[00:00:51]  output:solving kPhi 1
+[00:00:52]  output:Iteration Solve time: CPU time = 0.044000 Iterations = 12 Residual = 4.432642e-007
+[00:00:52]  output:solving kPhi 2
+[00:00:52]  output:Iteration Solve time: CPU time = 0.035000 Iterations = 12 Residual = 6.008214e-007
+[00:00:52]  output:solving kPhi 3
+[00:00:52]  output:Iteration Solve time: CPU time = 0.034000 Iterations = 11 Residual = 5.029460e-008
+[00:00:52]  output:solving kPhi 4
+[00:00:52]  output:Incomplete factorization time: CPU time = 0.209000 Density1 = 3.142317 Density2 = 2.111182
+[00:00:52]  output:Iteration Solve time: CPU time = 0.219000 Iterations = 17 Residual = 6.136425e-012
+[00:00:53]  output:solving kPhi 6
+[00:00:53]  output:Iteration Solve time: CPU time = 0.030000 Iterations = 7 Residual = 5.182689e-007
+[00:00:53]  output:solving kPhi 7
+[00:00:53]  output:Iteration Solve time: CPU time = 0.033000 Iterations = 6 Residual = 3.569923e-001
+[00:00:54] Processing results ready
+[00:00:54]  output:Ave Values = 39.638250 36.575522 -0.041067 108291.559852 0.000000 319.028900 30585850.337385 0.000000
+[00:00:54]  output:34 4.88e-002 7.72e-002 6.62e-003 7.13e-004 3.10e-001 5.39e+004
+[00:00:54]  output:solving kPhi 1
+[00:00:54]  output:Iteration Solve time: CPU time = 0.139000 Iterations = 12 Residual = 3.968479e-007
+[00:00:54]  output:solving kPhi 2
+[00:00:54]  output:Iteration Solve time: CPU time = 0.101000 Iterations = 12 Residual = 5.343439e-007
+[00:00:55]  output:solving kPhi 3
+[00:00:55]  output:Iteration Solve time: CPU time = 0.131000 Iterations = 11 Residual = 4.574385e-008
+[00:00:55]  output:solving kPhi 4
+[00:00:56]  output:Incomplete factorization time: CPU time = 0.249000 Density1 = 3.146630 Density2 = 2.116864
+[00:00:56]  output:Iteration Solve time: CPU time = 0.696000 Iterations = 18 Residual = 4.180677e-013
+[00:00:57]  output:solving kPhi 6
+[00:00:57]  output:Iteration Solve time: CPU time = 0.080000 Iterations = 7 Residual = 5.830353e-007
+[00:00:57]  output:solving kPhi 7
+[00:00:57]  output:Iteration Solve time: CPU time = 0.057000 Iterations = 6 Residual = 3.885962e-001
+[00:00:58] Processing results ready
+[00:00:59]  output:Ave Values = 40.031437 37.012093 -0.040346 106901.941772 0.000000 321.290199 31164124.910274 0.000000
+[00:00:59]  output:35 4.58e-002 7.10e-002 6.33e-003 6.81e-004 3.40e-001 7.55e+004
+[00:00:59]  output:solving kPhi 1
+[00:00:59]  output:Iteration Solve time: CPU time = 0.179000 Iterations = 12 Residual = 3.107835e-007
+[00:00:59]  output:solving kPhi 2
+[00:00:59]  output:Iteration Solve time: CPU time = 0.097000 Iterations = 12 Residual = 4.155266e-007
+[00:00:59]  output:solving kPhi 3
+[00:00:59]  output:Iteration Solve time: CPU time = 0.076000 Iterations = 11 Residual = 3.685233e-008
+[00:00:59]  output:solving kPhi 4
+[00:01:00]  output:Incomplete factorization time: CPU time = 0.156000 Density1 = 3.151941 Density2 = 2.122913
+[00:01:00]  output:Iteration Solve time: CPU time = 0.169000 Iterations = 17 Residual = 1.340368e-012
+[00:01:00]  output:solving kPhi 6
+[00:01:00]  output:Iteration Solve time: CPU time = 0.059000 Iterations = 7 Residual = 5.785175e-007
+[00:01:00]  output:solving kPhi 7
+[00:01:00]  output:Iteration Solve time: CPU time = 0.026000 Iterations = 6 Residual = 4.031339e-001
+[00:01:01] Processing results ready
+[00:01:01]  output:Ave Values = 40.390779 37.435553 -0.039657 105540.081138 0.000000 322.995902 31661786.978409 0.000000
+[00:01:01]  output:36 6.14e-002 6.84e-002 6.30e-003 6.39e-004 2.77e-001 5.34e+004
+[00:01:01]  output:solving kPhi 1
+[00:01:01]  output:Iteration Solve time: CPU time = 0.056000 Iterations = 12 Residual = 2.644095e-007
+[00:01:01]  output:solving kPhi 2
+[00:01:01]  output:Iteration Solve time: CPU time = 0.036000 Iterations = 12 Residual = 3.519055e-007
+[00:01:01]  output:solving kPhi 3
+[00:01:01]  output:Iteration Solve time: CPU time = 0.019000 Iterations = 11 Residual = 3.205846e-008
+[00:01:01]  output:solving kPhi 4
+[00:01:02]  output:Incomplete factorization time: CPU time = 0.234000 Density1 = 3.809051 Density2 = 2.162065
+[00:01:02]  output:Iteration Solve time: CPU time = 0.176000 Iterations = 17 Residual = 1.615245e-013
+[00:01:02]  output:solving kPhi 6
+[00:01:02]  output:Iteration Solve time: CPU time = 0.028000 Iterations = 7 Residual = 5.734199e-007
+[00:01:02]  output:solving kPhi 7
+[00:01:02]  output:Iteration Solve time: CPU time = 0.030000 Iterations = 6 Residual = 4.148153e-001
+[00:01:03] Processing results ready
+[00:01:04]  output:Ave Values = 40.752222 37.855517 -0.038122 104187.406234 0.000000 324.263840 32099032.879662 0.000000
+[00:01:04]  output:37 4.52e-002 6.41e-002 5.99e-003 6.08e-004 2.75e-001 4.28e+004
+[00:01:04]  output:solving kPhi 1
+[00:01:04]  output:Iteration Solve time: CPU time = 0.041000 Iterations = 12 Residual = 2.342372e-007
+[00:01:04]  output:solving kPhi 2
+[00:01:04]  output:Iteration Solve time: CPU time = 0.035000 Iterations = 12 Residual = 3.082130e-007
+[00:01:04]  output:solving kPhi 3
+[00:01:04]  output:Iteration Solve time: CPU time = 0.036000 Iterations = 11 Residual = 2.933881e-008
+[00:01:04]  output:solving kPhi 4
+[00:01:05]  output:Incomplete factorization time: CPU time = 0.196000 Density1 = 3.814134 Density2 = 2.166944
+[00:01:05]  output:Iteration Solve time: CPU time = 0.421000 Iterations = 17 Residual = 1.794946e-013
+[00:01:05]  output:solving kPhi 6
+[00:01:05]  output:Iteration Solve time: CPU time = 0.038000 Iterations = 7 Residual = 5.652950e-007
+[00:01:05]  output:solving kPhi 7
+[00:01:05]  output:Iteration Solve time: CPU time = 0.025000 Iterations = 7 Residual = 5.836180e-002
+[00:01:06] Processing results ready
+[00:01:07]  output:Ave Values = 41.116341 38.272909 -0.036778 102833.085931 0.000000 325.139089 32487053.278956 0.000000
+[00:01:07]  output:38 3.99e-002 6.05e-002 5.74e-003 5.78e-004 2.87e-001 4.07e+004
+[00:01:07]  output:solving kPhi 1
+[00:01:07]  output:Iteration Solve time: CPU time = 0.051000 Iterations = 12 Residual = 2.100760e-007
+[00:01:07]  output:solving kPhi 2
+[00:01:07]  output:Iteration Solve time: CPU time = 0.038000 Iterations = 12 Residual = 2.745392e-007
+[00:01:07]  output:solving kPhi 3
+[00:01:07]  output:Iteration Solve time: CPU time = 0.035000 Iterations = 11 Residual = 2.690843e-008
+[00:01:07]  output:solving kPhi 4
+[00:01:07]  output:Incomplete factorization time: CPU time = 0.196000 Density1 = 3.818836 Density2 = 2.172432
+[00:01:07]  output:Iteration Solve time: CPU time = 0.193000 Iterations = 17 Residual = 1.766895e-013
+[00:01:08]  output:solving kPhi 6
+[00:01:08]  output:Iteration Solve time: CPU time = 0.028000 Iterations = 7 Residual = 5.550109e-007
+[00:01:08]  output:solving kPhi 7
+[00:01:08]  output:Iteration Solve time: CPU time = 0.026000 Iterations = 7 Residual = 5.850356e-002
+[00:01:09] Processing results ready
+[00:01:09]  output:Ave Values = 41.481817 38.691450 -0.035539 101469.587625 0.000000 325.661181 32835073.958947 0.000000
+[00:01:09]  output:39 3.72e-002 5.73e-002 5.51e-003 5.48e-004 3.10e-001 4.13e+004
+[00:01:09]  output:solving kPhi 1
+[00:01:09]  output:Iteration Solve time: CPU time = 0.048000 Iterations = 12 Residual = 1.902213e-007
+[00:01:09]  output:solving kPhi 2
+[00:01:09]  output:Iteration Solve time: CPU time = 0.059000 Iterations = 12 Residual = 2.451509e-007
+[00:01:09]  output:solving kPhi 3
+[00:01:09]  output:Iteration Solve time: CPU time = 0.077000 Iterations = 11 Residual = 2.516861e-008
+[00:01:09]  output:solving kPhi 4
+[00:01:10]  output:Incomplete factorization time: CPU time = 0.195000 Density1 = 3.823298 Density2 = 2.176303
+[00:01:10]  output:Iteration Solve time: CPU time = 0.158000 Iterations = 16 Residual = 3.011921e-012
+[00:01:10]  output:solving kPhi 6
+[00:01:10]  output:Iteration Solve time: CPU time = 0.030000 Iterations = 7 Residual = 5.375740e-007
+[00:01:10]  output:solving kPhi 7
+[00:01:10]  output:Iteration Solve time: CPU time = 0.033000 Iterations = 6 Residual = 4.279170e-001
+[00:01:11] Processing results ready
+[00:01:12]  output:Ave Values = 41.846203 39.106674 -0.035084 100097.339386 0.000000 325.848870 33148924.820146 0.000000
+[00:01:12]  output:40 3.55e-002 5.45e-002 5.30e-003 5.18e-004 3.40e-001 4.50e+004
+[00:01:12]  output:solving kPhi 1
+[00:01:12]  output:Iteration Solve time: CPU time = 0.037000 Iterations = 12 Residual = 1.707670e-007
+[00:01:12]  output:solving kPhi 2
+[00:01:12]  output:Iteration Solve time: CPU time = 0.039000 Iterations = 12 Residual = 2.191065e-007
+[00:01:12]  output:solving kPhi 3
+[00:01:12]  output:Iteration Solve time: CPU time = 0.039000 Iterations = 11 Residual = 2.305526e-008
+[00:01:12]  output:solving kPhi 4
+[00:01:13]  output:Incomplete factorization time: CPU time = 0.219000 Density1 = 3.827327 Density2 = 2.180825
+[00:01:13]  output:Iteration Solve time: CPU time = 0.647000 Iterations = 16 Residual = 2.575228e-012
+[00:01:13]  output:solving kPhi 6
+[00:01:14]  output:Iteration Solve time: CPU time = 0.083000 Iterations = 6 Residual = 3.552903e-006
+[00:01:14]  output:solving kPhi 7
+[00:01:14]  output:Iteration Solve time: CPU time = 0.202000 Iterations = 6 Residual = 4.156630e-001
+[00:01:16] Processing results ready
+[00:01:16]  output:Ave Values = 42.210540 39.524141 -0.035060 98715.687236 0.000000 325.741110 33440036.307018 0.000000
+[00:01:16]  output:41 3.35e-002 5.14e-002 5.08e-003 4.90e-004 3.74e-001 4.96e+004
+[00:01:16]  output:solving kPhi 1
+[00:01:16]  output:Iteration Solve time: CPU time = 0.194000 Iterations = 12 Residual = 1.611224e-007
+[00:01:16]  output:solving kPhi 2
+[00:01:16]  output:Iteration Solve time: CPU time = 0.110000 Iterations = 12 Residual = 2.107903e-007
+[00:01:16]  output:solving kPhi 3
+[00:01:16]  output:Iteration Solve time: CPU time = 0.091000 Iterations = 11 Residual = 2.161565e-008
+[00:01:17]  output:solving kPhi 4
+[00:01:18]  output:Incomplete factorization time: CPU time = 0.284000 Density1 = 3.831477 Density2 = 2.184808
+[00:01:18]  output:Iteration Solve time: CPU time = 0.577000 Iterations = 16 Residual = 1.658789e-012
+[00:01:18]  output:solving kPhi 6
+[00:01:18]  output:Iteration Solve time: CPU time = 0.062000 Iterations = 6 Residual = 3.415509e-006
+[00:01:19]  output:solving kPhi 7
+[00:01:19]  output:Iteration Solve time: CPU time = 0.198000 Iterations = 6 Residual = 3.984210e-001
+[00:01:20] Processing results ready
+[00:01:21]  output:Ave Values = 42.573804 39.941022 -0.035939 97327.925523 0.000000 325.378497 33712890.812071 0.000000
+[00:01:21]  output:42 3.19e-002 4.88e-002 4.88e-003 4.62e-004 4.09e-001 5.41e+004
+[00:01:21]  output:solving kPhi 1
+[00:01:21]  output:Iteration Solve time: CPU time = 0.198000 Iterations = 12 Residual = 1.374259e-007
+[00:01:21]  output:solving kPhi 2
+[00:01:21]  output:Iteration Solve time: CPU time = 0.143000 Iterations = 12 Residual = 1.736535e-007
+[00:01:21]  output:solving kPhi 3
+[00:01:21]  output:Iteration Solve time: CPU time = 0.104000 Iterations = 11 Residual = 1.993989e-008
+[00:01:21]  output:solving kPhi 4
+[00:01:22]  output:Incomplete factorization time: CPU time = 0.284000 Density1 = 3.834100 Density2 = 2.187830
+[00:01:22]  output:Iteration Solve time: CPU time = 0.621000 Iterations = 17 Residual = 1.370269e-013
+[00:01:23]  output:solving kPhi 6
+[00:01:23]  output:Iteration Solve time: CPU time = 0.066000 Iterations = 6 Residual = 3.260764e-006
+[00:01:23]  output:solving kPhi 7
+[00:01:23]  output:Iteration Solve time: CPU time = 0.097000 Iterations = 6 Residual = 3.790385e-001
+[00:01:25] Processing results ready
+[00:01:25]  output:Ave Values = 42.946631 40.352192 -0.040192 95922.116316 0.000000 324.798631 33980082.424537 0.000000
+[00:01:25]  output:43 3.07e-002 4.63e-002 4.66e-003 4.41e-004 4.50e-001 6.52e+004
+[00:01:25]  output:solving kPhi 1
+[00:01:26]  output:Iteration Solve time: CPU time = 0.168000 Iterations = 11 Residual = 3.171172e-007
+[00:01:26]  output:solving kPhi 2
+[00:01:26]  output:Iteration Solve time: CPU time = 0.129000 Iterations = 11 Residual = 4.423627e-007
+[00:01:26]  output:solving kPhi 3
+[00:01:26]  output:Iteration Solve time: CPU time = 0.102000 Iterations = 11 Residual = 1.985085e-008
+[00:01:26]  output:solving kPhi 4
+[00:01:27]  output:Incomplete factorization time: CPU time = 0.295000 Density1 = 3.838297 Density2 = 2.191451
+[00:01:27]  output:Iteration Solve time: CPU time = 0.624000 Iterations = 17 Residual = 1.656000e-013
+[00:01:28]  output:solving kPhi 6
+[00:01:28]  output:Iteration Solve time: CPU time = 0.091000 Iterations = 6 Residual = 3.044623e-006
+[00:01:28]  output:solving kPhi 7
+[00:01:28]  output:Iteration Solve time: CPU time = 0.094000 Iterations = 6 Residual = 3.508972e-001
+[00:01:29] Processing results ready
+[00:01:30]  output:Ave Values = 43.299802 40.765684 -0.045068 94525.114037 0.000000 323.974378 34242017.042895 0.000000
+[00:01:30]  output:44 3.40e-002 4.48e-002 4.84e-003 4.13e-004 4.81e-001 6.54e+004
+[00:01:30]  output:solving kPhi 1
+[00:01:30]  output:Iteration Solve time: CPU time = 0.234000 Iterations = 12 Residual = 1.085748e-007
+[00:01:30]  output:solving kPhi 2
+[00:01:30]  output:Iteration Solve time: CPU time = 0.092000 Iterations = 11 Residual = 3.886418e-007
+[00:01:30]  output:solving kPhi 3
+[00:01:30]  output:Iteration Solve time: CPU time = 0.083000 Iterations = 11 Residual = 1.741303e-008
+[00:01:31]  output:solving kPhi 4
+[00:01:32]  output:Incomplete factorization time: CPU time = 0.292000 Density1 = 3.841091 Density2 = 2.194459
+[00:01:32]  output:Iteration Solve time: CPU time = 0.502000 Iterations = 16 Residual = 1.699794e-012
+[00:01:32]  output:solving kPhi 6
+[00:01:32]  output:Iteration Solve time: CPU time = 0.076000 Iterations = 6 Residual = 2.868172e-006
+[00:01:32]  output:solving kPhi 7
+[00:01:32]  output:Iteration Solve time: CPU time = 0.062000 Iterations = 6 Residual = 3.268282e-001
+[00:01:34] Processing results ready
+[00:01:34]  output:Ave Values = 43.648690 41.176202 -0.049973 93134.647929 0.000000 322.957423 34508678.504582 0.000000
+[00:01:34]  output:45 2.84e-002 4.20e-002 4.47e-003 3.87e-004 5.15e-001 6.71e+004
+[00:01:34]  output:solving kPhi 1
+[00:01:34]  output:Iteration Solve time: CPU time = 0.088000 Iterations = 11 Residual = 2.583934e-007
+[00:01:34]  output:solving kPhi 2
+[00:01:34]  output:Iteration Solve time: CPU time = 0.086000 Iterations = 11 Residual = 3.482778e-007
+[00:01:34]  output:solving kPhi 3
+[00:01:34]  output:Iteration Solve time: CPU time = 0.128000 Iterations = 11 Residual = 1.638565e-008
+[00:01:35]  output:solving kPhi 4
+[00:01:36]  output:Incomplete factorization time: CPU time = 0.666000 Density1 = 3.844021 Density2 = 2.196864
+[00:01:36]  output:Iteration Solve time: CPU time = 0.736000 Iterations = 16 Residual = 1.349294e-012
+[00:01:37]  output:solving kPhi 6
+[00:01:37]  output:Iteration Solve time: CPU time = 0.098000 Iterations = 6 Residual = 2.689735e-006
+[00:01:37]  output:solving kPhi 7
+[00:01:37]  output:Iteration Solve time: CPU time = 0.022000 Iterations = 6 Residual = 3.024005e-001
+[00:01:38] Processing results ready
+[00:01:38]  output:Ave Values = 43.992168 41.582118 -0.054580 91752.177257 0.000000 321.774545 34785985.231980 0.000000
+[00:01:38]  output:46 2.59e-002 3.93e-002 4.22e-003 3.65e-004 5.45e-001 6.93e+004
+[00:01:38]  output:solving kPhi 1
+[00:01:38]  output:Iteration Solve time: CPU time = 0.038000 Iterations = 11 Residual = 2.300791e-007
+[00:01:38]  output:solving kPhi 2
+[00:01:38]  output:Iteration Solve time: CPU time = 0.032000 Iterations = 11 Residual = 3.128575e-007
+[00:01:38]  output:solving kPhi 3
+[00:01:38]  output:Iteration Solve time: CPU time = 0.035000 Iterations = 11 Residual = 1.515741e-008
+[00:01:38]  output:solving kPhi 4
+[00:01:39]  output:Incomplete factorization time: CPU time = 0.244000 Density1 = 4.523840 Density2 = 2.204691
+[00:01:39]  output:Iteration Solve time: CPU time = 0.183000 Iterations = 17 Residual = 8.566412e-014
+[00:01:39]  output:solving kPhi 6
+[00:01:39]  output:Iteration Solve time: CPU time = 0.052000 Iterations = 6 Residual = 2.512813e-006
+[00:01:39]  output:solving kPhi 7
+[00:01:39]  output:Iteration Solve time: CPU time = 0.023000 Iterations = 6 Residual = 2.779865e-001
+[00:01:40] Processing results ready
+[00:01:41]  output:Ave Values = 44.328960 41.982944 -0.058061 90376.767486 0.000000 320.453335 35080066.464364 0.000000
+[00:01:41]  output:47 2.43e-002 3.70e-002 4.04e-003 3.44e-004 5.73e-001 7.12e+004
+[00:01:41]  output:solving kPhi 1
+[00:01:41]  output:Iteration Solve time: CPU time = 0.037000 Iterations = 11 Residual = 2.005963e-007
+[00:01:41]  output:solving kPhi 2
+[00:01:41]  output:Iteration Solve time: CPU time = 0.037000 Iterations = 11 Residual = 2.942858e-007
+[00:01:41]  output:solving kPhi 3
+[00:01:41]  output:Iteration Solve time: CPU time = 0.039000 Iterations = 11 Residual = 1.668418e-008
+[00:01:41]  output:solving kPhi 4
+[00:01:42]  output:Incomplete factorization time: CPU time = 0.246000 Density1 = 4.525920 Density2 = 2.206900
+[00:01:42]  output:Iteration Solve time: CPU time = 0.205000 Iterations = 16 Residual = 1.653420e-012
+[00:01:42]  output:solving kPhi 6
+[00:01:42]  output:Iteration Solve time: CPU time = 0.040000 Iterations = 6 Residual = 2.345270e-006
+[00:01:42]  output:solving kPhi 7
+[00:01:42]  output:Iteration Solve time: CPU time = 0.023000 Iterations = 6 Residual = 2.551703e-001
+[00:01:43] Processing results ready
+[00:01:43]  output:Ave Values = 44.673817 42.376357 -0.063235 88994.816343 0.000000 319.031815 35397347.261686 0.000000
+[00:01:43]  output:48 2.32e-002 3.51e-002 3.89e-003 3.30e-004 5.98e-001 7.27e+004
+[00:01:43]  output:solving kPhi 1
+[00:01:43]  output:Iteration Solve time: CPU time = 0.048000 Iterations = 11 Residual = 1.844311e-007
+[00:01:43]  output:solving kPhi 2
+[00:01:43]  output:Iteration Solve time: CPU time = 0.074000 Iterations = 11 Residual = 2.516088e-007
+[00:01:43]  output:solving kPhi 3
+[00:01:43]  output:Iteration Solve time: CPU time = 0.039000 Iterations = 10 Residual = 4.058950e-008
+[00:01:44]  output:solving kPhi 4
+[00:01:44]  output:Incomplete factorization time: CPU time = 0.301000 Density1 = 4.529880 Density2 = 2.208882
+[00:01:44]  output:Iteration Solve time: CPU time = 0.479000 Iterations = 16 Residual = 1.193599e-012
+[00:01:45]  output:solving kPhi 6
+[00:01:45]  output:Iteration Solve time: CPU time = 0.023000 Iterations = 6 Residual = 2.155956e-006
+[00:01:45]  output:solving kPhi 7
+[00:01:45]  output:Iteration Solve time: CPU time = 0.027000 Iterations = 6 Residual = 2.301850e-001
+[00:01:46] Processing results ready
+[00:01:47]  output:Ave Values = 45.000361 42.765564 -0.067534 87633.732357 0.000000 317.498353 35736676.296430 0.000000
+[00:01:47]  output:49 2.79e-002 3.41e-002 4.23e-003 3.05e-004 6.20e-001 7.35e+004
+[00:01:47]  output:solving kPhi 1
+[00:01:47]  output:Iteration Solve time: CPU time = 0.038000 Iterations = 11 Residual = 1.670133e-007
+[00:01:47]  output:solving kPhi 2
+[00:01:47]  output:Iteration Solve time: CPU time = 0.035000 Iterations = 11 Residual = 2.275263e-007
+[00:01:47]  output:solving kPhi 3
+[00:01:47]  output:Iteration Solve time: CPU time = 0.033000 Iterations = 11 Residual = 1.342556e-008
+[00:01:47]  output:solving kPhi 4
+[00:01:47]  output:Incomplete factorization time: CPU time = 0.242000 Density1 = 4.532038 Density2 = 2.211366
+[00:01:47]  output:Iteration Solve time: CPU time = 0.324000 Iterations = 16 Residual = 1.467578e-012
+[00:01:48]  output:solving kPhi 6
+[00:01:48]  output:Iteration Solve time: CPU time = 0.030000 Iterations = 6 Residual = 2.004309e-006
+[00:01:48]  output:solving kPhi 7
+[00:01:48]  output:Iteration Solve time: CPU time = 0.034000 Iterations = 6 Residual = 2.090658e-001
+[00:01:49] Processing results ready
+[00:01:49]  output:Ave Values = 45.319268 43.147517 -0.070903 86286.803076 0.000000 315.883272 36104926.036683 0.000000
+[00:01:49]  output:50 2.24e-002 3.17e-002 3.79e-003 2.87e-004 6.42e-001 8.02e+004
+[00:01:49]  output:solving kPhi 1
+[00:01:49]  output:Iteration Solve time: CPU time = 0.040000 Iterations = 11 Residual = 1.515421e-007
+[00:01:49]  output:solving kPhi 2
+[00:01:49]  output:Iteration Solve time: CPU time = 0.101000 Iterations = 11 Residual = 2.039145e-007
+[00:01:49]  output:solving kPhi 3
+[00:01:49]  output:Iteration Solve time: CPU time = 0.057000 Iterations = 11 Residual = 1.279154e-008
+[00:01:50]  output:solving kPhi 4
+[00:01:50]  output:Incomplete factorization time: CPU time = 0.237000 Density1 = 4.534285 Density2 = 2.212935
+[00:01:50]  output:Iteration Solve time: CPU time = 0.178000 Iterations = 16 Residual = 1.589672e-012
+[00:01:50]  output:solving kPhi 6
+[00:01:50]  output:Iteration Solve time: CPU time = 0.024000 Iterations = 6 Residual = 1.863771e-006
+[00:01:50]  output:solving kPhi 7
+[00:01:51]  output:Iteration Solve time: CPU time = 0.035000 Iterations = 6 Residual = 1.904061e-001
+[00:01:52] Processing results ready
+[00:01:52]  output:Ave Values = 45.629800 43.520591 -0.072896 84953.430385 0.000000 314.193914 36501821.317647 0.000000
+[00:01:52]  output:51 2.05e-002 3.26e-002 3.61e-003 2.69e-004 6.59e-001 7.77e+004
+[00:01:52]  output:solving kPhi 1
+[00:01:52]  output:Iteration Solve time: CPU time = 0.042000 Iterations = 11 Residual = 1.396292e-007
+[00:01:52]  output:solving kPhi 2
+[00:01:52]  output:Iteration Solve time: CPU time = 0.036000 Iterations = 11 Residual = 2.662900e-007
+[00:01:52]  output:solving kPhi 3
+[00:01:52]  output:Iteration Solve time: CPU time = 0.024000 Iterations = 11 Residual = 1.485883e-008
+[00:01:52]  output:solving kPhi 4
+[00:01:53]  output:Incomplete factorization time: CPU time = 0.236000 Density1 = 4.549284 Density2 = 2.224063
+[00:01:53]  output:Iteration Solve time: CPU time = 0.177000 Iterations = 16 Residual = 6.317030e-013
+[00:01:53]  output:solving kPhi 6
+[00:01:53]  output:Iteration Solve time: CPU time = 0.040000 Iterations = 6 Residual = 1.828726e-006
+[00:01:53]  output:solving kPhi 7
+[00:01:53]  output:Iteration Solve time: CPU time = 0.023000 Iterations = 6 Residual = 1.875562e-001
+[00:01:54] Processing results ready
+[00:01:55]  output:Ave Values = 46.171849 44.127467 -0.076416 83612.484783 0.000000 312.263156 37049477.516082 0.000000
+[00:01:55]  output:52 2.18e-002 3.47e-002 3.56e-003 2.59e-004 7.32e-001 9.35e+004
+[00:01:55]  output:solving kPhi 1
+[00:01:55]  output:Iteration Solve time: CPU time = 0.036000 Iterations = 11 Residual = 1.241931e-007
+[00:01:55]  output:solving kPhi 2
+[00:01:55]  output:Iteration Solve time: CPU time = 0.037000 Iterations = 11 Residual = 2.098639e-007
+[00:01:55]  output:solving kPhi 3
+[00:01:55]  output:Iteration Solve time: CPU time = 0.037000 Iterations = 10 Residual = 3.710474e-008
+[00:01:55]  output:solving kPhi 4
+[00:01:55]  output:Incomplete factorization time: CPU time = 0.236000 Density1 = 4.551243 Density2 = 2.223923
+[00:01:55]  output:Iteration Solve time: CPU time = 0.172000 Iterations = 16 Residual = 7.039491e-013
+[00:01:56]  output:solving kPhi 6
+[00:01:56]  output:Iteration Solve time: CPU time = 0.048000 Iterations = 6 Residual = 1.727721e-006
+[00:01:56]  output:solving kPhi 7
+[00:01:56]  output:Iteration Solve time: CPU time = 0.033000 Iterations = 6 Residual = 1.739158e-001
+[00:01:57] Processing results ready
+[00:01:58]  output:Ave Values = 46.647144 44.676060 -0.078542 82287.806163 0.000000 310.205393 37708705.530498 0.000000
+[00:01:58]  output:53 2.67e-002 3.39e-002 4.00e-003 2.38e-004 7.72e-001 8.96e+004
+[00:01:58]  output:solving kPhi 1
+[00:01:58]  output:Iteration Solve time: CPU time = 0.184000 Iterations = 11 Residual = 1.122398e-007
+[00:01:58]  output:solving kPhi 2
+[00:01:58]  output:Iteration Solve time: CPU time = 0.153000 Iterations = 11 Residual = 1.811389e-007
+[00:01:58]  output:solving kPhi 3
+[00:01:58]  output:Iteration Solve time: CPU time = 0.228000 Iterations = 10 Residual = 3.451628e-008
+[00:01:58]  output:solving kPhi 4
+[00:02:00]  output:Incomplete factorization time: CPU time = 0.305000 Density1 = 4.552014 Density2 = 2.224355
+[00:02:00]  output:Iteration Solve time: CPU time = 0.886000 Iterations = 16 Residual = 8.227025e-013
+[00:02:00]  output:solving kPhi 6
+[00:02:00]  output:Iteration Solve time: CPU time = 0.025000 Iterations = 6 Residual = 1.634439e-006
+[00:02:01]  output:solving kPhi 7
+[00:02:01]  output:Iteration Solve time: CPU time = 0.065000 Iterations = 6 Residual = 1.601551e-001
+[00:02:01] Processing results ready
+[00:02:02]  output:Ave Values = 47.080300 45.178977 -0.079954 80972.383939 0.000000 308.097785 38453940.851119 0.000000
+[00:02:02]  output:54 2.11e-002 3.06e-002 3.59e-003 2.26e-004 7.94e-001 8.56e+004
+[00:02:02]  output:solving kPhi 1
+[00:02:02]  output:Iteration Solve time: CPU time = 0.069000 Iterations = 11 Residual = 1.020647e-007
+[00:02:02]  output:solving kPhi 2
+[00:02:02]  output:Iteration Solve time: CPU time = 0.041000 Iterations = 11 Residual = 1.590930e-007
+[00:02:02]  output:solving kPhi 3
+[00:02:02]  output:Iteration Solve time: CPU time = 0.039000 Iterations = 10 Residual = 3.377617e-008
+[00:02:02]  output:solving kPhi 4
+[00:02:03]  output:Incomplete factorization time: CPU time = 0.304000 Density1 = 4.552817 Density2 = 2.225056
+[00:02:03]  output:Iteration Solve time: CPU time = 0.267000 Iterations = 16 Residual = 8.058974e-013
+[00:02:03]  output:solving kPhi 6
+[00:02:04]  output:Iteration Solve time: CPU time = 0.127000 Iterations = 6 Residual = 1.531262e-006
+[00:02:04]  output:solving kPhi 7
+[00:02:04]  output:Iteration Solve time: CPU time = 0.029000 Iterations = 6 Residual = 1.452225e-001
+[00:02:05] Processing results ready
+[00:02:05]  output:Ave Values = 47.480688 45.644020 -0.080507 79665.220492 0.000000 305.993836 39265919.976757 0.000000
+[00:02:05]  output:55 1.88e-002 2.84e-002 3.44e-003 2.12e-004 8.04e-001 8.52e+004
+[00:02:05]  output:solving kPhi 1
+[00:02:05]  output:Iteration Solve time: CPU time = 0.063000 Iterations = 11 Residual = 8.564722e-008
+[00:02:05]  output:solving kPhi 2
+[00:02:05]  output:Iteration Solve time: CPU time = 0.051000 Iterations = 11 Residual = 1.981672e-007
+[00:02:05]  output:solving kPhi 3
+[00:02:06]  output:Iteration Solve time: CPU time = 0.133000 Iterations = 11 Residual = 1.312561e-008
+[00:02:06]  output:solving kPhi 4
+[00:02:06]  output:Incomplete factorization time: CPU time = 0.318000 Density1 = 4.551137 Density2 = 2.225901
+[00:02:06]  output:Iteration Solve time: CPU time = 0.200000 Iterations = 16 Residual = 4.960207e-013
+[00:02:07]  output:solving kPhi 6
+[00:02:07]  output:Iteration Solve time: CPU time = 0.144000 Iterations = 6 Residual = 1.427438e-006
+[00:02:08]  output:solving kPhi 7
+[00:02:08]  output:Iteration Solve time: CPU time = 0.181000 Iterations = 6 Residual = 1.311285e-001
+[00:02:09] Processing results ready
+[00:02:09]  output:Ave Values = 47.873706 46.084534 -0.082754 78345.014260 0.000000 303.921858 40125497.510179 0.000000
+[00:02:09]  output:56 1.70e-002 2.67e-002 3.39e-003 2.47e-004 8.04e-001 7.96e+004
+[00:02:09]  output:solving kPhi 1
+[00:02:09]  output:Iteration Solve time: CPU time = 0.044000 Iterations = 10 Residual = 2.203130e-007
+[00:02:09]  output:solving kPhi 2
+[00:02:09]  output:Iteration Solve time: CPU time = 0.034000 Iterations = 11 Residual = 1.300835e-007
+[00:02:09]  output:solving kPhi 3
+[00:02:09]  output:Iteration Solve time: CPU time = 0.030000 Iterations = 10 Residual = 3.794773e-008
+[00:02:10]  output:solving kPhi 4
+[00:02:10]  output:Incomplete factorization time: CPU time = 0.308000 Density1 = 4.554228 Density2 = 2.225831
+[00:02:10]  output:Iteration Solve time: CPU time = 0.207000 Iterations = 16 Residual = 3.612655e-013
+[00:02:10]  output:solving kPhi 6
+[00:02:10]  output:Iteration Solve time: CPU time = 0.087000 Iterations = 6 Residual = 1.315451e-006
+[00:02:11]  output:solving kPhi 7
+[00:02:11]  output:Iteration Solve time: CPU time = 0.073000 Iterations = 6 Residual = 1.165579e-001
+[00:02:12] Processing results ready
+[00:02:12]  output:Ave Values = 48.222024 46.491900 -0.084171 77040.901293 0.000000 301.895325 41019551.574788 0.000000
+[00:02:12]  output:57 2.36e-002 3.21e-002 3.90e-003 1.91e-004 8.02e-001 7.41e+004
+[00:02:12]  output:solving kPhi 1
+[00:02:12]  output:Iteration Solve time: CPU time = 0.083000 Iterations = 11 Residual = 6.925904e-008
+[00:02:12]  output:solving kPhi 2
+[00:02:12]  output:Iteration Solve time: CPU time = 0.081000 Iterations = 11 Residual = 1.144849e-007
+[00:02:12]  output:solving kPhi 3
+[00:02:12]  output:Iteration Solve time: CPU time = 0.076000 Iterations = 11 Residual = 1.304444e-008
+[00:02:13]  output:solving kPhi 4
+[00:02:13]  output:Incomplete factorization time: CPU time = 0.366000 Density1 = 4.554423 Density2 = 2.226082
+[00:02:13]  output:Iteration Solve time: CPU time = 0.209000 Iterations = 16 Residual = 6.207848e-013
+[00:02:14]  output:solving kPhi 6
+[00:02:14]  output:Iteration Solve time: CPU time = 0.035000 Iterations = 6 Residual = 1.226354e-006
+[00:02:14]  output:solving kPhi 7
+[00:02:14]  output:Iteration Solve time: CPU time = 0.028000 Iterations = 6 Residual = 1.047125e-001
+[00:02:15]  output:Ave Values = 48.544279 46.875560 -0.084039 75746.120109 0.000000 299.916604 41939678.930778 0.000000
+[00:02:15]  output:58 1.84e-002 2.59e-002 3.36e-003 1.77e-004 7.93e-001 7.15e+004
+[00:02:15]  output:solving kPhi 1
+[00:02:15]  output:Iteration Solve time: CPU time = 0.056000 Iterations = 10 Residual = 1.517787e-007
+[00:02:15]  output:solving kPhi 2
+[00:02:15]  output:Iteration Solve time: CPU time = 0.034000 Iterations = 11 Residual = 1.078690e-007
+[00:02:15]  output:solving kPhi 3
+[00:02:15]  output:Iteration Solve time: CPU time = 0.096000 Iterations = 11 Residual = 1.239164e-008
+[00:02:15]  output:solving kPhi 4
+[00:02:16]  output:Incomplete factorization time: CPU time = 0.262000 Density1 = 4.555124 Density2 = 2.226244
+[00:02:16]  output:Iteration Solve time: CPU time = 0.173000 Iterations = 16 Residual = 9.347274e-013
+[00:02:16]  output:solving kPhi 6
+[00:02:16]  output:Iteration Solve time: CPU time = 0.027000 Iterations = 6 Residual = 1.141937e-006
+[00:02:16]  output:solving kPhi 7
+[00:02:16]  output:Iteration Solve time: CPU time = 0.047000 Iterations = 6 Residual = 9.412206e-002
+[00:02:17]  output:Ave Values = 48.846537 47.238572 -0.083547 74458.327938 0.000000 297.984421 42876927.026504 0.000000
+[00:02:17]  output:59 1.66e-002 2.38e-002 3.20e-003 1.70e-004 7.85e-001 6.67e+004
+[00:02:17]  output:solving kPhi 1
+[00:02:18]  output:Iteration Solve time: CPU time = 0.084000 Iterations = 10 Residual = 1.394497e-007
+[00:02:18]  output:solving kPhi 2
+[00:02:18]  output:Iteration Solve time: CPU time = 0.034000 Iterations = 11 Residual = 1.162338e-007
+[00:02:18]  output:solving kPhi 3
+[00:02:18]  output:Iteration Solve time: CPU time = 0.026000 Iterations = 11 Residual = 1.133409e-008
+[00:02:18]  output:solving kPhi 4
+[00:02:19]  output:Incomplete factorization time: CPU time = 0.252000 Density1 = 4.553309 Density2 = 2.226843
+[00:02:19]  output:Iteration Solve time: CPU time = 0.190000 Iterations = 16 Residual = 4.909201e-013
+[00:02:19]  output:solving kPhi 6
+[00:02:19]  output:Iteration Solve time: CPU time = 0.032000 Iterations = 6 Residual = 1.063301e-006
+[00:02:19]  output:solving kPhi 7
+[00:02:19]  output:Iteration Solve time: CPU time = 0.032000 Iterations = 6 Residual = 8.434761e-002
+[00:02:20]  output:Ave Values = 49.146075 47.576702 -0.085372 73167.352878 0.000000 296.107089 43826375.203481 0.000000
+[00:02:20]  output:60 1.45e-002 2.29e-002 3.27e-003 1.90e-004 7.71e-001 7.81e+004
+[00:02:20]  output:solving kPhi 1
+[00:02:20]  output:Iteration Solve time: CPU time = 0.060000 Iterations = 10 Residual = 1.264958e-007
+[00:02:20]  output:solving kPhi 2
+[00:02:21]  output:Iteration Solve time: CPU time = 0.206000 Iterations = 10 Residual = 2.719880e-007
+[00:02:21]  output:solving kPhi 3
+[00:02:21]  output:Iteration Solve time: CPU time = 0.033000 Iterations = 10 Residual = 3.432206e-008
+[00:02:21]  output:solving kPhi 4
+[00:02:21]  output:Incomplete factorization time: CPU time = 0.256000 Density1 = 4.555658 Density2 = 2.227275
+[00:02:21]  output:Iteration Solve time: CPU time = 0.188000 Iterations = 16 Residual = 7.755040e-013
+[00:02:22]  output:solving kPhi 6
+[00:02:22]  output:Iteration Solve time: CPU time = 0.028000 Iterations = 6 Residual = 9.856559e-007
+[00:02:22]  output:solving kPhi 7
+[00:02:22]  output:Iteration Solve time: CPU time = 0.021000 Iterations = 6 Residual = 7.549174e-002
+[00:02:23]  output:Ave Values = 49.404108 47.895191 -0.086290 71897.125184 0.000000 294.273672 44780220.730484 0.000000
+[00:02:23]  output:61 2.17e-002 2.83e-002 3.60e-003 1.50e-004 7.59e-001 7.00e+004
+[00:02:23]  output:solving kPhi 1
+[00:02:23]  output:Iteration Solve time: CPU time = 0.098000 Iterations = 10 Residual = 1.008795e-007
+[00:02:23]  output:solving kPhi 2
+[00:02:23]  output:Iteration Solve time: CPU time = 0.052000 Iterations = 11 Residual = 8.936583e-008
+[00:02:23]  output:solving kPhi 3
+[00:02:23]  output:Iteration Solve time: CPU time = 0.056000 Iterations = 11 Residual = 1.264654e-008
+[00:02:23]  output:solving kPhi 4
+[00:02:24]  output:Incomplete factorization time: CPU time = 0.234000 Density1 = 4.555797 Density2 = 2.226811
+[00:02:24]  output:Iteration Solve time: CPU time = 0.192000 Iterations = 17 Residual = 1.234591e-013
+[00:02:24]  output:solving kPhi 6
+[00:02:24]  output:Iteration Solve time: CPU time = 0.026000 Iterations = 6 Residual = 9.240731e-007
+[00:02:24]  output:solving kPhi 7
+[00:02:24]  output:Iteration Solve time: CPU time = 0.064000 Iterations = 5 Residual = 6.631968e-001
+[00:02:26]  output:Ave Values = 49.644467 48.199163 -0.085291 70639.598563 0.000000 292.497523 45738507.014110 0.000000
+[00:02:26]  output:62 1.75e-002 2.33e-002 3.17e-003 1.45e-004 7.42e-001 6.64e+004
+[00:02:26]  output:solving kPhi 1
+[00:02:26]  output:Iteration Solve time: CPU time = 0.094000 Iterations = 10 Residual = 9.869906e-008
+[00:02:26]  output:solving kPhi 2
+[00:02:26]  output:Iteration Solve time: CPU time = 0.052000 Iterations = 11 Residual = 9.721372e-008
+[00:02:26]  output:solving kPhi 3
+[00:02:26]  output:Iteration Solve time: CPU time = 0.047000 Iterations = 11 Residual = 1.144252e-008
+[00:02:26]  output:solving kPhi 4
+[00:02:27]  output:Incomplete factorization time: CPU time = 0.344000 Density1 = 4.555208 Density2 = 2.227043
+[00:02:27]  output:Iteration Solve time: CPU time = 0.263000 Iterations = 16 Residual = 5.492930e-013
+[00:02:27]  output:solving kPhi 6
+[00:02:27]  output:Iteration Solve time: CPU time = 0.022000 Iterations = 6 Residual = 8.689452e-007
+[00:02:27]  output:solving kPhi 7
+[00:02:27]  output:Iteration Solve time: CPU time = 0.032000 Iterations = 6 Residual = 6.213635e-002
+[00:02:29]  output:Ave Values = 49.873602 48.482014 -0.085035 69394.126084 0.000000 290.749011 46692922.008048 0.000000
+[00:02:29]  output:63 1.37e-002 2.07e-002 3.18e-003 1.56e-004 7.30e-001 6.06e+004
+[00:02:29]  output:solving kPhi 1
+[00:02:29]  output:Iteration Solve time: CPU time = 0.036000 Iterations = 10 Residual = 9.454697e-008
+[00:02:29]  output:solving kPhi 2
+[00:02:29]  output:Iteration Solve time: CPU time = 0.043000 Iterations = 11 Residual = 8.970403e-008
+[00:02:29]  output:solving kPhi 3
+[00:02:29]  output:Iteration Solve time: CPU time = 0.036000 Iterations = 11 Residual = 1.109222e-008
+[00:02:29]  output:solving kPhi 4
+[00:02:30]  output:Incomplete factorization time: CPU time = 0.240000 Density1 = 4.556754 Density2 = 2.227619
+[00:02:30]  output:Iteration Solve time: CPU time = 0.251000 Iterations = 16 Residual = 3.664349e-013
+[00:02:30]  output:solving kPhi 6
+[00:02:30]  output:Iteration Solve time: CPU time = 0.037000 Iterations = 6 Residual = 8.178131e-007
+[00:02:30]  output:solving kPhi 7
+[00:02:30]  output:Iteration Solve time: CPU time = 0.046000 Iterations = 5 Residual = 5.636111e-001
+[00:02:31]  output:Ave Values = 50.078029 48.747752 -0.083444 68168.876079 0.000000 289.041082 47643066.929581 0.000000
+[00:02:31]  output:64 1.50e-002 2.61e-002 3.14e-003 1.31e-004 7.19e-001 6.85e+004
+[00:02:31]  output:solving kPhi 1
+[00:02:31]  output:Iteration Solve time: CPU time = 0.122000 Iterations = 10 Residual = 9.851384e-008
+[00:02:31]  output:solving kPhi 2
+[00:02:32]  output:Iteration Solve time: CPU time = 0.120000 Iterations = 11 Residual = 9.026108e-008
+[00:02:32]  output:solving kPhi 3
+[00:02:32]  output:Iteration Solve time: CPU time = 0.059000 Iterations = 11 Residual = 1.280551e-008
+[00:02:32]  output:solving kPhi 4
+[00:02:32]  output:Incomplete factorization time: CPU time = 0.248000 Density1 = 4.554753 Density2 = 2.228835
+[00:02:32]  output:Iteration Solve time: CPU time = 0.240000 Iterations = 16 Residual = 7.934665e-013
+[00:02:33]  output:solving kPhi 6
+[00:02:33]  output:Iteration Solve time: CPU time = 0.027000 Iterations = 6 Residual = 7.740597e-007
+[00:02:33]  output:solving kPhi 7
+[00:02:33]  output:Iteration Solve time: CPU time = 0.022000 Iterations = 5 Residual = 5.209492e-001
+[00:02:34]  output:Ave Values = 50.281502 48.994094 -0.082868 66949.547936 0.000000 287.387237 48588668.170422 0.000000
+[00:02:34]  output:65 1.24e-002 2.30e-002 2.94e-003 1.40e-004 6.99e-001 5.67e+004
+[00:02:34]  output:solving kPhi 1
+[00:02:34]  output:Iteration Solve time: CPU time = 0.066000 Iterations = 10 Residual = 9.756297e-008
+[00:02:34]  output:solving kPhi 2
+[00:02:34]  output:Iteration Solve time: CPU time = 0.034000 Iterations = 11 Residual = 9.842854e-008
+[00:02:34]  output:solving kPhi 3
+[00:02:34]  output:Iteration Solve time: CPU time = 0.036000 Iterations = 10 Residual = 3.432205e-008
+[00:02:34]  output:solving kPhi 4
+[00:02:35]  output:Incomplete factorization time: CPU time = 0.624000 Density1 = 4.555719 Density2 = 2.228974
+[00:02:35]  output:Iteration Solve time: CPU time = 0.289000 Iterations = 16 Residual = 1.097460e-012
+[00:02:35]  output:solving kPhi 6
+[00:02:35]  output:Iteration Solve time: CPU time = 0.028000 Iterations = 6 Residual = 7.285727e-007
+[00:02:36]  output:solving kPhi 7
+[00:02:36]  output:Iteration Solve time: CPU time = 0.027000 Iterations = 5 Residual = 4.713954e-001
+[00:02:37]  output:Ave Values = 50.453581 49.227027 -0.082793 65753.582934 0.000000 285.768082 49527244.663456 0.000000
+[00:02:37]  output:66 2.09e-002 2.07e-002 3.52e-003 1.25e-004 6.86e-001 8.64e+004
+[00:02:37]  output:solving kPhi 1
+[00:02:37]  output:Iteration Solve time: CPU time = 0.046000 Iterations = 10 Residual = 1.045914e-007
+[00:02:37]  output:solving kPhi 2
+[00:02:37]  output:Iteration Solve time: CPU time = 0.024000 Iterations = 11 Residual = 9.564207e-008
+[00:02:37]  output:solving kPhi 3
+[00:02:37]  output:Iteration Solve time: CPU time = 0.037000 Iterations = 11 Residual = 1.106952e-008
+[00:02:37]  output:solving kPhi 4
+[00:02:38]  output:Incomplete factorization time: CPU time = 0.275000 Density1 = 4.556420 Density2 = 2.228501
+[00:02:38]  output:Iteration Solve time: CPU time = 0.252000 Iterations = 17 Residual = 6.821932e-013
+[00:02:38]  output:solving kPhi 6
+[00:02:38]  output:Iteration Solve time: CPU time = 0.039000 Iterations = 6 Residual = 6.928067e-007
+[00:02:38]  output:solving kPhi 7
+[00:02:38]  output:Iteration Solve time: CPU time = 0.238000 Iterations = 5 Residual = 4.381557e-001
+[00:02:40]  output:Ave Values = 50.616303 49.440058 -0.082677 64583.819631 0.000000 284.178554 50453465.180352 0.000000
+[00:02:40]  output:67 1.41e-002 2.44e-002 2.99e-003 1.16e-004 6.71e-001 7.81e+004
+[00:02:40]  output:solving kPhi 1
+[00:02:40]  output:Iteration Solve time: CPU time = 0.067000 Iterations = 10 Residual = 1.244449e-007
+[00:02:40]  output:solving kPhi 2
+[00:02:40]  output:Iteration Solve time: CPU time = 0.090000 Iterations = 11 Residual = 1.035136e-007
+[00:02:40]  output:solving kPhi 3
+[00:02:40]  output:Iteration Solve time: CPU time = 0.227000 Iterations = 11 Residual = 1.287095e-008
+[00:02:40]  output:solving kPhi 4
+[00:02:42]  output:Incomplete factorization time: CPU time = 0.563000 Density1 = 4.555408 Density2 = 2.229048
+[00:02:42]  output:Iteration Solve time: CPU time = 0.324000 Iterations = 16 Residual = 5.019297e-013
+[00:02:42]  output:solving kPhi 6
+[00:02:42]  output:Iteration Solve time: CPU time = 0.031000 Iterations = 5 Residual = 6.492765e-006
+[00:02:42]  output:solving kPhi 7
+[00:02:42]  output:Iteration Solve time: CPU time = 0.032000 Iterations = 5 Residual = 4.087691e-001
+[00:02:43]  output:Ave Values = 50.757508 49.647719 -0.080997 63436.265531 0.000000 282.629539 51367984.872927 0.000000
+[00:02:43]  output:68 1.72e-002 1.72e-002 3.03e-003 1.25e-004 6.54e-001 7.23e+004
+[00:02:43]  output:solving kPhi 1
+[00:02:43]  output:Iteration Solve time: CPU time = 0.041000 Iterations = 10 Residual = 1.120210e-007
+[00:02:43]  output:solving kPhi 2
+[00:02:43]  output:Iteration Solve time: CPU time = 0.120000 Iterations = 11 Residual = 9.639167e-008
+[00:02:43]  output:solving kPhi 3
+[00:02:43]  output:Iteration Solve time: CPU time = 0.043000 Iterations = 11 Residual = 1.158184e-008
+[00:02:44]  output:solving kPhi 4
+[00:02:45]  output:Incomplete factorization time: CPU time = 0.301000 Density1 = 4.556127 Density2 = 2.228635
+[00:02:45]  output:Iteration Solve time: CPU time = 0.567000 Iterations = 17 Residual = 2.429700e-013
+[00:02:45]  output:solving kPhi 6
+[00:02:45]  output:Iteration Solve time: CPU time = 0.030000 Iterations = 5 Residual = 6.271233e-006
+[00:02:46]  output:solving kPhi 7
+[00:02:46]  output:Iteration Solve time: CPU time = 0.023000 Iterations = 5 Residual = 3.895880e-001
+[00:02:47]  output:Ave Values = 50.898128 49.828624 -0.079655 62315.992575 0.000000 281.084498 52262026.185926 0.000000
+[00:02:47]  output:69 1.29e-002 2.80e-002 3.23e-003 1.06e-004 6.45e-001 6.21e+004
+[00:02:47]  output:solving kPhi 1
+[00:02:47]  output:Iteration Solve time: CPU time = 0.037000 Iterations = 10 Residual = 1.080429e-007
+[00:02:47]  output:solving kPhi 2
+[00:02:47]  output:Iteration Solve time: CPU time = 0.067000 Iterations = 11 Residual = 9.207456e-008
+[00:02:47]  output:solving kPhi 3
+[00:02:47]  output:Iteration Solve time: CPU time = 0.038000 Iterations = 11 Residual = 1.119119e-008
+[00:02:47]  output:solving kPhi 4
+[00:02:47]  output:Incomplete factorization time: CPU time = 0.239000 Density1 = 4.554818 Density2 = 2.228946
+[00:02:47]  output:Iteration Solve time: CPU time = 0.165000 Iterations = 16 Residual = 3.503853e-013
+[00:02:48]  output:solving kPhi 6
+[00:02:48]  output:Iteration Solve time: CPU time = 0.029000 Iterations = 5 Residual = 6.041959e-006
+[00:02:48]  output:solving kPhi 7
+[00:02:48]  output:Iteration Solve time: CPU time = 0.026000 Iterations = 5 Residual = 3.652521e-001
+[00:02:50]  output:Ave Values = 51.029058 49.992384 -0.080176 61214.609235 0.000000 279.573612 53139555.171902 0.000000
+[00:02:50]  output:70 1.78e-002 1.79e-002 3.11e-003 1.11e-004 6.29e-001 5.73e+004
+[00:02:50]  output:solving kPhi 1
+[00:02:50]  output:Iteration Solve time: CPU time = 0.086000 Iterations = 10 Residual = 1.278967e-007
+[00:02:50]  output:solving kPhi 2
+[00:02:50]  output:Iteration Solve time: CPU time = 0.170000 Iterations = 11 Residual = 9.799391e-008
+[00:02:50]  output:solving kPhi 3
+[00:02:50]  output:Iteration Solve time: CPU time = 0.059000 Iterations = 11 Residual = 1.244841e-008
+[00:02:50]  output:solving kPhi 4
+[00:02:51]  output:Incomplete factorization time: CPU time = 0.309000 Density1 = 4.556044 Density2 = 2.229067
+[00:02:51]  output:Iteration Solve time: CPU time = 0.187000 Iterations = 16 Residual = 6.175319e-013
+[00:02:51]  output:solving kPhi 6
+[00:02:51]  output:Iteration Solve time: CPU time = 0.123000 Iterations = 5 Residual = 5.849123e-006
+[00:02:52]  output:solving kPhi 7
+[00:02:52]  output:Iteration Solve time: CPU time = 0.023000 Iterations = 5 Residual = 3.458940e-001
+[00:02:53]  output:Ave Values = 51.142924 50.149434 -0.078800 60145.186798 0.000000 278.047140 53992053.853990 0.000000
+[00:02:53]  output:71 1.78e-002 2.62e-002 3.26e-003 1.03e-004 6.19e-001 5.55e+004
+[00:02:53]  output:solving kPhi 1
+[00:02:53]  output:Iteration Solve time: CPU time = 0.039000 Iterations = 10 Residual = 1.136096e-007
+[00:02:53]  output:solving kPhi 2
+[00:02:53]  output:Iteration Solve time: CPU time = 0.027000 Iterations = 11 Residual = 9.078137e-008
+[00:02:53]  output:solving kPhi 3
+[00:02:53]  output:Iteration Solve time: CPU time = 0.028000 Iterations = 10 Residual = 3.398115e-008
+[00:02:53]  output:solving kPhi 4
+[00:02:54]  output:Incomplete factorization time: CPU time = 0.245000 Density1 = 4.555937 Density2 = 2.229410
+[00:02:54]  output:Iteration Solve time: CPU time = 0.641000 Iterations = 16 Residual = 3.350489e-013
+[00:02:54]  output:solving kPhi 6
+[00:02:54]  output:Iteration Solve time: CPU time = 0.018000 Iterations = 5 Residual = 5.649613e-006
+[00:02:54]  output:solving kPhi 7
+[00:02:54]  output:Iteration Solve time: CPU time = 0.032000 Iterations = 5 Residual = 3.220643e-001
+[00:02:56]  output:Ave Values = 51.247068 50.295207 -0.078157 59105.161978 0.000000 276.546260 54825507.948496 0.000000
+[00:02:56]  output:72 1.93e-002 1.74e-002 3.42e-003 9.97e-005 6.06e-001 6.97e+004
+[00:02:56]  output:solving kPhi 1
+[00:02:56]  output:Iteration Solve time: CPU time = 0.144000 Iterations = 10 Residual = 1.505770e-007
+[00:02:56]  output:solving kPhi 2
+[00:02:56]  output:Iteration Solve time: CPU time = 0.039000 Iterations = 11 Residual = 9.863564e-008
+[00:02:56]  output:solving kPhi 3
+[00:02:56]  output:Iteration Solve time: CPU time = 0.148000 Iterations = 11 Residual = 1.079233e-008
+[00:02:56]  output:solving kPhi 4
+[00:02:57]  output:Incomplete factorization time: CPU time = 0.312000 Density1 = 4.556011 Density2 = 2.229605
+[00:02:57]  output:Iteration Solve time: CPU time = 0.389000 Iterations = 16 Residual = 4.184949e-013
+[00:02:58]  output:solving kPhi 6
+[00:02:58]  output:Iteration Solve time: CPU time = 0.095000 Iterations = 5 Residual = 5.469340e-006
+[00:02:59]  output:solving kPhi 7
+[00:02:59]  output:Iteration Solve time: CPU time = 0.026000 Iterations = 5 Residual = 3.043093e-001
+[00:03:00]  output:Ave Values = 51.336639 50.417418 -0.075734 58100.272097 0.000000 275.053189 55636115.100551 0.000000
+[00:03:00]  output:73 1.79e-002 2.70e-002 3.08e-003 9.42e-005 5.99e-001 8.58e+004
+[00:03:00]  output:solving kPhi 1
+[00:03:00]  output:Iteration Solve time: CPU time = 0.039000 Iterations = 10 Residual = 1.580460e-007
+[00:03:00]  output:solving kPhi 2
+[00:03:00]  output:Iteration Solve time: CPU time = 0.053000 Iterations = 11 Residual = 1.012031e-007
+[00:03:00]  output:solving kPhi 3
+[00:03:00]  output:Iteration Solve time: CPU time = 0.042000 Iterations = 11 Residual = 1.366367e-008
+[00:03:00]  output:solving kPhi 4
+[00:03:01]  output:Incomplete factorization time: CPU time = 0.317000 Density1 = 4.554071 Density2 = 2.230000
+[00:03:01]  output:Iteration Solve time: CPU time = 0.188000 Iterations = 16 Residual = 4.149655e-013
+[00:03:01]  output:solving kPhi 6
+[00:03:01]  output:Iteration Solve time: CPU time = 0.028000 Iterations = 5 Residual = 5.353228e-006
+[00:03:01]  output:solving kPhi 7
+[00:03:01]  output:Iteration Solve time: CPU time = 0.028000 Iterations = 5 Residual = 2.913682e-001
+[00:03:02]  output:Ave Values = 51.421285 50.528339 -0.072208 57122.675420 0.000000 273.565222 56422026.919355 0.000000
+[00:03:02]  output:74 2.09e-002 1.98e-002 3.40e-003 9.91e-005 5.88e-001 5.78e+004
+[00:03:02]  output:solving kPhi 1
+[00:03:02]  output:Iteration Solve time: CPU time = 0.052000 Iterations = 10 Residual = 1.377336e-007
+[00:03:02]  output:solving kPhi 2
+[00:03:02]  output:Iteration Solve time: CPU time = 0.043000 Iterations = 11 Residual = 1.002898e-007
+[00:03:02]  output:solving kPhi 3
+[00:03:02]  output:Iteration Solve time: CPU time = 0.036000 Iterations = 11 Residual = 1.142793e-008
+[00:03:02]  output:solving kPhi 4
+[00:03:03]  output:Incomplete factorization time: CPU time = 0.244000 Density1 = 4.555370 Density2 = 2.230033
+[00:03:03]  output:Iteration Solve time: CPU time = 0.215000 Iterations = 16 Residual = 4.588073e-013
+[00:03:03]  output:solving kPhi 6
+[00:03:03]  output:Iteration Solve time: CPU time = 0.033000 Iterations = 5 Residual = 5.230158e-006
+[00:03:04]  output:solving kPhi 7
+[00:03:04]  output:Iteration Solve time: CPU time = 0.031000 Iterations = 5 Residual = 2.835607e-001
+[00:03:04]  output:Ave Values = 51.500752 50.624831 -0.068565 56177.227840 0.000000 272.069620 57181256.707986 0.000000
+[00:03:04]  output:75 1.42e-002 2.52e-002 3.39e-003 9.22e-005 5.81e-001 5.58e+004
+[00:03:04]  output:solving kPhi 1
+[00:03:04]  output:Iteration Solve time: CPU time = 0.038000 Iterations = 10 Residual = 1.449759e-007
+[00:03:05]  output:solving kPhi 2
+[00:03:05]  output:Iteration Solve time: CPU time = 0.032000 Iterations = 11 Residual = 1.009801e-007
+[00:03:05]  output:solving kPhi 3
+[00:03:05]  output:Iteration Solve time: CPU time = 0.034000 Iterations = 11 Residual = 1.398646e-008
+[00:03:05]  output:solving kPhi 4
+[00:03:05]  output:Incomplete factorization time: CPU time = 0.251000 Density1 = 4.555575 Density2 = 2.230817
+[00:03:05]  output:Iteration Solve time: CPU time = 0.225000 Iterations = 16 Residual = 5.516475e-013
+[00:03:06]  output:solving kPhi 6
+[00:03:06]  output:Iteration Solve time: CPU time = 0.020000 Iterations = 5 Residual = 5.099982e-006
+[00:03:06]  output:solving kPhi 7
+[00:03:06]  output:Iteration Solve time: CPU time = 0.021000 Iterations = 5 Residual = 2.692439e-001
+[00:03:07]  output:Ave Values = 51.568176 50.709662 -0.062933 55263.229954 0.000000 270.566270 57911358.065767 0.000000
+[00:03:07]  output:76 1.71e-002 1.92e-002 3.44e-003 9.33e-005 5.69e-001 7.06e+004
+[00:03:07]  output:solving kPhi 1
+[00:03:07]  output:Iteration Solve time: CPU time = 0.069000 Iterations = 11 Residual = 5.909998e-008
+[00:03:07]  output:solving kPhi 2
+[00:03:07]  output:Iteration Solve time: CPU time = 0.035000 Iterations = 11 Residual = 1.084119e-007
+[00:03:07]  output:solving kPhi 3
+[00:03:07]  output:Iteration Solve time: CPU time = 0.043000 Iterations = 11 Residual = 1.298407e-008
+[00:03:07]  output:solving kPhi 4
+[00:03:08]  output:Incomplete factorization time: CPU time = 0.356000 Density1 = 5.250551 Density2 = 2.203279
+[00:03:08]  output:Iteration Solve time: CPU time = 0.455000 Iterations = 16 Residual = 3.730742e-013
+[00:03:09]  output:solving kPhi 6
+[00:03:09]  output:Iteration Solve time: CPU time = 0.024000 Iterations = 5 Residual = 5.030288e-006
+[00:03:09]  output:solving kPhi 7
+[00:03:09]  output:Iteration Solve time: CPU time = 0.047000 Iterations = 5 Residual = 2.789627e-001
+[00:03:10]  output:Ave Values = 51.634616 50.778234 -0.057403 54376.570199 0.000000 269.032545 58607593.913212 0.000000
+[00:03:10]  output:77 1.26e-002 1.92e-002 3.62e-003 9.07e-005 5.61e-001 7.29e+004
+[00:03:10]  output:solving kPhi 1
+[00:03:10]  output:Iteration Solve time: CPU time = 0.085000 Iterations = 10 Residual = 1.955482e-007
+[00:03:10]  output:solving kPhi 2
+[00:03:10]  output:Iteration Solve time: CPU time = 0.051000 Iterations = 11 Residual = 1.545759e-007
+[00:03:10]  output:solving kPhi 3
+[00:03:10]  output:Iteration Solve time: CPU time = 0.266000 Iterations = 10 Residual = 3.848875e-008
+[00:03:11]  output:solving kPhi 4
+[00:03:12]  output:Incomplete factorization time: CPU time = 0.385000 Density1 = 5.252575 Density2 = 2.203312
+[00:03:12]  output:Iteration Solve time: CPU time = 0.305000 Iterations = 16 Residual = 2.894486e-013
+[00:03:12]  output:solving kPhi 6
+[00:03:12]  output:Iteration Solve time: CPU time = 0.159000 Iterations = 5 Residual = 4.936271e-006
+[00:03:13]  output:solving kPhi 7
+[00:03:13]  output:Iteration Solve time: CPU time = 0.200000 Iterations = 5 Residual = 2.632908e-001
+[00:03:14]  output:Ave Values = 51.691945 50.839505 -0.051873 53514.481480 0.000000 267.455687 59266061.767319 0.000000
+[00:03:14]  output:78 2.98e-002 2.30e-002 4.13e-003 9.02e-005 5.64e-001 9.31e+004
+[00:03:14]  output:solving kPhi 1
+[00:03:14]  output:Iteration Solve time: CPU time = 0.119000 Iterations = 11 Residual = 6.813676e-008
+[00:03:14]  output:solving kPhi 2
+[00:03:14]  output:Iteration Solve time: CPU time = 0.047000 Iterations = 11 Residual = 1.289088e-007
+[00:03:14]  output:solving kPhi 3
+[00:03:14]  output:Iteration Solve time: CPU time = 0.013000 Iterations = 11 Residual = 1.443204e-008
+[00:03:14]  output:solving kPhi 4
+[00:03:15]  output:Incomplete factorization time: CPU time = 0.329000 Density1 = 5.251020 Density2 = 2.203641
+[00:03:15]  output:Iteration Solve time: CPU time = 0.281000 Iterations = 16 Residual = 4.353827e-013
+[00:03:15]  output:solving kPhi 6
+[00:03:15]  output:Iteration Solve time: CPU time = 0.022000 Iterations = 5 Residual = 4.880713e-006
+[00:03:16]  output:solving kPhi 7
+[00:03:16]  output:Iteration Solve time: CPU time = 0.051000 Iterations = 5 Residual = 2.558654e-001
+[00:03:17]  output:Ave Values = 51.742935 50.886784 -0.046094 52678.488344 0.000000 265.885350 59899904.370240 0.000000
+[00:03:17]  output:79 1.44e-002 2.07e-002 3.50e-003 8.23e-005 5.42e-001 7.04e+004
+[00:03:17]  output:solving kPhi 1
+[00:03:17]  output:Iteration Solve time: CPU time = 0.031000 Iterations = 10 Residual = 1.967157e-007
+[00:03:17]  output:solving kPhi 2
+[00:03:17]  output:Iteration Solve time: CPU time = 0.033000 Iterations = 11 Residual = 1.382466e-007
+[00:03:17]  output:solving kPhi 3
+[00:03:17]  output:Iteration Solve time: CPU time = 0.034000 Iterations = 10 Residual = 4.341884e-008
+[00:03:17]  output:solving kPhi 4
+[00:03:18]  output:Incomplete factorization time: CPU time = 0.315000 Density1 = 5.249753 Density2 = 2.203897
+[00:03:18]  output:Iteration Solve time: CPU time = 0.294000 Iterations = 16 Residual = 5.420372e-013
+[00:03:18]  output:solving kPhi 6
+[00:03:18]  output:Iteration Solve time: CPU time = 0.029000 Iterations = 5 Residual = 4.825559e-006
+[00:03:18]  output:solving kPhi 7
+[00:03:18]  output:Iteration Solve time: CPU time = 0.041000 Iterations = 5 Residual = 2.561535e-001
+[00:03:19]  output:Ave Values = 51.781724 50.925440 -0.041481 51865.454651 0.000000 264.305283 60505441.225606 0.000000
+[00:03:19]  output:80 2.89e-002 2.37e-002 4.45e-003 7.74e-005 5.62e-001 6.93e+004
+[00:03:19]  output:solving kPhi 1
+[00:03:19]  output:Iteration Solve time: CPU time = 0.056000 Iterations = 10 Residual = 2.234581e-007
+[00:03:19]  output:solving kPhi 2
+[00:03:19]  output:Iteration Solve time: CPU time = 0.037000 Iterations = 11 Residual = 1.509559e-007
+[00:03:19]  output:solving kPhi 3
+[00:03:19]  output:Iteration Solve time: CPU time = 0.041000 Iterations = 11 Residual = 1.444089e-008
+[00:03:20]  output:solving kPhi 4
+[00:03:20]  output:Incomplete factorization time: CPU time = 0.367000 Density1 = 5.250997 Density2 = 2.204463
+[00:03:20]  output:Iteration Solve time: CPU time = 0.188000 Iterations = 16 Residual = 2.369139e-013
+[00:03:20]  output:solving kPhi 6
+[00:03:21]  output:Iteration Solve time: CPU time = 0.034000 Iterations = 5 Residual = 4.776972e-006
+[00:03:21]  output:solving kPhi 7
+[00:03:21]  output:Iteration Solve time: CPU time = 0.202000 Iterations = 5 Residual = 2.467517e-001
+[00:03:22]  output:Ave Values = 51.810991 50.953576 -0.037367 51076.502780 0.000000 262.692269 61075783.529864 0.000000
+[00:03:22]  output:81 2.74e-002 2.30e-002 3.91e-003 6.40e-005 5.47e-001 6.93e+004
+[00:03:22]  output:solving kPhi 1
+[00:03:22]  output:Iteration Solve time: CPU time = 0.059000 Iterations = 11 Residual = 7.857591e-008
+[00:03:22]  output:solving kPhi 2
+[00:03:22]  output:Iteration Solve time: CPU time = 0.063000 Iterations = 11 Residual = 1.685042e-007
+[00:03:22]  output:solving kPhi 3
+[00:03:22]  output:Iteration Solve time: CPU time = 0.047000 Iterations = 11 Residual = 1.177096e-008
+[00:03:22]  output:solving kPhi 4
+[00:03:23]  output:Incomplete factorization time: CPU time = 0.272000 Density1 = 5.250328 Density2 = 2.204742
+[00:03:23]  output:Iteration Solve time: CPU time = 0.191000 Iterations = 16 Residual = 2.893920e-013
+[00:03:23]  output:solving kPhi 6
+[00:03:23]  output:Iteration Solve time: CPU time = 0.037000 Iterations = 5 Residual = 4.724129e-006
+[00:03:24]  output:solving kPhi 7
+[00:03:24]  output:Iteration Solve time: CPU time = 0.023000 Iterations = 5 Residual = 2.462842e-001
+[00:03:25]  output:Ave Values = 51.824676 50.972159 -0.032293 50317.124838 0.000000 261.078177 61619117.378711 0.000000
+[00:03:25]  output:82 1.56e-002 1.88e-002 3.21e-003 6.45e-005 5.27e-001 6.51e+004
+[00:03:25]  output:solving kPhi 1
+[00:03:25]  output:Iteration Solve time: CPU time = 0.132000 Iterations = 11 Residual = 8.774765e-008
+[00:03:25]  output:solving kPhi 2
+[00:03:25]  output:Iteration Solve time: CPU time = 0.114000 Iterations = 11 Residual = 1.736949e-007
+[00:03:25]  output:solving kPhi 3
+[00:03:25]  output:Iteration Solve time: CPU time = 0.069000 Iterations = 11 Residual = 1.624257e-008
+[00:03:25]  output:solving kPhi 4
+[00:03:26]  output:Incomplete factorization time: CPU time = 0.416000 Density1 = 5.249293 Density2 = 2.205187
+[00:03:26]  output:Iteration Solve time: CPU time = 0.491000 Iterations = 16 Residual = 6.687909e-013
+[00:03:27]  output:solving kPhi 6
+[00:03:27]  output:Iteration Solve time: CPU time = 0.037000 Iterations = 5 Residual = 4.706432e-006
+[00:03:27]  output:solving kPhi 7
+[00:03:27]  output:Iteration Solve time: CPU time = 0.031000 Iterations = 5 Residual = 2.616442e-001
+[00:03:30]  output:Ave Values = 51.840414 50.986605 -0.028380 49582.040547 0.000000 259.469626 62131913.144031 0.000000
+[00:03:30]  output:83 1.50e-002 2.11e-002 3.16e-003 8.09e-005 5.29e-001 7.01e+004
+[00:03:30]  output:solving kPhi 1
+[00:03:30]  output:Iteration Solve time: CPU time = 0.039000 Iterations = 11 Residual = 8.912953e-008
+[00:03:30]  output:solving kPhi 2
+[00:03:30]  output:Iteration Solve time: CPU time = 0.092000 Iterations = 11 Residual = 1.771020e-007
+[00:03:30]  output:solving kPhi 3
+[00:03:30]  output:Iteration Solve time: CPU time = 0.048000 Iterations = 11 Residual = 1.179013e-008
+[00:03:30]  output:solving kPhi 4
+[00:03:31]  output:Incomplete factorization time: CPU time = 0.349000 Density1 = 5.249762 Density2 = 2.205229
+[00:03:31]  output:Iteration Solve time: CPU time = 0.420000 Iterations = 17 Residual = 6.126065e-014
+[00:03:31]  output:solving kPhi 6
+[00:03:31]  output:Iteration Solve time: CPU time = 0.023000 Iterations = 5 Residual = 4.666556e-006
+[00:03:32]  output:solving kPhi 7
+[00:03:32]  output:Iteration Solve time: CPU time = 0.170000 Iterations = 5 Residual = 2.547716e-001
+[00:03:33]  output:Ave Values = 51.827817 50.986239 -0.024623 48884.504979 0.000000 257.841440 62612855.422731 0.000000
+[00:03:33]  output:84 1.69e-002 1.96e-002 3.18e-003 6.26e-005 5.19e-001 6.39e+004
+[00:03:33]  output:solving kPhi 1
+[00:03:33]  output:Iteration Solve time: CPU time = 0.046000 Iterations = 10 Residual = 2.412654e-007
+[00:03:33]  output:solving kPhi 2
+[00:03:33]  output:Iteration Solve time: CPU time = 0.049000 Iterations = 11 Residual = 1.766096e-007
+[00:03:34]  output:solving kPhi 3
+[00:03:34]  output:Iteration Solve time: CPU time = 0.037000 Iterations = 10 Residual = 3.475362e-008
+[00:03:34]  output:solving kPhi 4
+[00:03:35]  output:Incomplete factorization time: CPU time = 0.438000 Density1 = 5.249214 Density2 = 2.205675
+[00:03:35]  output:Iteration Solve time: CPU time = 0.864000 Iterations = 17 Residual = 1.025876e-013
+[00:03:36]  output:solving kPhi 6
+[00:03:36]  output:Iteration Solve time: CPU time = 0.029000 Iterations = 5 Residual = 4.640506e-006
+[00:03:36]  output:solving kPhi 7
+[00:03:36]  output:Iteration Solve time: CPU time = 0.032000 Iterations = 5 Residual = 2.532053e-001
+[00:03:37]  output:Ave Values = 51.811436 50.980988 -0.021713 48224.822114 0.000000 256.200193 63063099.687457 0.000000
+[00:03:37]  output:85 2.65e-002 2.10e-002 4.00e-003 6.61e-005 4.99e-001 7.71e+004
+[00:03:37]  output:solving kPhi 1
+[00:03:37]  output:Iteration Solve time: CPU time = 0.062000 Iterations = 11 Residual = 9.822995e-008
+[00:03:37]  output:solving kPhi 2
+[00:03:37]  output:Iteration Solve time: CPU time = 0.041000 Iterations = 11 Residual = 1.903623e-007
+[00:03:37]  output:solving kPhi 3
+[00:03:37]  output:Iteration Solve time: CPU time = 0.037000 Iterations = 11 Residual = 1.186682e-008
+[00:03:37]  output:solving kPhi 4
+[00:03:38]  output:Incomplete factorization time: CPU time = 0.312000 Density1 = 5.247529 Density2 = 2.205359
+[00:03:38]  output:Iteration Solve time: CPU time = 0.266000 Iterations = 16 Residual = 1.015818e-012
+[00:03:38]  output:solving kPhi 6
+[00:03:38]  output:Iteration Solve time: CPU time = 0.022000 Iterations = 5 Residual = 4.633521e-006
+[00:03:38]  output:solving kPhi 7
+[00:03:39]  output:Iteration Solve time: CPU time = 0.315000 Iterations = 5 Residual = 2.514418e-001
+[00:03:40]  output:Ave Values = 51.793876 50.961068 -0.019448 47608.561380 0.000000 254.545134 63471965.486798 0.000000
+[00:03:40]  output:86 1.61e-002 2.22e-002 2.89e-003 1.13e-004 4.97e-001 6.18e+004
+[00:03:40]  output:solving kPhi 1
+[00:03:40]  output:Iteration Solve time: CPU time = 0.080000 Iterations = 11 Residual = 9.770517e-008
+[00:03:40]  output:solving kPhi 2
+[00:03:40]  output:Iteration Solve time: CPU time = 0.037000 Iterations = 11 Residual = 1.801815e-007
+[00:03:40]  output:solving kPhi 3
+[00:03:40]  output:Iteration Solve time: CPU time = 0.041000 Iterations = 11 Residual = 1.122075e-008
+[00:03:40]  output:solving kPhi 4
+[00:03:41]  output:Incomplete factorization time: CPU time = 0.333000 Density1 = 5.247088 Density2 = 2.206199
+[00:03:41]  output:Iteration Solve time: CPU time = 0.181000 Iterations = 16 Residual = 3.537546e-013
+[00:03:41]  output:solving kPhi 6
+[00:03:41]  output:Iteration Solve time: CPU time = 0.048000 Iterations = 5 Residual = 4.606079e-006
+[00:03:41]  output:solving kPhi 7
+[00:03:41]  output:Iteration Solve time: CPU time = 0.021000 Iterations = 5 Residual = 2.840646e-001
+[00:03:43]  output:Ave Values = 51.751838 50.935218 -0.022883 47039.517789 0.000000 252.871827 63845993.894644 0.000000
+[00:03:43]  output:87 2.33e-002 1.84e-002 3.11e-003 1.35e-004 4.85e-001 8.79e+004
+[00:03:43]  output:solving kPhi 1
+[00:03:43]  output:Iteration Solve time: CPU time = 0.058000 Iterations = 11 Residual = 1.749739e-007
+[00:03:43]  output:solving kPhi 2
+[00:03:43]  output:Iteration Solve time: CPU time = 0.056000 Iterations = 11 Residual = 2.362438e-007
+[00:03:43]  output:solving kPhi 3
+[00:03:43]  output:Iteration Solve time: CPU time = 0.084000 Iterations = 9 Residual = 1.109391e-007
+[00:03:44]  output:solving kPhi 4
+[00:03:44]  output:Incomplete factorization time: CPU time = 0.378000 Density1 = 5.246991 Density2 = 2.206724
+[00:03:44]  output:Iteration Solve time: CPU time = 0.212000 Iterations = 16 Residual = 1.091426e-012
+[00:03:45]  output:solving kPhi 6
+[00:03:45]  output:Iteration Solve time: CPU time = 0.024000 Iterations = 5 Residual = 4.596530e-006
+[00:03:45]  output:solving kPhi 7
+[00:03:45]  output:Iteration Solve time: CPU time = 0.028000 Iterations = 5 Residual = 2.215384e-001
+[00:03:46]  output:Ave Values = 51.701720 50.904139 -0.021765 46530.376610 0.000000 251.183949 64182940.623723 0.000000
+[00:03:46]  output:88 2.34e-002 3.12e-002 1.14e-002 1.26e-004 4.73e-001 7.19e+004
+[00:03:46]  output:solving kPhi 1
+[00:03:46]  output:Iteration Solve time: CPU time = 0.034000 Iterations = 10 Residual = 2.682612e-007
+[00:03:46]  output:solving kPhi 2
+[00:03:46]  output:Iteration Solve time: CPU time = 0.043000 Iterations = 11 Residual = 1.767743e-007
+[00:03:46]  output:solving kPhi 3
+[00:03:46]  output:Iteration Solve time: CPU time = 0.034000 Iterations = 10 Residual = 3.299316e-008
+[00:03:46]  output:solving kPhi 4
+[00:03:48]  output:Incomplete factorization time: CPU time = 0.352000 Density1 = 5.245064 Density2 = 2.206761
+[00:03:48]  output:Iteration Solve time: CPU time = 0.699000 Iterations = 16 Residual = 5.016371e-013
+[00:03:48]  output:solving kPhi 6
+[00:03:48]  output:Iteration Solve time: CPU time = 0.025000 Iterations = 5 Residual = 4.591905e-006
+[00:03:48]  output:solving kPhi 7
+[00:03:48]  output:Iteration Solve time: CPU time = 0.035000 Iterations = 5 Residual = 2.227352e-001
+[00:03:49]  output:Ave Values = 51.656118 50.865196 -0.022039 46077.997327 0.000000 249.473875 64486442.697282 0.000000
+[00:03:49]  output:89 3.32e-002 3.30e-002 6.70e-003 9.56e-005 4.61e-001 6.58e+004
+[00:03:49]  output:solving kPhi 1
+[00:03:49]  output:Iteration Solve time: CPU time = 0.042000 Iterations = 10 Residual = 2.311190e-007
+[00:03:49]  output:solving kPhi 2
+[00:03:49]  output:Iteration Solve time: CPU time = 0.054000 Iterations = 11 Residual = 1.558098e-007
+[00:03:49]  output:solving kPhi 3
+[00:03:49]  output:Iteration Solve time: CPU time = 0.062000 Iterations = 10 Residual = 3.759755e-008
+[00:03:49]  output:solving kPhi 4
+[00:03:50]  output:Incomplete factorization time: CPU time = 0.285000 Density1 = 5.245635 Density2 = 2.206919
+[00:03:50]  output:Iteration Solve time: CPU time = 0.241000 Iterations = 16 Residual = 1.761801e-013
+[00:03:50]  output:solving kPhi 6
+[00:03:50]  output:Iteration Solve time: CPU time = 0.025000 Iterations = 5 Residual = 4.571108e-006
+[00:03:50]  output:solving kPhi 7
+[00:03:50]  output:Iteration Solve time: CPU time = 0.026000 Iterations = 5 Residual = 2.233916e-001
+[00:03:51]  output:Ave Values = 51.607150 50.810201 -0.025313 45686.480131 0.000000 247.745882 64748463.238721 0.000000
+[00:03:51]  output:90 3.35e-002 3.85e-002 8.00e-003 1.41e-004 4.79e-001 5.65e+004
+[00:03:51]  output:solving kPhi 1
+[00:03:51]  output:Iteration Solve time: CPU time = 0.052000 Iterations = 10 Residual = 2.311938e-007
+[00:03:51]  output:solving kPhi 2
+[00:03:51]  output:Iteration Solve time: CPU time = 0.035000 Iterations = 11 Residual = 1.554959e-007
+[00:03:51]  output:solving kPhi 3
+[00:03:51]  output:Iteration Solve time: CPU time = 0.028000 Iterations = 10 Residual = 3.567915e-008
+[00:03:52]  output:solving kPhi 4
+[00:03:52]  output:Incomplete factorization time: CPU time = 0.306000 Density1 = 5.244618 Density2 = 2.207448
+[00:03:52]  output:Iteration Solve time: CPU time = 0.389000 Iterations = 17 Residual = 6.142390e-014
+[00:03:53]  output:solving kPhi 6
+[00:03:53]  output:Iteration Solve time: CPU time = 0.045000 Iterations = 6 Residual = 4.555533e-007
+[00:03:53]  output:solving kPhi 7
+[00:03:53]  output:Iteration Solve time: CPU time = 0.038000 Iterations = 5 Residual = 2.263736e-001
+[00:03:54]  output:Ave Values = 51.568232 50.773565 -0.023181 45341.912773 0.000000 245.992717 64979532.386012 0.000000
+[00:03:54]  output:91 3.95e-002 4.22e-002 9.65e-003 6.87e-005 4.46e-001 5.32e+004
+[00:03:54]  output:solving kPhi 1
+[00:03:54]  output:Iteration Solve time: CPU time = 0.036000 Iterations = 10 Residual = 2.256945e-007
+[00:03:54]  output:solving kPhi 2
+[00:03:54]  output:Iteration Solve time: CPU time = 0.056000 Iterations = 11 Residual = 1.411986e-007
+[00:03:54]  output:solving kPhi 3
+[00:03:54]  output:Iteration Solve time: CPU time = 0.035000 Iterations = 10 Residual = 3.257382e-008
+[00:03:55]  output:solving kPhi 4
+[00:03:56]  output:Incomplete factorization time: CPU time = 0.564000 Density1 = 5.940937 Density2 = 2.143919
+[00:03:56]  output:Iteration Solve time: CPU time = 0.273000 Iterations = 16 Residual = 2.630648e-013
+[00:03:56]  output:solving kPhi 6
+[00:03:56]  output:Iteration Solve time: CPU time = 0.029000 Iterations = 6 Residual = 4.591277e-007
+[00:03:56]  output:solving kPhi 7
+[00:03:56]  output:Iteration Solve time: CPU time = 0.024000 Iterations = 5 Residual = 2.272687e-001
+[00:03:57]  output:Ave Values = 51.541283 50.716499 -0.025771 45038.634058 0.000000 244.222234 65177292.474203 0.000000
+[00:03:57]  output:92 2.97e-002 2.27e-002 5.30e-003 1.08e-004 4.57e-001 4.25e+004
+[00:03:57]  output:solving kPhi 1
+[00:03:57]  output:Iteration Solve time: CPU time = 0.036000 Iterations = 10 Residual = 1.948514e-007
+[00:03:57]  output:solving kPhi 2
+[00:03:57]  output:Iteration Solve time: CPU time = 0.035000 Iterations = 10 Residual = 3.488085e-007
+[00:03:57]  output:solving kPhi 3
+[00:03:57]  output:Iteration Solve time: CPU time = 0.035000 Iterations = 9 Residual = 9.608358e-008
+[00:03:58]  output:solving kPhi 4
+[00:03:58]  output:Incomplete factorization time: CPU time = 0.358000 Density1 = 5.940236 Density2 = 2.143501
+[00:03:58]  output:Iteration Solve time: CPU time = 0.297000 Iterations = 16 Residual = 1.967566e-013
+[00:03:59]  output:solving kPhi 6
+[00:03:59]  output:Iteration Solve time: CPU time = 0.039000 Iterations = 6 Residual = 4.623041e-007
+[00:03:59]  output:solving kPhi 7
+[00:03:59]  output:Iteration Solve time: CPU time = 0.023000 Iterations = 5 Residual = 2.310234e-001
+[00:04:00]  output:Ave Values = 51.528570 50.677939 -0.024636 44767.638698 0.000000 242.422539 65341286.393373 0.000000
+[00:04:00]  output:93 2.56e-002 4.97e-002 1.32e-002 6.54e-005 4.32e-001 4.38e+004
+[00:04:00]  output:solving kPhi 1
+[00:04:00]  output:Iteration Solve time: CPU time = 0.319000 Iterations = 10 Residual = 1.877713e-007
+[00:04:00]  output:solving kPhi 2
+[00:04:00]  output:Iteration Solve time: CPU time = 0.052000 Iterations = 11 Residual = 1.196260e-007
+[00:04:00]  output:solving kPhi 3
+[00:04:00]  output:Iteration Solve time: CPU time = 0.078000 Iterations = 10 Residual = 3.125702e-008
+[00:04:01]  output:solving kPhi 4
+[00:04:01]  output:Incomplete factorization time: CPU time = 0.430000 Density1 = 5.941192 Density2 = 2.144657
+[00:04:01]  output:Iteration Solve time: CPU time = 0.239000 Iterations = 17 Residual = 3.075476e-014
+[00:04:02]  output:solving kPhi 6
+[00:04:02]  output:Iteration Solve time: CPU time = 0.022000 Iterations = 6 Residual = 4.655629e-007
+[00:04:02]  output:solving kPhi 7
+[00:04:02]  output:Iteration Solve time: CPU time = 0.030000 Iterations = 5 Residual = 2.362761e-001
+[00:04:03]  output:Ave Values = 51.515136 50.631830 -0.021060 44520.007203 0.000000 240.588255 65471717.733440 0.000000
+[00:04:03]  output:94 2.52e-002 3.16e-002 8.01e-003 1.07e-004 4.46e-001 3.62e+004
+[00:04:03]  output:solving kPhi 1
+[00:04:03]  output:Iteration Solve time: CPU time = 0.047000 Iterations = 11 Residual = 7.198140e-008
+[00:04:03]  output:solving kPhi 2
+[00:04:03]  output:Iteration Solve time: CPU time = 0.018000 Iterations = 11 Residual = 1.203428e-007
+[00:04:03]  output:solving kPhi 3
+[00:04:03]  output:Iteration Solve time: CPU time = 0.030000 Iterations = 10 Residual = 4.957914e-008
+[00:04:03]  output:solving kPhi 4
+[00:04:04]  output:Incomplete factorization time: CPU time = 0.437000 Density1 = 5.939581 Density2 = 2.145251
+[00:04:04]  output:Iteration Solve time: CPU time = 0.192000 Iterations = 16 Residual = 3.253590e-013
+[00:04:04]  output:solving kPhi 6
+[00:04:04]  output:Iteration Solve time: CPU time = 0.029000 Iterations = 6 Residual = 4.692382e-007
+[00:04:05]  output:solving kPhi 7
+[00:04:05]  output:Iteration Solve time: CPU time = 0.044000 Iterations = 5 Residual = 2.415694e-001
+[00:04:06]  output:Ave Values = 51.505523 50.588582 -0.020362 44290.512747 0.000000 238.738976 65573632.068653 0.000000
+[00:04:06]  output:95 1.67e-002 2.44e-002 5.90e-003 7.77e-005 4.25e-001 3.31e+004
+[00:04:06]  output:solving kPhi 1
+[00:04:06]  output:Iteration Solve time: CPU time = 0.047000 Iterations = 11 Residual = 5.755434e-008
+[00:04:06]  output:solving kPhi 2
+[00:04:06]  output:Iteration Solve time: CPU time = 0.036000 Iterations = 11 Residual = 1.097640e-007
+[00:04:06]  output:solving kPhi 3
+[00:04:06]  output:Iteration Solve time: CPU time = 0.036000 Iterations = 10 Residual = 3.932875e-008
+[00:04:06]  output:solving kPhi 4
+[00:04:07]  output:Incomplete factorization time: CPU time = 0.336000 Density1 = 5.939409 Density2 = 2.146013
+[00:04:07]  output:Iteration Solve time: CPU time = 0.275000 Iterations = 17 Residual = 2.252984e-013
+[00:04:07]  output:solving kPhi 6
+[00:04:07]  output:Iteration Solve time: CPU time = 0.028000 Iterations = 6 Residual = 4.676160e-007
+[00:04:07]  output:solving kPhi 7
+[00:04:07]  output:Iteration Solve time: CPU time = 0.023000 Iterations = 5 Residual = 2.492639e-001
+[00:04:08]  output:Ave Values = 51.502266 50.543639 -0.019807 44075.713564 0.000000 236.874299 65649311.428757 0.000000
+[00:04:08]  output:96 1.19e-002 1.75e-002 4.23e-003 9.38e-005 4.25e-001 3.20e+004
+[00:04:08]  output:solving kPhi 1
+[00:04:08]  output:Iteration Solve time: CPU time = 0.045000 Iterations = 11 Residual = 6.476913e-008
+[00:04:08]  output:solving kPhi 2
+[00:04:08]  output:Iteration Solve time: CPU time = 0.034000 Iterations = 11 Residual = 1.174005e-007
+[00:04:08]  output:solving kPhi 3
+[00:04:08]  output:Iteration Solve time: CPU time = 0.034000 Iterations = 11 Residual = 1.543919e-008
+[00:04:08]  output:solving kPhi 4
+[00:04:09]  output:Incomplete factorization time: CPU time = 0.367000 Density1 = 5.939326 Density2 = 2.146700
+[00:04:09]  output:Iteration Solve time: CPU time = 0.191000 Iterations = 16 Residual = 4.163157e-013
+[00:04:09]  output:solving kPhi 6
+[00:04:09]  output:Iteration Solve time: CPU time = 0.032000 Iterations = 6 Residual = 4.582932e-007
+[00:04:09]  output:solving kPhi 7
+[00:04:09]  output:Iteration Solve time: CPU time = 0.030000 Iterations = 5 Residual = 2.471984e-001
+[00:04:10]  output:Ave Values = 51.493774 50.503173 -0.019348 43874.848134 0.000000 235.023973 65702731.704278 0.000000
+[00:04:10]  output:97 1.10e-002 2.97e-002 3.54e-003 7.55e-005 4.16e-001 3.19e+004
+[00:04:10]  output:solving kPhi 1
+[00:04:10]  output:Iteration Solve time: CPU time = 0.066000 Iterations = 11 Residual = 6.029476e-008
+[00:04:10]  output:solving kPhi 2
+[00:04:10]  output:Iteration Solve time: CPU time = 0.045000 Iterations = 11 Residual = 1.222445e-007
+[00:04:10]  output:solving kPhi 3
+[00:04:10]  output:Iteration Solve time: CPU time = 0.046000 Iterations = 11 Residual = 1.335393e-008
+[00:04:11]  output:solving kPhi 4
+[00:04:11]  output:Incomplete factorization time: CPU time = 0.401000 Density1 = 5.939860 Density2 = 2.147220
+[00:04:11]  output:Iteration Solve time: CPU time = 0.245000 Iterations = 17 Residual = 2.101474e-014
+[00:04:12]  output:solving kPhi 6
+[00:04:12]  output:Iteration Solve time: CPU time = 0.024000 Iterations = 6 Residual = 4.413958e-007
+[00:04:12]  output:solving kPhi 7
+[00:04:12]  output:Iteration Solve time: CPU time = 0.023000 Iterations = 5 Residual = 2.399514e-001
+[00:04:13]  output:Ave Values = 51.473618 50.461874 -0.020525 43693.940963 0.000000 233.199570 65735426.155551 0.000000
+[00:04:13]  output:98 1.17e-002 1.73e-002 3.50e-003 5.49e-005 4.11e-001 4.48e+004
+[00:04:13]  output:solving kPhi 1
+[00:04:13]  output:Iteration Solve time: CPU time = 0.232000 Iterations = 11 Residual = 6.306873e-008
+[00:04:13]  output:solving kPhi 2
+[00:04:13]  output:Iteration Solve time: CPU time = 0.183000 Iterations = 11 Residual = 1.174429e-007
+[00:04:13]  output:solving kPhi 3
+[00:04:13]  output:Iteration Solve time: CPU time = 0.093000 Iterations = 11 Residual = 1.411316e-008
+[00:04:14]  output:solving kPhi 4
+[00:04:15]  output:Incomplete factorization time: CPU time = 0.480000 Density1 = 5.937845 Density2 = 2.146630
+[00:04:15]  output:Iteration Solve time: CPU time = 0.600000 Iterations = 17 Residual = 3.917368e-013
+[00:04:16]  output:solving kPhi 6
+[00:04:16]  output:Iteration Solve time: CPU time = 0.279000 Iterations = 6 Residual = 4.180537e-007
+[00:04:17]  output:solving kPhi 7
+[00:04:17]  output:Iteration Solve time: CPU time = 0.024000 Iterations = 5 Residual = 2.264349e-001
+[00:04:17]  output:Ave Values = 51.452878 50.425215 -0.023000 43532.227094 0.000000 231.399272 65751185.917222 0.000000
+[00:04:17]  output:99 1.34e-002 1.33e-002 3.04e-003 5.89e-005 4.07e-001 5.83e+004
+[00:04:17]  output:solving kPhi 1
+[00:04:17]  output:Iteration Solve time: CPU time = 0.033000 Iterations = 11 Residual = 6.467218e-008
+[00:04:18]  output:solving kPhi 2
+[00:04:18]  output:Iteration Solve time: CPU time = 0.035000 Iterations = 11 Residual = 1.306883e-007
+[00:04:18]  output:solving kPhi 3
+[00:04:18]  output:Iteration Solve time: CPU time = 0.038000 Iterations = 11 Residual = 1.521250e-008
+[00:04:18]  output:solving kPhi 4
+[00:04:18]  output:Incomplete factorization time: CPU time = 0.382000 Density1 = 5.938778 Density2 = 2.147280
+[00:04:18]  output:Iteration Solve time: CPU time = 0.241000 Iterations = 16 Residual = 4.524979e-013
+[00:04:19]  output:solving kPhi 6
+[00:04:19]  output:Iteration Solve time: CPU time = 0.025000 Iterations = 5 Residual = 3.953644e-006
+[00:04:19]  output:solving kPhi 7
+[00:04:19]  output:Iteration Solve time: CPU time = 0.018000 Iterations = 5 Residual = 2.183439e-001
+[00:04:23] Processing solver exited
+[00:04:23]  output:Ave Values = 51.429141 50.387858 -0.027192 43394.781504 0.000000 229.604009 65745463.774419 0.000000
+[00:04:23]  output:100 1.61e-002 1.80e-002 3.43e-003 7.81e-005 3.96e-001 4.67e+004
+[00:04:23]  output:Ave Values = 51.421556 50.378948 -0.027190 43394.838463 0.000000 229.604009 65745463.774420 0.000000
+[00:04:23]  output:solver has finished exit code=0
+[00:04:23]  output:C:\Program Files\Autodesk\Simulation CFD 2015>set E=0
+[00:04:23]  output:C:\Program Files\Autodesk\Simulation CFD 2015>exit 0
+[00:04:23] Job finished with exit code = 0
+[00:04:23] Stopping messaging
+[00:04:23] Messaging has stopped
+[00:04:23] Stopping mail server
+[00:04:23] Mail server has stopped
+[00:04:23] Stopping mail server thread
+[00:04:23] Mail server thread has stopped
+[00:04:23] Exiting job manager

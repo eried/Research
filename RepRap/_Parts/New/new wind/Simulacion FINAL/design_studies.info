@@ -1,0 +1,7 @@
+<cfd_design_studies version="15.1.20140515" user_name="Erwin Ried">
+ <design_study instance_id="id_not_defined" name="Simulacion FINAL" folder="D:/OneDrive/RepRap/Parts/New/new wind/Simulacion FINAL" study_id="89b7df20-23cd-4bad-a2c2-a60e6bc2394c">
+  <design launcher_type="CP_ASM_STEP_IMPORT" name="Design 1" model_id="only output guide.sat" lock_status="false">
+   <analysis name="Scenario 1"/>
+  </design>
+ </design_study>
+</cfd_design_studies>

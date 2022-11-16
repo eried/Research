@@ -1,0 +1,52 @@
+<CFD_MesherInformation>
+ <loadTime>4.692</loadTime>
+ <ASMErrorCode>3</ASMErrorCode>
+ <ASMErrorCount>0</ASMErrorCount>
+ <adaptCycles>0</adaptCycles>
+ <adaptConstraint>1</adaptConstraint>
+ <adaptBLConstraint>1</adaptBLConstraint>
+ <adaptEnabled>false</adaptEnabled>
+ <adaptDerefine>false</adaptDerefine>
+ <adaptAngularity>false</adaptAngularity>
+ <adaptWallShear>false</adaptWallShear>
+ <adaptTransient>false</adaptTransient>
+ <adaptKeepHistory>false</adaptKeepHistory>
+ <adaptBLAspect>0</adaptBLAspect>
+ <adaptYPlus>false</adaptYPlus>
+ <lowerConstraint>1</lowerConstraint>
+ <upperConstraint>1</upperConstraint>
+ <resolutionFactor>1</resolutionFactor>
+ <visualScaleFactor>1</visualScaleFactor>
+ <is3DModel>true</is3DModel>
+ <fluidFlow>true</fluidFlow>
+ <heatTransfer>false</heatTransfer>
+ <heatFlux>false</heatFlux>
+ <tempDifferential>false</tempDifferential>
+ <freeShearLayer>false</freeShearLayer>
+ <compressibleFlow>false</compressibleFlow>
+ <externalFlow>false</externalFlow>
+ <shocks>false</shocks>
+ <forcedConvection>false</forcedConvection>
+ <partTypes>0; </partTypes>
+ <generateMesh>false</generateMesh>
+ <nominalMesh>false</nominalMesh>
+ <majorCycles>0</majorCycles>
+ <minorCycles>0</minorCycles>
+ <scalarCount>0</scalarCount>
+ <converged>false</converged>
+ <adaptComplete>false</adaptComplete>
+ <adaptThresholds></adaptThresholds>
+ <pressureIntegrals>0; </pressureIntegrals>
+ <velocityIntegrals>0; </velocityIntegrals>
+ <temperatureIntegrals></temperatureIntegrals>
+ <exemptEntities></exemptEntities>
+ <frozenEntities></frozenEntities>
+ <fullPath></fullPath>
+ <scenarioName></scenarioName>
+ <resultName></resultName>
+ <Simplex>false</Simplex>
+ <SurfaceAutosize>false</SurfaceAutosize>
+ <VolumeAutosize>false</VolumeAutosize>
+ <enhancement>true</enhancement>
+ <enhancementGradation>0</enhancementGradation>
+</CFD_MesherInformation>

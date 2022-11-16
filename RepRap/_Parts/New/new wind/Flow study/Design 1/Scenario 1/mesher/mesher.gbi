@@ -1,0 +1,44 @@
+Scenario 1
+CFdesign 2015 (Bowfin SP1)
+Version 15 0 20130711
+
+*** Summary
+*** Coordinate System
+XYZ XYZ
+*** Properties
+2 "ABS (Molded)" 0 0
+-1 Blank
+*** Units
+meter
+*** Extruded Parts Summary
+0
+*** Nodes
+*** Elements
+*** Shell Elements
+*** Shell Surface Node Links
+*** 3D Shells Data
+*** Part Surfaces
+*** Surface Connectivity Data
+*** Extrusion Nodal Data
+*** Extrusion Face List
+*** Periodic Nodal Data
+*** Periodic Face List
+*** Periodic Transform
+*** Rotating Region Data
+*** Moving Region Data
+*** Fan Thermostats
+-1 kP 0.0
+*** PCB Regions
+-1 kP 0.0
+*** Heat Sink Model Info
+-1 kP 0.0
+*** Surface nodal boundary conditions
+-1
+*** Spatial nodal boundary conditions
+-1
+*** Region element boundary conditions
+-1
+*** Region initial conditions
+-1
+*** Surface initial conditions
+-1

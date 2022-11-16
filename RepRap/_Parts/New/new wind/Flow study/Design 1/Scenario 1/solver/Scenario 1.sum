@@ -1,0 +1,64 @@
+﻿ *** Simulation CFD Summary File Output ***
+
+ Simulation CFD 2015 (Bowfin SP1) [20140515]
+
+ Job Name = Scenario 1   Date created: Sun Feb 07 21:54:59 2016
+
+
+ *** Analysis Information 
+ Steady State is ON
+
+ *** Field Variable Results Summary For Iteration 3
+
+
+  Var      Mean          at      Max          at      Min
+ Vx Vel  +0.00000e+000  13401 +0.00000e+000  13396 +0.00000e+000 m/s
+ Vy Vel  +0.00000e+000  13401 +0.00000e+000  13396 +0.00000e+000 m/s
+ Vz Vel  +0.00000e+000  13401 +0.00000e+000  13396 +0.00000e+000 m/s
+ Press  +0.00000e+000  13401 +0.00000e+000  13396 +0.00000e+000 N/m^2
+ Temp  +0.00000e+000  13401 +0.00000e+000  13396 +0.00000e+000 C
+ TurbK  +0.00000e+000      0 +0.00000e+000      0 +0.00000e+000 m^2/s^2
+ TurbD  +0.00000e+000      0 +0.00000e+000      0 +0.00000e+000 m^2/s^3
+ Scal1  +0.00000e+000  13401 +0.00000e+000  13396 +0.00000e+000  
+ PTotl  +0.00000e+000  13401 +0.00000e+000  13396 +0.00000e+000 N/m^2
+ EVisc  +0.00000e+000  13401 +0.00000e+000  13396 +0.00000e+000 kg/m-s
+ ECond  +0.00000e+000  13401 +0.00000e+000  13396 +0.00000e+000 W/m-K
+ Dens  +1.05000e+003  13401 +1.05000e+003  13396 +1.05000e+003 kg/m^3
+ Visc  +0.00000e+000  13401 +0.00000e+000  13396 +0.00000e+000 kg/m-s
+ Cond  +1.53000e-001  13401 +1.53000e-001  13396 +1.53000e-001 W/m-K
+ SpecH  +2.05000e+003  13401 +2.05000e+003  13396 +2.05000e+003 J/kg-K
+ Emiss  +0.00000e+000  13401 +0.00000e+000  13396 +0.00000e+000  
+ Transmiss  +0.00000e+000      0 +0.00000e+000      0 +0.00000e+000  
+ WRough  +0.00000e+000      0 +0.00000e+000      0 +0.00000e+000 m
+ SeeBeck  +0.00000e+000      0 +0.00000e+000      0 +0.00000e+000 V/K
+ GenT  +3.16228e-002  13401 +3.16228e-002  13396 +3.16228e-002 1/s
+
+
+*** Openings ***
+
+
+          *** Statistics for Velocity Magnitude ***
+
+  Value Range [m/s]             Percent Volume
+  0.000000 - 0.000000        100.000000
+Mean Value = 0.000000 , Standard Deviation = 0.000000 
+
+
+*** Sum of Fluid Forces on Walls ***
+   ShearX, PressX =            0             0   Newtons
+   ShearY, PressY =            0             0   Newtons
+   ShearZ, PressZ =            0             0   Newtons
+
+*** Analysis Statistics: 
+
+ Input:                5 seconds 
+ Analysis:             8 seconds 
+ Output:               1 seconds 
+ Total:               14 seconds 
+
+ Master process dynamic memory 41 Mbytes
+ Slave process 0 dynamic memory 9 Mbytes
+ Slave process 1 dynamic memory 10 Mbytes
+ Slave process 2 dynamic memory 10 Mbytes
+ Slave process 3 dynamic memory 9 Mbytes
+ 

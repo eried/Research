@@ -1,0 +1,30 @@
+﻿0
+19 6
+1 0
+100 0
+Scenario 1.glp Simulation CFD 15.1
+"Scenario 1.g1" "Velocity Magnitude"
+"Scenario 1.g2" "Vx-Velocity"
+"Scenario 1.g3" "Vy-Velocity"
+"Scenario 1.g4" "Vz-Velocity"
+"Scenario 1.g5" "Static Pressure"
+"Scenario 1.g6" "Temperature"
+"Scenario 1.g7" "Scalar variable"
+"Scenario 1.g8" "Density"
+"Scenario 1.g9" "Viscosity"
+"Scenario 1.g10" "Shear Stress XY (Tau-XY)"
+"Scenario 1.g11" "Shear Stress YZ (Tau-YZ)"
+"Scenario 1.g12" "Shear Stress ZX (Tau-ZX)"
+"Scenario 1.g13" "Shear Stress (Tau) Magnitude"
+"Scenario 1.g14" "Wall Film Coefficients"
+"Scenario 1.g15" "Wall Heat Flux"
+"Scenario 1.g16" "Absolute Pressure"
+"Scenario 1.g17" "Total Pressure"
+"Scenario 1.g18" "Total Temperature"
+"Scenario 1.g19" "Mach Number"
+"Scenario 1.g20" "Velocity Vector"
+"Scenario 1.g21" "XY Proj. Velocity Vector"
+"Scenario 1.g22" "XZ Proj. Velocity Vector"
+"Scenario 1.g23" "YZ Proj. Velocity Vector"
+"Scenario 1.g24" "Shear Stress (Tau)"
+"Scenario 1.g25" "Wall Heat Flux"

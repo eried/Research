@@ -1,0 +1,77 @@
+[21:54:41] Reading CPU information from SystemInfo.xml
+[21:54:41] Processors: 1, Cores per processor: 4
+[21:54:41] Requested cores 0
+[21:54:41] Using 5 ranks
+[21:54:41] analysis path:D:\Erwin\OneDrive\RepRap\Parts\New\new wind\Flow study\Design 1\Scenario 1
+[21:54:41] Listen on port 3792
+[21:54:41] startJob
+[21:54:41] Creating C:\ProgramData\Autodesk\Simulation CFD 2015\Analyze\job1/job.bat
+[21:54:41] Command: cmd.exe /c job.bat
+[21:54:42]  output:C:\ProgramData\Autodesk\Simulation CFD 2015\Analyze\job1>CD C:\Program Files\Autodesk\Simulation CFD 2015
+[21:54:42]  output:C:\Program Files\Autodesk\Simulation CFD 2015>"C:\Program Files\Autodesk\Simulation CFD 2015\SimCFDMesher.exe" "D:\Erwin\OneDrive\RepRap\Parts\New\new wind\Flow study\Design 1\Scenario 1\mesher\Scena
+[21:54:42]  output:rio 1" -jobId=1 -cloudJobId=  -gui  -useJobFile  -port=3792
+[21:54:58] Processing mesher exited
+[21:54:59]  output:C:\Program Files\Autodesk\Simulation CFD 2015>set E=0
+[21:54:59]  output:C:\Program Files\Autodesk\Simulation CFD 2015>IF 0 NEQ 0 goto EOF
+[21:54:59]  output:C:\Program Files\Autodesk\Simulation CFD 2015>"C:\Program Files\Autodesk\Simulation CFD 2015\mpiexec.exe" -n 5 "C:\Program Files\Autodesk\Simulation CFD 2015\SimCFDSolver.exe" "D:\Erwin\OneDrive\RepR
+[21:54:59]  output:ap\Parts\New\new wind\Flow study\Design 1\Scenario 1\solver\Scenario 1" -jobId=1 -cloudJobId=  -gui  -useJobFile  -port=3792 -mpi
+[21:54:59]  output:Server = 127.0.0.1
+[21:54:59]  output:Program Dir = C:/Program Files/Autodesk/Simulation CFD 2015
+[21:54:59]  output:Analysis Path = D:\Erwin\OneDrive\RepRap\Parts\New\new wind\Flow study\Design 1\Scenario 1/solver
+[21:54:59]  output:Analysis Name = Scenario 1
+[21:54:59]  output:Master Node is:DIJKSTRA
+[21:54:59]  output:Number of ranks: 5
+[21:54:59]  output:Number of Nodes: 1
+[21:54:59]  output:Node Names:
+[21:54:59]  output:DIJKSTRA
+[21:54:59]  output:*** Simulation CFD Screen File Output ***
+[21:54:59]  output:Simulation CFD 2015 (Bowfin SP1) [20140515]
+[21:54:59]  output:Job Name = Scenario 1   Date created: Sun Feb 07 21:54:59 2016
+[21:55:01] Processing results ready
+[21:55:01]  output:1 file(s) copied.
+[21:55:03]  output:Final 4-way CUT:    946 	Balance: 1.000   avg: 1.000
+[21:55:03]  output:Broadcast element topology
+[21:55:03]  output:Distributing element data
+[21:55:03]  output:Processor 0 element parsing boundaries 0 17955
+[21:55:03]  output:Processor 1 element parsing boundaries 0 17953
+[21:55:03]  output:Processor 2 element parsing boundaries 0 17954
+[21:55:03]  output:Processor 3 element parsing boundaries 0 17951
+[21:55:03]  output:Distributing nodes
+[21:55:03]  output:Processor 0 node parsing boundaries 0 0 4703 4731
+[21:55:03]  output:Processor 1 node parsing boundaries 0 0 5041 5408
+[21:55:03]  output:Processor 2 node parsing boundaries 0 0 4740 5004
+[21:55:03]  output:Processor 3 node parsing boundaries 0 0 4737 4865
+[21:55:03]  output:local to global mapping
+[21:55:03]  output:Distributing field arrays
+[21:55:03]  output:Field Vector updates
+[21:55:04]  output:Distributing transient field arrays
+[21:55:04]  output:Distributing element BC data
+[21:55:04]  output:Set up thermal matrix
+[21:55:04]  output:Building thermal ghost node communications
+[21:55:04]  output:Building thermal assembly communications
+[21:55:04]  output:Building off-processor buffers
+[21:55:04]  output:Building optimal comm partners
+[21:55:04]  output:Checking parallel mapping pointers...
+[21:55:04]  output:Slaves report no thermal mapping errors
+[21:55:04]  output:Master reports no thermal mapping errors
+[21:55:06] Processing results ready
+[21:55:08] Processing results ready
+[21:55:11] Processing results ready
+[21:55:11]  output:Ave Values = 0.000000 0.000000 0.000000 0.000000 273.150000 0.000000 0.000000 0.000000
+[21:55:11]  output:Ave Values = 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+[21:55:11]  output:Ave Values = 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+[21:55:11]  output:Ave Values = 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+[21:55:11]  output:Flat lines detected in Convergence Monitor - Auto Stop.
+[21:55:14] Processing solver exited
+[21:55:14]  output:Ave Values = 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+[21:55:14]  output:solver has finished exit code=0
+[21:55:14]  output:C:\Program Files\Autodesk\Simulation CFD 2015>set E=0
+[21:55:14]  output:C:\Program Files\Autodesk\Simulation CFD 2015>exit 0
+[21:55:14] Job finished with exit code = 0
+[21:55:14] Stopping messaging
+[21:55:14] Messaging has stopped
+[21:55:14] Stopping mail server
+[21:55:14] Mail server has stopped
+[21:55:14] Stopping mail server thread
+[21:55:14] Mail server thread has stopped
+[21:55:14] Exiting job manager

@@ -1,0 +1,54 @@
+[21:46:26] Loading qm files
+[21:46:27] System language is Spanish
+[21:46:27] Completed pre-event loop tasks in 0.552 sec
+[21:46:27] System info:6
+[21:46:34] Created main window in 6.888 sec
+[21:46:34] License type is STANDALONE
+[21:46:34] adlm resource pathC:\Program Files\Autodesk\Simulation CFD 2015\en-US
+[21:46:34] adlmInitialize
+[21:46:34] adlmHandleOpen
+[21:46:34] adlmHandleSetSilentMode
+[21:46:34] Using Adlm licensing
+[21:46:34] Licensing startup success
+[21:46:34] License path is C:\Program Files\Autodesk\Simulation CFD 2015\licpath.lic
+[21:46:34] Initializing license manager...
+[21:46:34] Checkout - Feature:CFD UI Version:2015.0.0.F Product Key:812G1 Product Code:SCDSE
+[21:46:34] Checkout - adlmLicenseCheckout:start
+[21:46:42] Checkout - ret:0
+[21:46:42] Checkout - Feature:CFD UI Success
+[21:46:42] Checkout done
+[21:46:42] Initialized licensing in 8.418 sec
+[21:46:42] Loaded layout in 0 sec
+[21:46:43] Completed post-event loop tasks in 15.85 sec
+[21:46:44] ExecutePythonScript
+[21:50:56] CadPackage:CP_ASM_STEP_IMPORT CadInterface:17
+[21:52:32] ### Critical: source\clt_job_submitter.cpp 211
+The Scenario cannot run because a part has an unassigned material setting
+
+[21:53:58] ### Critical: source\clt_job_submitter.cpp 211
+The Scenario cannot run because a part has an unassigned material setting
+
+[21:54:33] ### Critical: source\clt_preproperty.cpp 1485
+All properties are constant, so the Environment dialog is not available
+
+[21:54:41] Analysis::writeGBIFile = 0.001 sec
+[21:54:41] Analysis::exportJobFiles = 0.005 sec
+[21:54:41] Flow study/Design 1/Scenario 1 job started at dom. 7. Feb. 21:54:41 2016 on DIJKSTRA
+[21:54:42] Flow study/Design 1/Scenario 1 mesher started at dom. 7. Feb. 21:54:42 2016 on DIJKSTRA
+[21:54:58] Flow study/Design 1/Scenario 1 mesher finished at dom. 7. Feb. 21:54:58 2016 on DIJKSTRA with code = 0
+[21:54:58] Analysis::importMesherFiles = 0.009 sec
+[21:54:59] CADModel::loadGeometryDatabase = 0.528 sec
+[21:54:59] Mesher finished copying files
+[21:54:59] Flow study/Design 1/Scenario 1 solver started at dom. 7. Feb. 21:54:59 2016 on DIJKSTRA
+[21:55:01] getJobUpdate start
+[21:55:02] VizDataInterface::getBoundaryFEData = 0.148 sec
+[21:55:02] VizDataInterface::setupWallOutlineData = 0.025 sec
+[21:55:02] getJobUpdate finished
+[21:55:06] getJobUpdate start
+[21:55:06] getJobUpdate finished
+[21:55:09] getJobUpdate start
+[21:55:09] getJobUpdate finished
+[21:55:11] getJobUpdate start
+[21:55:11] getJobUpdate finished
+[21:55:14] Flow study/Design 1/Scenario 1 solver finished at dom. 7. Feb. 21:55:14 2016 on DIJKSTRA with code = 0
+[21:55:14] Analysis::importSolverFiles = 0.046 sec

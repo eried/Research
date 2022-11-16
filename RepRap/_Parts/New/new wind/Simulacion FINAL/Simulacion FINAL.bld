@@ -1,0 +1,264 @@
+<template_study>
+ <study_name>Simulacion FINAL</study_name>
+ <active_config></active_config>
+ <new_mode>1</new_mode>
+ <template_design>
+  <design_name>Design 1</design_name>
+  <config_name>only output guide</config_name>
+  <cadfile_name>C:/Users/ERWINR~1/AppData/Local/Temp/Autodesk Simulation CFD 2015/only output guide\only output guide.sat</cadfile_name>
+  <config_update>0</config_update>
+  <cad_launcher>CP_ASM_STEP_IMPORT</cad_launcher>
+  <cad_model>CP_ASM_STEP_IMPORT</cad_model>
+  <length_unit>0</length_unit>
+  <cloned_from></cloned_from>
+  <template_scenario>
+   <scenario_name>Scenario 1</scenario_name>
+   <template_setting>
+    <setting_name>Pressure(0 Pa Gage)</setting_name>
+    <setting_type>7</setting_type>
+    <bcond>
+     <tID>-1</tID>
+     <iExtra>0</iExtra>
+     <bcVal>0</bcVal>
+     <bcXtr>0</bcXtr>
+     <bcAux>0</bcAux>
+     <bcCode>8</bcCode>
+     <attribs>0</attribs>
+     <vuStr>Pa</vuStr>
+     <xuStr>None</xuStr>
+     <vec11>0</vec11>
+     <vec12>0</vec12>
+     <vec13>0</vec13>
+     <vec21>1</vec21>
+     <vec22>0</vec22>
+     <vec23>0</vec23>
+     <tag_names>SMacroadedfd7c-83ce-4f59-b94b-71d4caf3d711~~SMacro798d30df-e3d0-446d-a808-364db1288ea4~~</tag_names>
+    </bcond>
+   </template_setting>
+   <template_setting>
+    <setting_name>Velocity Normal(70 m/s)</setting_name>
+    <setting_type>7</setting_type>
+    <bcond>
+     <tID>-1</tID>
+     <iExtra>0</iExtra>
+     <bcVal>70</bcVal>
+     <bcXtr>0</bcXtr>
+     <bcAux>0</bcAux>
+     <bcCode>4</bcCode>
+     <attribs>0</attribs>
+     <vuStr>m/s</vuStr>
+     <xuStr>None</xuStr>
+     <vec11>0</vec11>
+     <vec12>0</vec12>
+     <vec13>0</vec13>
+     <vec21>1</vec21>
+     <vec22>0</vec22>
+     <vec23>0</vec23>
+     <tag_names>SMacro88679239-e357-4412-8133-e12100d4f329~~SMacro3893bb38-f1a2-4b3e-ac40-b6ada767a2f1~~</tag_names>
+    </bcond>
+   </template_setting>
+   <template_setting>
+    <setting_name>2 ABS (Molded)</setting_name>
+    <setting_type>8</setting_type>
+    <assigned_material>
+     <id>0</id>
+     <database>Default</database>
+     <part_count>0</part_count>
+     <is_referenced>false</is_referenced>
+     <material type="solid">
+      <name>ABS (Molded)</name>
+      <read_only>true</read_only>
+      <units>MKS</units>
+      <source> Autodesk supplied material </source>
+      <property type="x_conductivity">
+       <property type="conductivity">
+        <variation type="constant">
+         <value units="w/m-k">0.153</value>
+        </variation>
+       </property>
+      </property>
+      <property type="y_conductivity">
+       <property type="conductivity">
+        <variation type="same_as_kxx"/>
+       </property>
+      </property>
+      <property type="z_conductivity">
+       <property type="conductivity">
+        <variation type="same_as_kxx"/>
+       </property>
+      </property>
+      <property type="density">
+       <variation type="constant">
+        <value units="g/cm3">1.05</value>
+       </variation>
+      </property>
+      <property type="specific_heat">
+       <variation type="constant">
+        <value units="j/g-k">2.05</value>
+       </variation>
+      </property>
+      <property type="emissivity">
+       <variation type="constant">
+        <value>0.469</value>
+       </variation>
+      </property>
+      <property type="transmissivity">
+       <variation type="constant">
+        <value>0</value>
+       </variation>
+      </property>
+      <property type="resistivity">
+       <variation type="constant">
+        <value units="ohm-cm">1.65e+15</value>
+       </variation>
+      </property>
+      <property type="roughness">
+       <variation type="constant">
+        <value units="m">0</value>
+       </variation>
+      </property>
+      <color>255,0,0</color>
+     </material>
+     <material_environment fixed_value="yes" temperature_units="kelvin" reference_temperature="293" reference_pressure="101325" use_external="yes" pressure_units="pa"/>
+     <material_suppress>0</material_suppress>
+     <tag_names>only output guide.ipt^!CFD_VOLUME-1~~</tag_names>
+    </assigned_material>
+   </template_setting>
+   <template_setting>
+    <setting_name>3 Air</setting_name>
+    <setting_type>8</setting_type>
+    <assigned_material>
+     <id>0</id>
+     <database>Default</database>
+     <part_count>0</part_count>
+     <is_referenced>false</is_referenced>
+     <material type="fluid">
+      <name>Air</name>
+      <read_only>true</read_only>
+      <units>MKS</units>
+      <source> Autodesk supplied material </source>
+      <property type="density">
+       <variation type="EOS"/>
+      </property>
+      <property type="viscosity">
+       <variation type="constant">
+        <value units="pa-s">1.817e-05</value>
+       </variation>
+      </property>
+      <property type="conductivity">
+       <variation type="constant">
+        <value units="w/m-k">0.02563</value>
+       </variation>
+      </property>
+      <property type="specific_heat">
+       <variation type="constant">
+        <value units="j/kg-k">1004</value>
+       </variation>
+      </property>
+      <property type="compressibility">
+       <property type="ratio_specific_heats">
+        <variation type="constant">
+         <value>1.4</value>
+        </variation>
+       </property>
+      </property>
+      <property type="emissivity">
+       <variation type="constant">
+        <value>1</value>
+       </variation>
+      </property>
+      <property type="roughness">
+       <variation type="constant">
+        <value units="m">0</value>
+       </variation>
+      </property>
+      <property type="phase">
+       <variation type="phase_vapor">
+        <vapor_press units="pa">0</vapor_press>
+       </variation>
+      </property>
+      <color>197,255,255</color>
+      <gas_const units="m2/s2-K">287.05</gas_const>
+      <vapor_pressure units="Pa">0</vapor_pressure>
+      <phase>gas</phase>
+     </material>
+     <material_environment fixed_value="yes" temperature_units="kelvin" reference_temperature="293" reference_pressure="101325" use_external="yes" pressure_units="pa"/>
+     <material_suppress>0</material_suppress>
+     <tag_names>VMacroeb0bd463-acd7-4b86-8d72-6427d1fc8b6c~~VMacro3637f7c7-25d7-4782-8c50-7973ec500413~~</tag_names>
+    </assigned_material>
+   </template_setting>
+   <template_setting>
+    <setting_name>Iterations</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>8~~400</content_value>
+    </setting_content>
+   </template_setting>
+   <template_setting>
+    <setting_name>Flow</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>1~~1</content_value>
+    </setting_content>
+   </template_setting>
+   <template_setting>
+    <setting_name>Heat transfer</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>5~~0</content_value>
+    </setting_content>
+   </template_setting>
+   <template_setting>
+    <setting_name>Compressible</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>2~~2</content_value>
+    </setting_content>
+   </template_setting>
+   <template_setting>
+    <setting_name>Turbulence</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>3~~1~100~0.05~1</content_value>
+    </setting_content>
+   </template_setting>
+   <template_setting>
+    <setting_name>Advection</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>4~~1</content_value>
+    </setting_content>
+   </template_setting>
+   <template_setting>
+    <setting_name>Gravity</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>6~~0~0~0~0</content_value>
+    </setting_content>
+   </template_setting>
+   <template_setting>
+    <setting_name>Radiation</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>7~~0</content_value>
+    </setting_content>
+   </template_setting>
+  </template_scenario>
+ </template_design>
+</template_study>
