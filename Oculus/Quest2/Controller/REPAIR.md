@@ -1,4 +1,4 @@
-# Meta Quest 2 remote trigger sticks repair
+# Meta Quest 2 remote trigger sticking repair
 
 The trigger in the Quest 2 remote might stick, making it not smooth at the beginning of the motion while pressing it. This is caused by the rubber bumpers sticking. 
 
