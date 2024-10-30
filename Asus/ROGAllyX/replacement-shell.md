@@ -1,6 +1,7 @@
 # Transparent shell for ROG Ally X
 
 I dropped my Ally X while was on the "official" pouch/case and the left side broke in this way:
+
 <img src=https://github.com/user-attachments/assets/517e5e1a-3bc3-4d06-b857-85841509a37d width=300>
 
 Original parts can be ordered from [Asus](https://en.accessoires-asus.com/rog-spare-parts/). The back part, shipping and (25%) taxes to Norway of the part was around 100 EUR, with fast shipping from France:
@@ -12,6 +13,7 @@ However, I also ordered this [alternative transparent replacement](https://s.cli
 ## Comparing
 
 Packaging on the original part was superb, sturdy box, thick bubble wrap. The alternative one was packaged OK, it included a screwdriver, 3 pairs of different M1 and M2 buttons and screws.
+
 <img src="https://github.com/user-attachments/assets/1a0c9ea8-1d12-4174-bf2d-3a729e3f005f" width="500">
 
 Another view of both. You can tell how the alternative replacement recreates the features of the original one, with minimal changes, which makes me think it was not a direct copy.
