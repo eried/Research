@@ -8,7 +8,7 @@ The belt buckle attachment that goes to the lap pretensioner hook has some play.
 
 # Solution
 
-Remove the belt buckle using two screwdrivers. Using [fabric tape](https://s.click.aliexpress.com/e/_Dm5W0Qh), wrap around the hook and reasemble. 
+Remove the belt buckle using two screwdrivers (or the [1133787-00-A](https://s.click.aliexpress.com/e/_DeUMxoD) key). Using [fabric tape](https://s.click.aliexpress.com/e/_Dm5W0Qh), wrap around the hook and reasemble. 
 
 <img src="https://github.com/user-attachments/assets/4ca841be-4932-45c4-9e10-f3a3068ab413" height=300 />
 
