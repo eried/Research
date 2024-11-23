@@ -2,6 +2,8 @@
 
 The frunk can be fitted with a chinese soft closer.
 
+![image](https://github.com/user-attachments/assets/615bba12-9a83-44fc-ac1f-5a8a3833b59b)
+
 # Problem
 
 The frunk can be opened remotely, but it cannot be closed. Also, the frunk needs to be closed applying presure, leaving marks on the hood and possibly damaging it if done incorrectly.
