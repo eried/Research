@@ -2,6 +2,8 @@
 
 A creaking noise is present in the B-pillar area, sounds like plastic rubbing inside when you apply pressure.
 
+![image](https://github.com/user-attachments/assets/f17e39bb-2cfd-4b52-8d8c-66d280b93be5)
+
 # Problem
 
 The upper plastic clips rub against the metal body of the pillar.
