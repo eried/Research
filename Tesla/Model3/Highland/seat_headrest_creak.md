@@ -2,6 +2,8 @@
 
 There is a creak when you apply pressure to the head rest. For example, replicate by holding the head rest and jiggle back and forth.
 
+![image](https://github.com/user-attachments/assets/c8a43963-5c69-4040-8c08-f78bc9026535)
+
 # Problem
 
 The back seat cover shell has some hooks that interface with the seat and the head rest post that produce the sound.
