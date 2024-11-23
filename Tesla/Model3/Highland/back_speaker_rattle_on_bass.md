@@ -2,6 +2,8 @@
 
 Music with high bass produce a rattle in the rear passenger side.
 
+![image](https://github.com/user-attachments/assets/b293c14b-6257-4a7c-a15d-febb4829a35d)
+
 # Problem
 
 The speaker connector in not held properly.
