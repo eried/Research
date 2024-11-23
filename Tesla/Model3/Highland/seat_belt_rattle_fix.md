@@ -2,6 +2,8 @@
 
 There is a click sound on the passenger side when going over bumps, when the seat belt is not being used.
 
+![image](https://github.com/user-attachments/assets/2095108b-adf8-4ad2-9549-b218a7f195e1)
+
 # Problem
 
 The belt buckle attachment that goes to the lap pretensioner hook has some play.
