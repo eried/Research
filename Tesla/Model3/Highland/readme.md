@@ -4,7 +4,7 @@ Model 3 Highland is an awesome car. I am very picky and this is a list of easy f
 
 | Topic                              | Description                        |
 |------------------------------------|------------------------------------|
-| [B pillar rattle issue](b_pillar_rattle.md)       | Fix for rattling noise in the B-pillar.      |
+| [B pillar squeak/rattle issue](b_pillar_rattle.md)       | Fix for squeaky B-pillar.      |
 | [Back speaker rattle on bass](back_speaker_rattle_on_bass.md) | Solution for speaker rattle during bassy playback. |
 | [Seat belt rattle fix](seat_belt_rattle_fix.md)         | Guide to address seat belt rattling issues.  |
 | [Seat headrest creak](seat_headrest_creak.md)          | Fix for creaking noises from seat headrest.  |
