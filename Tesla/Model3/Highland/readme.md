@@ -1,4 +1,6 @@
-Model 3 Highland is an awesome car. I am very picky and this is a list of easy fixes:
+Model 3 Highland is an awesome car. **Order yours with my code :) https://ts.la/erwin62102**
+
+I am very picky and this is a list of easy fixes:
 
 ![image](https://github.com/user-attachments/assets/0a0cf795-1bf0-4616-9e21-94f9d27803b6)
 
