@@ -18,7 +18,7 @@ The "newer" solution that does not use the extra golden piece seen in the photo 
 
 ## Frunk does not fully close
 
-There is a very narrow instance where the frunk can fully close. It seems very tricky at first. Do not attach the final trip inside the frunk, loose the nuts of the latch system until it fully closes the frunk.
+There is a very narrow instance where the frunk can fully close. It seems very tricky at first. Do not attach the final lid (the one with the light) inside the frunk, loose the nuts of the latch system until it fully closes the frunk.
 
 <img src="https://github.com/user-attachments/assets/3548e28c-f685-43b8-b3dd-417663dd0cf4" height="300" />
 
