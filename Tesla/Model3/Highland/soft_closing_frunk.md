@@ -31,7 +31,7 @@ After the center feels "in line", adjust the rubber screws on each side of the h
 
 ## Red battery cap does not fit
 
-The cap of the LV battery presses the wire and does not close properly. This is not commented on the instructions, but I think it is good to know. Try to pass the cable through the middle part, slightly deforming the cap, trying to to damage the wire.
+The cap of the LV battery presses the wire and does not close properly. This is not commented on the instructions, but I think it is good to know. Try to pass the cable through the middle part, slightly deforming the cap (if you dare, you can make a small cut on the lid), trying to not damage the wire.
 
 ![image](https://github.com/user-attachments/assets/27ae60e9-a1e6-4425-b9fe-d13a2b83759b)
 
