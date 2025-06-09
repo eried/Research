@@ -7,7 +7,7 @@ However, if you want to experience some small-scale production, **this is the pe
 
 * all the important components are in the front
 * the data/vibro pin has an optional resistor (to comply with the neopixel datasheet) and is in the middle (to be easy to guide in the flipper, under the lcd-flex)
-* extra data in pad in case you want to daisy chain them
+* extra data (named `data (alt)`) in pad in case you want to daisy chain them, ignore this pad for normal use
 
 Anyways, after loading [Gerber_PCB_FlipperRGB_v1.0.zip](Gerber_PCB_FlipperRGB_v1.0.zip) in JLCPCB order page, we can make them design the panel for us, simply select:
 
