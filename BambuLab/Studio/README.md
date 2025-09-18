@@ -6,3 +6,4 @@ Version 2.2.2.56 of Bambu Studio has a new "extensions" button which is hardcode
 If you want to remove this permanently, just use `patch.bat` to modify `BambuStudio.dll`
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/d846253e-c194-4c7b-ad3f-0896dfd115e4" />
 
+**Known problems:** the integrity check will fail when using cloud functionality (like printing)
